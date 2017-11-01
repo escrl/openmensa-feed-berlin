@@ -4,18 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2017-10-31">
-      <category name="Beilagen">
-        <meal>
-          <name>Erbsen-Mais-Gemüse</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2017-11-01">
       <category name="Salate">
         <meal>
@@ -63,9 +51,13 @@
           <price role="other">3.20</price>
         </meal>
         <meal>
-          <name>Kartoffel-Wirsing-Pfanne mit Curry</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <name>Ein Germknödel mit Kirschfüllung, Mohnzucker und Vanillesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -88,15 +80,6 @@
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Wiener Kartoffelsalat</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
         </meal>
         <meal>
           <name>Petersilienkartoffeln</name>
@@ -276,6 +259,14 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
+          <name>Pommes wedges</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Möhren-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -284,14 +275,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
-        </meal>
-        <meal>
-          <name>Pommes wedges</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
@@ -1434,6 +1417,73 @@
           <name>Vollkornreis</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2017-11-23">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Pfannenfrisches Hähnchengyros mit Weißkohl, Zwiebeln und Paprika an Joghurt-Minz-Dip</name>
+          <note>grün (Ampel)</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine gebratene Lammfrikadelle an Rosmarinsauce</name>
+          <note>rot (Ampel)</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pikantes Paprika-Tomaten-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Butterreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
