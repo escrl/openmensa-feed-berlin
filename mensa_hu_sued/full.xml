@@ -4,13 +4,23 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2017-11-04">
-      <closed></closed>
-    </day>
     <day date="2017-11-05">
       <closed></closed>
     </day>
     <day date="2017-11-06">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Große Salatschüssel mit Weichkäse ein gekochtes Ei Weichkäse oder Oliven</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -74,19 +84,19 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Kräutersuppe mit Sojasahne und Tomaten</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
+          <name>Gemüsecremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Brühe von Waldpilzen mit Rosmarin</name>
+          <name>Rinderbrühe mit Gemüse</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
           <note>Sellerie</note>
           <price role="student">0.50</price>
           <price role="employee">1.00</price>
@@ -95,7 +105,7 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Spaghetti Sahnesauce mit Gemüsestreifen und Shrimps</name>
+          <name>Spaghetti in Sahnesauce mit Gemüsestreifen und Shrimps</name>
           <note>gelb (Ampel)</note>
           <note>Krebstiere</note>
           <note>Sellerie</note>
@@ -143,7 +153,7 @@
           <price role="other">3.40</price>
         </meal>
         <meal>
-          <name>Geflügelragout süß-sauer mit Bambossprossen, roter Paprika und Ananas</name>
+          <name>Geflügelragout süß-sauer mit Bambussprossen, roter Paprika und Ananas</name>
           <note>gelb (Ampel)</note>
           <note>konserviert</note>
           <note>Antioxidationsmittel</note>
@@ -157,7 +167,7 @@
           <price role="other">3.20</price>
         </meal>
         <meal>
-          <name>Petersilienrisotto mit gerösteten Erdnüssen an Tomatenragout</name>
+          <name>Petersilienrisotto mit Erdnussbutter an Tomatenragout</name>
           <note>gelb (Ampel)</note>
           <note>konserviert</note>
           <note>Erdnüsse</note>
@@ -186,20 +196,17 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Kartoffel-Kräuter-Püree</name>
+          <name>Kartoffelpüree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
+          <note>bio</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Lupine</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Rigatoni</name>
+          <name>Nudeln</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Weizen</note>
@@ -208,7 +215,7 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Reis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -218,14 +225,21 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Müslijoghurt</name>
-          <note>gelb (Ampel)</note>
+          <name>Krokantjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Hafer</note>
           <note>Haselnuss</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sojajoghurt mit Pfirsich</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -240,12 +254,9 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Walnusspudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Soja</note>
+          <name>Himbeercreme</name>
+          <note>rot (Ampel)</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Haselnuss</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -1707,6 +1718,57 @@
     </day>
     <day date="2017-11-26">
       <closed></closed>
+    </day>
+    <day date="2017-11-27">
+      <category name="Essen">
+        <meal>
+          <name>Tofu-Gemüse-Ragout mit Kartoffeln in Kräuterahmsauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Eine Hähnchenroulade Mediterran an Salbeirahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
+          <name>Quinoapfanne mit Karotten, Porree, Champignons und würzigen Sojastreifen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine vegetarische Frühlingsrolle an Koriander-Chili-Dip</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
+          <note>Weizen</note>
+          <price role="student">1.25</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.75</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
