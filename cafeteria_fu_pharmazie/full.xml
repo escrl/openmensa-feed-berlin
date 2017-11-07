@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2017-11-05">
-      <closed></closed>
-    </day>
     <day date="2017-11-06">
       <category name="Salate">
         <meal>
@@ -117,25 +114,104 @@
       </category>
     </day>
     <day date="2017-11-07">
-      <category name="Aktionen">
+      <category name="Salate">
         <meal>
-          <name>Marinierte Putenleber mit frischem Kartoffelpüree Rosenkohl</name>
+          <name>Kleine Salatschale vom Salatbuffet</name>
           <note>grün (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
+          <note>vegetarisch</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Kichererbsen-Kartoffel-Eintopf</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Zwei gebackene Kürbisschnitzel mit Champignonsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
         </meal>
         <meal>
-          <name>Reis-Bohnen-Topf Pelau</name>
+          <name>Kasselerrücken aus dem Ofen an Perlzwiebelsauce</name>
           <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
           <note>Sellerie</note>
-          <price role="student">3.45</price>
-          <price role="employee">3.45</price>
-          <price role="other">3.95</price>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Rigatoni mit Brokkolisauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kohlrabi in Rahm</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">0.95</price>
+        </meal>
+        <meal>
+          <name>Aloo Gobi - Blumenkohl</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">0.95</price>
+        </meal>
+        <meal>
+          <name>Stampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">0.95</price>
+        </meal>
+        <meal>
+          <name>mit Bulgur</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">0.95</price>
         </meal>
       </category>
     </day>
@@ -304,6 +380,18 @@
     <day date="2017-11-14">
       <category name="Aktionen">
         <meal>
+          <name>Vollkornspaghetti Bologneser Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>konserviert</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
           <name>Zwei gekochte Eier in Senfsauce Kartoffel-Kräuter-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -314,18 +402,6 @@
           <note>Senf</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
-        <meal>
-          <name>Vollkornspaghetti Bologneser Sauce</name>
-          <note>grün (Ampel)</note>
-          <note>konserviert</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
@@ -497,23 +573,23 @@
           <price role="other">3.95</price>
         </meal>
         <meal>
-          <name>Vollkornspaghetti mit Erdnuss-Chipotle-Sauce</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Erdnüsse</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">2.95</price>
-          <price role="employee">2.95</price>
-          <price role="other">3.45</price>
-        </meal>
-        <meal>
           <name>Kohlrabieintopf mit Hühnerfleisch</name>
           <note>grün (Ampel)</note>
           <note>Antioxidationsmittel</note>
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
+        </meal>
+        <meal>
+          <name>Vollkornspaghetti mit Erdnuss-Chipotle-Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Erdnüsse</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
           <price role="student">2.95</price>
           <price role="employee">2.95</price>
           <price role="other">3.45</price>
@@ -643,6 +719,9 @@
       <closed></closed>
     </day>
     <day date="2017-11-27">
+      <closed></closed>
+    </day>
+    <day date="2017-11-28">
       <closed></closed>
     </day>
   </canteen>
