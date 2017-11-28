@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2017-11-26">
-      <closed></closed>
-    </day>
     <day date="2017-11-27">
       <category name="Salate">
         <meal>
@@ -310,17 +307,42 @@
       <closed></closed>
     </day>
     <day date="2017-12-04">
-      <category name="Aktionen">
+      <category name="Salate">
         <meal>
-          <name>Ein paniertes Rotbarschfilet an Limonensauce</name>
-          <note>rot (Ampel)</note>
-          <note>MSC</note>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
           <price role="student">2.45</price>
           <price role="employee">2.45</price>
-          <price role="other">2.95</price>
+          <price role="other">2.45</price>
         </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomaten-Zucchini-Suppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
         <meal>
           <name>Lammgeschnetzeltes Marokkanischer Art mit Reis</name>
           <note>gelb (Ampel)</note>
@@ -345,6 +367,16 @@
           <price role="other">4.95</price>
         </meal>
         <meal>
+          <name>Nudel-Gemüseauflauf mit Käse überbacken Kleiner Frühlingssalat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
           <name>Tofu mit indischem Spinat und Reis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -353,24 +385,6 @@
           <price role="student">2.95</price>
           <price role="employee">2.95</price>
           <price role="other">3.45</price>
-        </meal>
-        <meal>
-          <name>Nudel-Gemüseauflauf mit Käse überbacken Kleiner Frühlingssalat</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">2.95</price>
-          <price role="employee">2.95</price>
-          <price role="other">3.45</price>
-        </meal>
-        <meal>
-          <name>Klare Tomatensuppe</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">1.95</price>
-          <price role="employee">1.95</price>
-          <price role="other">2.45</price>
         </meal>
       </category>
       <category name="Desserts">
@@ -383,9 +397,44 @@
           <price role="employee">2.50</price>
           <price role="other">2.50</price>
         </meal>
+        <meal>
+          <name>Früchte -  Quarkbecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
       </category>
     </day>
     <day date="2017-12-05">
+      <category name="Salate">
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Aktionen">
         <meal>
           <name>Kürbis - Gemüsepfanne mit Chinesischen Nudeln Baguette</name>
@@ -420,16 +469,6 @@
           <price role="other">4.45</price>
         </meal>
         <meal>
-          <name>Kartoffelgulasch mit saurer Sahne</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">3.45</price>
-          <price role="employee">3.45</price>
-          <price role="other">3.95</price>
-        </meal>
-        <meal>
           <name>Vollkornspaghetti mit Sojabolognese</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -440,9 +479,65 @@
           <price role="employee">3.45</price>
           <price role="other">3.95</price>
         </meal>
+        <meal>
+          <name>Kartoffelgulasch mit saurer Sahne</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.45</price>
+          <price role="other">3.95</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Früchtebecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">2.50</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.50</price>
+        </meal>
+        <meal>
+          <name>Früchte -  Quarkbecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
       </category>
     </day>
     <day date="2017-12-06">
+      <category name="Salate">
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Aktionen">
         <meal>
           <name>Rote Tortillataschen gefüllt mit Spinat und Räucherlachs</name>
@@ -486,8 +581,54 @@
           <price role="other">2.45</price>
         </meal>
       </category>
+      <category name="Desserts">
+        <meal>
+          <name>Früchtebecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">2.50</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.50</price>
+        </meal>
+        <meal>
+          <name>Früchte -  Quarkbecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
     </day>
     <day date="2017-12-07">
+      <category name="Salate">
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Aktionen">
         <meal>
           <name>Schupfnudeln mit Kraut Frische Champignons gebraten</name>
@@ -534,9 +675,65 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+      <category name="Desserts">
+        <meal>
+          <name>Früchtebecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">2.50</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.50</price>
+        </meal>
+        <meal>
+          <name>Früchte -  Quarkbecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
     </day>
     <day date="2017-12-08">
+      <category name="Salate">
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Aktionen">
+        <meal>
+          <name>Ein paniertes Rotbarschfilet an Limonensauce</name>
+          <note>rot (Ampel)</note>
+          <note>MSC</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
         <meal>
           <name>Seelachs Müllerin Art Schwenkkartoffeln Kleiner Frühlingssalat</name>
           <note>grün (Ampel)</note>
@@ -595,6 +792,27 @@
           <price role="other">2.45</price>
         </meal>
       </category>
+      <category name="Desserts">
+        <meal>
+          <name>Früchtebecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">2.50</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.50</price>
+        </meal>
+        <meal>
+          <name>Früchte -  Quarkbecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
     </day>
     <day date="2017-12-09">
       <closed></closed>
@@ -604,6 +822,15 @@
     </day>
     <day date="2017-12-11">
       <category name="Desserts">
+        <meal>
+          <name>Früchtebecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">2.50</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.50</price>
+        </meal>
         <meal>
           <name>Früchtebecher  To Go</name>
           <note>grün (Ampel)</note>
@@ -730,6 +957,61 @@
           <price role="student">2.50</price>
           <price role="employee">2.50</price>
           <price role="other">2.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2017-12-19">
+      <category name="Aktionen">
+        <meal>
+          <name>Halbes Grillhähnchen mit Pommes frites und Coleslaw-Salat</name>
+          <note>rot (Ampel)</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <price role="student">5.45</price>
+          <price role="employee">5.45</price>
+          <price role="other">5.95</price>
+        </meal>
+        <meal>
+          <name>Hirschgulasch mit Waldpilzen und Wildpreiselbeeren</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
+          <name>Rigatoni mit Pilzen, Tomaten, Knoblauch und frischen Kräuter</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.45</price>
+          <price role="other">3.95</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Pilz-Pfanne mit Chicoree</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
+        </meal>
+        <meal>
+          <name>Cremesuppe von grünen Erbsen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
         </meal>
       </category>
     </day>

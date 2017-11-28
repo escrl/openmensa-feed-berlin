@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2017-11-26">
-      <closed></closed>
-    </day>
     <day date="2017-11-27">
       <category name="Vorspeisen">
         <meal>
@@ -87,7 +84,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Gartengemüse</name>
+          <name>Bohnen-Tomaten-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -95,7 +92,7 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Bohnen-Tomaten-Gemüse</name>
+          <name>Gartengemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -161,6 +158,16 @@
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
         </meal>
+        <meal>
+          <name>Hausgemachter Kartoffelsalat in Essig/Öl</name>
+          <note>grün (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Senf</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
       <category name="Salate">
         <meal>
@@ -197,7 +204,7 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Fettuccine mit Rucola, Tomaten und Weichkäse</name>
+          <name>Fettuccine mit Oliven, Tomaten und Weichkäse</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Eier</note>
@@ -296,10 +303,12 @@
     <day date="2017-11-29">
       <category name="Vorspeisen">
         <meal>
-          <name>Couscous Salat</name>
+          <name>Salat von roten Linsen mit Hüttenkäse</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Weizen</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -372,18 +381,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Prinzessbohnen</name>
+          <name>Kohlrabi in Rahm</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Kohlrabi in Rahm</name>
+          <name>Prinzessbohnen</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
@@ -1160,6 +1169,35 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2017-12-19">
+      <category name="Essen">
+        <meal>
+          <name>Eine gefüllte Hähnchenbrust nach Elsässer Art an Geflügelrahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Zwei Spinat-Dinkel-Medaillons an Schnittlauchsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
         </meal>
       </category>
     </day>
