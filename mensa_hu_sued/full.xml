@@ -4,10 +4,20 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2017-12-10">
-      <closed></closed>
-    </day>
     <day date="2017-12-11">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Große Salatschüssel mit Weichkäse ein gekochtes Ei Weichkäse oder Oliven</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -40,6 +50,12 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -50,12 +66,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
         </meal>
         <meal>
           <name>American Dressing</name>
@@ -71,26 +81,40 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Allgäuer Käsecremesuppe</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Kartoffelcremesuppe</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Senf</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Gemüsebrühe mit Backerbsen</name>
+          <name>Rinderbrühe mit Eierflocken</name>
+          <note>grün (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <price role="student">0.50</price>
+          <price role="employee">1.00</price>
+          <price role="other">1.10</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Tortellini mit Käsefüllung in Tomatensauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
           <note>Weizen</note>
-          <price role="student">0.50</price>
-          <price role="employee">1.00</price>
-          <price role="other">1.10</price>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
         </meal>
       </category>
       <category name="Essen">
@@ -142,10 +166,11 @@
           <price role="other">2.75</price>
         </meal>
         <meal>
-          <name>Ungarisches Kartoffelgulasch mit Ajvar, Paprika und Majoran</name>
+          <name>Gemüse-Kartoffel-Auflauf mit Käse überbacken</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Schwefeldioxid und Sulfide</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -179,7 +204,7 @@
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Spiralnudeln</name>
+          <name>Nudeln</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Weizen</note>
@@ -207,8 +232,8 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Rhabarbersahnequark</name>
-          <note>gelb (Ampel)</note>
+          <name>Mandarinenquark</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
@@ -216,9 +241,18 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Vanillepudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
+          <name>Sojajoghurt mit Kirschen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Mangocreme</name>
+          <note>rot (Ampel)</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -1347,6 +1381,9 @@
       <closed></closed>
     </day>
     <day date="2018-01-01">
+      <closed></closed>
+    </day>
+    <day date="2018-01-02">
       <closed></closed>
     </day>
   </canteen>
