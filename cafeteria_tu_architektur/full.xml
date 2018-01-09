@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-01-07">
-      <closed></closed>
-    </day>
     <day date="2018-01-08">
       <category name="Suppen">
         <meal>
@@ -74,23 +71,21 @@
           <price role="other">2.95</price>
         </meal>
       </category>
-      <category name="Aktionen">
+      <category name="Essen">
         <meal>
-          <name>N. N.</name>
+          <name>Ein Seelachsfilet Italiano an Zitronen-Gemüse-Sauce Rote Bete-Kartoffel-Püree Gurkensalat</name>
           <note>gelb (Ampel)</note>
-          <note>MSC</note>
+          <note>konserviert</note>
           <note>Antioxidationsmittel</note>
-          <note>Fisch</note>
+          <note>Phosphat</note>
+          <note>Süßungsmittel</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <note>Weizen</note>
+          <note>Lupine</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
-      </category>
-      <category name="Essen">
         <meal>
           <name>Pfefferhacksteack vom Rind an Sauce Provencale gebackene Kartoffeln Salat</name>
           <note>gelb (Ampel)</note>
@@ -104,25 +99,34 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
+      </category>
+      <category name="Aktionen">
         <meal>
-          <name>Ein gebratenes Schollenfilet Müllerin Art an Zitronen-Gemüse-Sauce Rote Bete-Kartoffel-Püree Gurkensalat</name>
-          <note>grün (Ampel)</note>
-          <note>MSC</note>
+          <name>Spaghetti Bolognese</name>
+          <note>gelb (Ampel)</note>
           <note>konserviert</note>
           <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Süßungsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Lupine</note>
           <note>Weizen</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
         </meal>
       </category>
     </day>
     <day date="2018-01-10">
+      <category name="Suppen">
+        <meal>
+          <name>Grüne Bohneneintopf</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
       <category name="Aktionen">
         <meal>
           <name>Seelachsburger mit Mango-Ingwer-Chutney im Mehrkornbrötchen, Pommes frites</name>
@@ -771,15 +775,6 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Johannisbeerjoghurt, rot</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.20</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
           <name>Müsliquark mit Cranberries</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -787,6 +782,15 @@
           <note>Weizen</note>
           <note>Gerste</note>
           <note>Hafer</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Johannisbeerjoghurt, rot</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.20</price>
           <price role="employee">1.20</price>
           <price role="other">1.20</price>
@@ -946,8 +950,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Mohnquark</name>
-          <note>gelb (Ampel)</note>
+          <name>Kirschjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.20</price>
@@ -955,8 +959,8 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Kirschjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Mohnquark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.20</price>
@@ -1076,6 +1080,16 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Ein Putenbrustspieß Picanto an Bratensauce mit Paprikastreifen Lauchreis</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Thüringer Rostbrätl an Majoransauce hausgemachtes Kartoffelpüree</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -1086,15 +1100,70 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
+      </category>
+    </day>
+    <day date="2018-01-30">
+      <category name="Aktionen">
         <meal>
-          <name>Ein Putenbrustspieß Picanto an Bratensauce mit Paprikastreifen Lauchreis</name>
+          <name>Käse-Kirschkuchen Hausgebacken</name>
           <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.25</price>
+          <price role="employee">1.25</price>
+          <price role="other">1.25</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Gebratenes Lachsfilet an Kerbelrahmsauce Dillkartoffeln Gurkensalat</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
           <note>Antioxidationsmittel</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene China-Knusper-Schnitte an bunter Sojasauce Jasminreis Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
           <note>Senf</note>
           <note>Sesam</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Schokoquark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Aprikosenjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
         </meal>
       </category>
     </day>
