@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-01-14">
-      <closed></closed>
-    </day>
     <day date="2018-01-15">
       <category name="Suppen">
         <meal>
@@ -47,33 +44,21 @@
     <day date="2018-01-16">
       <category name="Suppen">
         <meal>
-          <name>Süßkartoffelsuppe</name>
+          <name>Tomatencremesuppe mit frischen Basilkum</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Farbstoff</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Mandeln</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
           <price role="other">2.45</price>
         </meal>
       </category>
-      <category name="Aktionen">
-        <meal>
-          <name>Fettuccine mit Rucola, Tomaten und Weichkäse</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">2.95</price>
-          <price role="employee">2.95</price>
-          <price role="other">3.45</price>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
-          <name>Auf der Haut gebratenes Lachsforellenfilet an Zitronen-Gemüse-Sauce Parboiledreis Salat</name>
-          <note>grün (Ampel)</note>
+          <name>Auf der Haut gebratenes Lachsforellenfilet an Zitronen-Gemüse-Sauce Parboiledreis Gurkensalat mit süßer Sahne</name>
+          <note>gelb (Ampel)</note>
           <note>Fisch</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -83,9 +68,10 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Schweinegulasch nach Szegediner Art Salzkartoffeln Salat</name>
+          <name>Schweinegulasch mit weißen und roten Bohnen Salzkartoffeln Gartengemüse</name>
           <note>grün (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
           <note>Senf</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">3.95</price>
@@ -365,6 +351,14 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Eine Hähnchenbrust mit Kürbis-Chili-Ragout überbacken an Geflügeljus Bratkartoffeln Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Zwei Sesam-Karotten-Sticks an Brokkolisauce Couscous Salat</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -373,14 +367,6 @@
           <note>Soja</note>
           <note>Sesam</note>
           <note>Weizen</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
-          <name>Eine Hähnchenbrust mit Kürbis-Chili-Ragout überbacken an Geflügeljus Bratkartoffeln Salat</name>
-          <note>grün (Ampel)</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -618,6 +604,15 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Putenbrustbraten an Estragon-Senf-Sauce Petersilienkartoffeln Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
           <name>Ein gebackenes Seelachsfilet in Knusperpanade an Tiroler Sauce Backkartoffeln Salat</name>
           <note>gelb (Ampel)</note>
           <note>MSC</note>
@@ -629,15 +624,6 @@
           <note>Hefe</note>
           <note>Weizen</note>
           <note>Gerste</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
-        <meal>
-          <name>Putenbrustbraten an Estragon-Senf-Sauce Petersilienkartoffeln Salat</name>
-          <note>grün (Ampel)</note>
-          <note>Senf</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
@@ -702,6 +688,13 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Eine marinierte Hähnchenkeule gebraten an Geflügeljus Dampfkartoffeln Salat</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Gebackene Tintenfischringe an Knoblauchmayonnaise Pommes frites Salat</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
@@ -717,12 +710,45 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
+      </category>
+    </day>
+    <day date="2018-02-06">
+      <category name="Suppen">
         <meal>
-          <name>Ofenfrische Maishähnchenkeule an Geflügeljus Dampfkartoffeln Salat</name>
-          <note>grün (Ampel)</note>
+          <name>Schwarzwurzelcremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Ein Schweineschnitzel in Zwiebelbackteig an Bratensauce hausgemachtes Kartoffelpüree Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Farbstoff</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Eine vegane Paprikaschote an Tomaten-Ingwer-Sauce Kartoffeln Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
         </meal>
       </category>
     </day>
