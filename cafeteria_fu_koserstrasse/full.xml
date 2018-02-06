@@ -4,12 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-02-03">
-      <closed></closed>
-    </day>
-    <day date="2018-02-04">
-      <closed></closed>
-    </day>
     <day date="2018-02-05">
       <category name="Salate">
         <meal>
@@ -58,7 +52,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Schweineschnitzel Wiener Art mit Zitronenecke an Bratensauce hausgemachtes Kartoffelpüree Leipziger Allerlei</name>
+          <name>Schweineschnitzel Wiener Art an Bratensauce hausgemachtes Kartoffelpüree und Leipziger Allerlei</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>Senf</note>
@@ -70,8 +64,11 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Hühnerfrikassee Risi Bisi Salat</name>
-          <note>grün (Ampel)</note>
+          <name>Hühnerfrikassee mit Champignons, Erbsen und Schwarzwurzeln Risi Bisi und Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
@@ -79,11 +76,11 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Apfel-Bananenjoghurt mit Honig</name>
-          <note>grün (Ampel)</note>
+          <name>Vanillegrießbrei</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
           <price role="student">1.20</price>
           <price role="employee">1.20</price>
           <price role="other">1.20</price>
@@ -157,6 +154,16 @@
           <price role="other">4.45</price>
         </meal>
       </category>
+      <category name="Desserts">
+        <meal>
+          <name>Karamelpudding</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-02-07">
       <category name="Salate">
@@ -224,6 +231,18 @@
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Apfel-Bananenjoghurt mit Honig</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
         </meal>
       </category>
     </day>
@@ -391,12 +410,10 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Böhmische Kartoffelcremesuppe mit Waldpilzen</name>
+          <name>Kartoffelcremesuppe mit Birne und Ingwer</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
           <price role="other">2.45</price>
@@ -404,25 +421,17 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Bandnudeln mit Brokkolisauce und Räucherlachs</name>
-          <note>gelb (Ampel)</note>
-          <note>Fisch</note>
+          <name>Fettuccine mit Tomatensauce, Weichkäse und frischem Basilikum</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>geschwärzt</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
-        </meal>
-        <meal>
-          <name>Würzige Sojastreifen mit Schluppen, Paprika und frischem Koriander, Basmatireis</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
         </meal>
       </category>
       <category name="Essen">
@@ -443,21 +452,37 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Zwei Fleischklopse Königsberger Art in Kapernsauce hausgemachtes Kartoffelpüree Rote Bete</name>
-          <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <name>Pfannenfrisches Hähnchengyros mit Weißkohl, Zwiebeln und Paprika</name>
+          <note>grün (Ampel)</note>
           <note>Antioxidationsmittel</note>
-          <note>Süßungsmittel</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Eier</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
         </meal>
       </category>
     </day>
     <day date="2018-02-13">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.80</price>
+          <price role="employee">2.80</price>
+          <price role="other">2.80</price>
+        </meal>
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+      </category>
       <category name="Suppen">
         <meal>
           <name>Currycremesuppe mit Kokosmilch</name>
@@ -472,17 +497,14 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Fettuccine mit Tomatensauce, Weichkäse und frischem Basilikum</name>
+          <name>Karotten-Brokkoli-Auflauf mit Kartoffelscheiben und Käse gratiniert</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>geschwärzt</note>
           <note>Eier</note>
-          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
         </meal>
       </category>
       <category name="Essen">
@@ -507,9 +529,43 @@
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
         </meal>
+        <meal>
+          <name>Zwei Fleischklopse Königsberger Art in Kapernsauce hausgemachtes Kartoffelpüree Rote Bete</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
       </category>
     </day>
     <day date="2018-02-14">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.80</price>
+          <price role="employee">2.80</price>
+          <price role="other">2.80</price>
+        </meal>
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+      </category>
       <category name="Suppen">
         <meal>
           <name>Grünkerncremesuppe</name>
@@ -565,6 +621,27 @@
       </category>
     </day>
     <day date="2018-02-15">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.80</price>
+          <price role="employee">2.80</price>
+          <price role="other">2.80</price>
+        </meal>
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+      </category>
       <category name="Suppen">
         <meal>
           <name>Mangoldcremesuppe</name>
@@ -592,21 +669,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Ein Seelachsfilet mit Tomate und Mozzarella überbacken an Rucolasauce Bandnudeln mit Sesam Salat</name>
-          <note>gelb (Ampel)</note>
-          <note>MSC</note>
-          <note>Fisch</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Sesam</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
-        </meal>
-        <meal>
           <name>Schweinekammbraten an Perlzwiebelsauce Bratkartoffeln Salat</name>
           <note>grün (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -619,6 +681,27 @@
       </category>
     </day>
     <day date="2018-02-16">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.80</price>
+          <price role="employee">2.80</price>
+          <price role="other">2.80</price>
+        </meal>
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+      </category>
       <category name="Suppen">
         <meal>
           <name>Kürbiscremesuppe mit Kokosmilch und Sternanis</name>
@@ -647,20 +730,20 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Rindergulasch nach ungarischer Art Penne rigate Salat</name>
+          <name>Eine überbackene Hähnchenbrust Madras an Curry-Apfel-Sauce Kokosreis mit Mango Salat</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Eine überbackene Hähnchenbrust Madras an Curry-Apfel-Sauce Kokosreis mit Mango Salat</name>
+          <name>Rindergulasch nach ungarischer Art Penne rigate Salat</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
@@ -689,6 +772,27 @@
       <closed></closed>
     </day>
     <day date="2018-02-19">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.80</price>
+          <price role="employee">2.80</price>
+          <price role="other">2.80</price>
+        </meal>
+        <meal>
+          <name>Bulgursalat mit Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+      </category>
       <category name="Aktionen">
         <meal>
           <name>Tortellini mit Käsefüllung auf Tomaten-Basilikum-Sauce</name>
@@ -706,6 +810,19 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Zwei Gemüse-Knusper-Ringel an Brokkolisauce würzigem Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Schweineroulade Hausfrauenart an Malzbiersauce Grüne Bohnen mit Zwiebeln Rosmarinkartoffeln</name>
           <note>grün (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -715,19 +832,6 @@
           <note>Senf</note>
           <note>Nitritpökelsalz</note>
           <note>Gerste</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
-          <name>Zwei Gemüse-Knusper-Ringel an Brokkolisauce würzigem Couscous Salat</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>Dinkel</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -860,6 +964,21 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Ein Seelachsfilet mit Tomate und Mozzarella überbacken an Rucolasauce Bandnudeln mit Sesam Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
           <name>Eine gebackene Hähnchenbrust Försterin an Champignonsauce Kräuterspätzle Salat</name>
           <note>gelb (Ampel)</note>
           <note>Eier</note>
@@ -876,6 +995,12 @@
       <closed></closed>
     </day>
     <day date="2018-02-25">
+      <closed></closed>
+    </day>
+    <day date="2018-02-26">
+      <closed></closed>
+    </day>
+    <day date="2018-02-27">
       <closed></closed>
     </day>
   </canteen>
