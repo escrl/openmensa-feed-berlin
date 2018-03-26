@@ -4,13 +4,22 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-03-24">
-      <closed></closed>
-    </day>
     <day date="2018-03-25">
       <closed></closed>
     </day>
     <day date="2018-03-26">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Gemischter Salat- Teller mit Falafel- Bällchen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.45</price>
+          <price role="other">3.45</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -65,6 +74,18 @@
           <price role="other">0.95</price>
         </meal>
       </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Vegetarische Spinat- Gemüselasagne mit Salatbeilage</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">3.95</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Orientalischer Bohneneintopf</name>
@@ -74,17 +95,6 @@
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
-        </meal>
-        <meal>
-          <name>Eine Hähnchenbrust mit grünem Spargel überbacken an Geflügeljus</name>
-          <note>gelb (Ampel)</note>
-          <note>Farbstoff</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
         </meal>
         <meal>
           <name>Zwei Fleischklopse Königsberger Art in Kapernsauce</name>
@@ -116,14 +126,6 @@
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>Gebackene Kartoffeln</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
         </meal>
         <meal>
           <name>Dampfkartoffeln</name>
@@ -1224,6 +1226,9 @@
       <closed></closed>
     </day>
     <day date="2018-04-15">
+      <closed></closed>
+    </day>
+    <day date="2018-04-16">
       <closed></closed>
     </day>
   </canteen>
