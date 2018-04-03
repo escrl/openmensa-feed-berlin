@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-01">
-      <closed></closed>
-    </day>
     <day date="2018-04-02">
       <closed></closed>
     </day>
@@ -83,10 +80,9 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Mangold in Rahm</name>
+          <name>Rosenkohl</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
@@ -100,21 +96,12 @@
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Parboiledreis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>an Waldpilzsauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Senf</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
         </meal>
         <meal>
           <name>an Kräutersauce</name>
@@ -126,10 +113,19 @@
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
+        <meal>
+          <name>an Waldpilzsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
       </category>
       <category name="Desserts">
         <meal>
-          <name>Quark mit Fruchtsauce</name>
+          <name>Joghurt mit Fruchtsauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -138,7 +134,7 @@
           <price role="other">1.35</price>
         </meal>
         <meal>
-          <name>Joghurt mit Fruchtsauce</name>
+          <name>Quark mit Fruchtsauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -241,14 +237,6 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>an Sauce Provencale</name>
-          <note>grün (Ampel)</note>
-          <note>Senf</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>an Dill-Shrimps-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
@@ -258,6 +246,14 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>an Sauce Provencale</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -526,7 +522,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Joghurt mit Fruchtsauce</name>
+          <name>Quark mit Fruchtsauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -535,7 +531,7 @@
           <price role="other">1.35</price>
         </meal>
         <meal>
-          <name>Quark mit Fruchtsauce</name>
+          <name>Joghurt mit Fruchtsauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1513,6 +1509,112 @@
           <name>Parboiledreis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-24">
+      <category name="Aktionen">
+        <meal>
+          <name>Farfalle mit Austernpilzen, Kochschinken und Estragon</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Nitritpökelsalz</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">3.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Ein Putenspieß nach ungarischer Art an Paprikasauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Senf</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Grünkernreis mit Spinat und Champignon-Tomaten-Ragout</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <note>Dinkel</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine Bratwurst Thüringer Art an Zwiebel-Kümmel-Jus</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Toskanische Reispfanne mit Rinderhackfleisch und Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Sauerkraut</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Fingermöhren</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Lupine</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Butterreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>

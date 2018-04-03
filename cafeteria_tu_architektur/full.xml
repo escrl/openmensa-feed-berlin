@@ -4,16 +4,24 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-01">
-      <closed></closed>
-    </day>
     <day date="2018-04-02">
       <closed></closed>
     </day>
     <day date="2018-04-03">
+      <category name="Suppen">
+        <meal>
+          <name>Karotten-Ingwer-Suppe mit Chili</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
-          <name>Pfefferhacksteak vom Rind an Sauce Provencale Pommes frites Weißkohlsalat</name>
+          <name>Pfefferhacksteak vom Rind an Sauce Provencale Balkangemüse Backkartoffeln</name>
           <note>gelb (Ampel)</note>
           <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Eier</note>
@@ -26,23 +34,32 @@
           <price role="other">6.45</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Aktionen">
         <meal>
-          <name>an Dill-Shrimps-Sauce</name>
+          <name>Zwei Gemüse-Knusper-Ringel an Kräutersauce Parboiledreis</name>
           <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Krebstiere</note>
-          <note>Fisch</note>
+          <note>vegetarisch</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kräutersauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.50</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>an Sauce Provencale</name>
+          <name>Sauce Provencal</name>
           <note>grün (Ampel)</note>
           <note>Senf</note>
           <price role="student">0.50</price>
@@ -522,6 +539,35 @@
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-24">
+      <category name="Essen">
+        <meal>
+          <name>Gebratenes Wildlachsfilet an Zitronen-Gemüse-Sauce Brokkoli Dillkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>MSC</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene China-Knusper-Schnitte an sauer-scharf Sauce Jasminreis Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
         </meal>
       </category>
     </day>

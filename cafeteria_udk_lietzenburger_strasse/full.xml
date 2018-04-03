@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-01">
-      <closed></closed>
-    </day>
     <day date="2018-04-02">
       <closed></closed>
     </day>
@@ -45,6 +42,18 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Ein gebackener Selleriebratling an Kräutersauce würzigem Couscous Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
           <name>Schweinegulasch mit grünen Bohnen Kartoffelpüree Salat</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -57,28 +66,8 @@
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
         </meal>
-        <meal>
-          <name>Ein gebackener Selleriebratling an Kräutersauce würzigem Couscous Salat</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
       </category>
       <category name="Beilagen">
-        <meal>
-          <name>an Sauce Provencale</name>
-          <note>grün (Ampel)</note>
-          <note>Senf</note>
-          <price role="student">0.50</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
         <meal>
           <name>an Dill-Shrimps-Sauce</name>
           <note>gelb (Ampel)</note>
@@ -89,6 +78,14 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>an Sauce Provencale</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
           <price role="student">0.50</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -152,22 +149,22 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Hühnerfrikassee mit Champignons, Erbsen und Schwarzwurzeln Parboiledreis Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
           <name>Eine Paprikaschote mit Gemüse-Reis-Füllung an Tomaten-Ingwer-Sauce Salzkartoffeln Salat</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Weizen</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
-        <meal>
-          <name>Hühnerfrikassee mit Champignons, Erbsen und Schwarzwurzeln Parboiledreis Salat</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
@@ -244,14 +241,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Putengeschnetzeltes Spiralnudeln Salat</name>
-          <note>gelb (Ampel)</note>
-          <note>Weizen</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
-        <meal>
           <name>Zwei Schwarzwurzelmedaillons an Quarkdip Gemüsereis Salat</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -259,6 +248,14 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Sesam</note>
           <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
+          <name>Putengeschnetzeltes Spiralnudeln Salat</name>
+          <note>gelb (Ampel)</note>
           <note>Weizen</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
@@ -833,6 +830,35 @@
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-24">
+      <category name="Essen">
+        <meal>
+          <name>Gebratenes Wildlachsfilet an Zitronen-Gemüse-Sauce Brokkoli Dillkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>MSC</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene China-Knusper-Schnitte an sauer-scharf Sauce Jasminreis Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
         </meal>
       </category>
     </day>
