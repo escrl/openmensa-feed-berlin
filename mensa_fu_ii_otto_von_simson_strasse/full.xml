@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-02">
-      <closed></closed>
-    </day>
     <day date="2018-04-03">
       <category name="Vorspeisen">
         <meal>
@@ -180,20 +177,20 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>an Waldpilzsauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Senf</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>an Kräutersauce</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
           <note>Soja</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>an Waldpilzsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -280,7 +277,7 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Schupfnudeln mit Blattspinat und Pilzen</name>
+          <name>Gnocchi mit Blattspinat und Pilzen</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
@@ -409,14 +406,6 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>an Sauce Provencale</name>
-          <note>grün (Ampel)</note>
-          <note>Senf</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>an Dill-Shrimps-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
@@ -426,6 +415,14 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>an Sauce Provencale</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -448,6 +445,16 @@
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Mandelpudding mit Sternanis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Mandeln</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -1112,6 +1119,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Sauerkirschquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1121,15 +1137,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Sauerkirschquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -1357,7 +1364,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Birnenquark</name>
+          <name>Heidelbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1366,7 +1373,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Heidelbeerjoghurt</name>
+          <name>Birnenquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1387,6 +1394,18 @@
     </day>
     <day date="2018-04-11">
       <category name="Vorspeisen">
+        <meal>
+          <name>Antipasti</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>geschwärzt</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
         <meal>
           <name>Marinierte Champignons mit Quarkcreme</name>
           <note>grün (Ampel)</note>
@@ -1838,18 +1857,6 @@
     <day date="2018-04-13">
       <category name="Vorspeisen">
         <meal>
-          <name>N. N.</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Farbstoff</note>
-          <note>geschwärzt</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">2.45</price>
-          <price role="employee">2.45</price>
-          <price role="other">2.45</price>
-        </meal>
-        <meal>
           <name>Shrimpscocktail mit Joghurt-Ananas-Dressing</name>
           <note>grün (Ampel)</note>
           <note>Krebstiere</note>
@@ -1858,6 +1865,18 @@
           <note>Senf</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+        <meal>
+          <name>Antipasti</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>geschwärzt</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">2.45</price>
           <price role="employee">2.45</price>
           <price role="other">2.45</price>
@@ -2056,20 +2075,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Honigquark mit Haselnüssen</name>
+          <name>Mangojoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Haselnuss</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Mangojoghurt</name>
+          <name>Honigquark mit Haselnüssen</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Haselnuss</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -2449,6 +2468,55 @@
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-04-25">
+      <category name="Essen">
+        <meal>
+          <name>Rheinischer Sauerbraten mit Rosinen</name>
+          <note>gelb (Ampel)</note>
+          <note>bio</note>
+          <note>Sellerie</note>
+          <price role="student">2.75</price>
+          <price role="employee">5.50</price>
+          <price role="other">6.05</price>
+        </meal>
+        <meal>
+          <name>Sojageschnetzeltes mit grünem Spargel, Champignons und Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.55</price>
+          <price role="employee">5.10</price>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Wildlachsfilet an Zitronen-Gemüse-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene China-Knusper-Schnitte an sauer-scharf Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.25</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.75</price>
         </meal>
       </category>
     </day>

@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-02">
-      <closed></closed>
-    </day>
     <day date="2018-04-03">
       <category name="Salate">
         <meal>
@@ -118,10 +115,13 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>N. N.</name>
+          <name>Brokkolicremesuppe</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
         </meal>
       </category>
       <category name="Essen">
@@ -133,17 +133,18 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
-          <price role="student">6.95</price>
-          <price role="employee">6.95</price>
-          <price role="other">7.45</price>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
         </meal>
         <meal>
-          <name>Zwei gebackene Falafel-Bagel an Koriander-Chili-Dip Risoni Salat</name>
+          <name>Zwei gebackene Falafel-Bagel an Koriander-Chili-Dip Lauchreis, und Salat</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Farbstoff</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Sesam</note>
           <note>Hefe</note>
           <note>Weizen</note>
@@ -272,11 +273,14 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>N. N.</name>
+          <name>Gemüsecremesuppe</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
         </meal>
       </category>
       <category name="Essen">
@@ -299,18 +303,6 @@
           <note>Phosphat</note>
           <note>Senf</note>
           <note>Nitritpökelsalz</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
-          <name>Eine panierte Hähnchenbrust Madras an Curry-Apfel-Sauce Parboiledreis Kleiner Salat</name>
-          <note>grün (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -345,28 +337,18 @@
       <closed></closed>
     </day>
     <day date="2018-04-09">
-      <category name="Aktionen">
-        <meal>
-          <name>Pfannenfrische Gnocchi mit Schluppen und Gorgonzola-Chili-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>konserviert</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">2.95</price>
-          <price role="employee">2.95</price>
-          <price role="other">3.45</price>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
-          <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Sauce Provencale Backkartoffeln Salat</name>
+          <name>Eine panierte Hähnchenbrust Madras an Curry-Apfel-Sauce Parboiledreis Kleiner Salat</name>
           <note>grün (Ampel)</note>
-          <note>Soja</note>
-          <note>Senf</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
         </meal>
         <meal>
           <name>Süßkartoffel-Amaranth-Bratling an Kokos-Karotten-Sauce würzigem Couscous Salat</name>
@@ -382,17 +364,19 @@
       </category>
     </day>
     <day date="2018-04-10">
-      <category name="Essen">
+      <category name="Aktionen">
         <meal>
-          <name>Auf der Haut gebratenes Lachsforellenfilet an Estragonsauce Zucchinireis Salat</name>
+          <name>Pfannenfrische Gnocchi mit Schluppen und Gorgonzola-Chili-Sauce</name>
           <note>gelb (Ampel)</note>
-          <note>Fisch</note>
-          <note>Sellerie</note>
+          <note>konserviert</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
         </meal>
+      </category>
+      <category name="Essen">
         <meal>
           <name>Schweinegulasch mit weißen und roten Bohnen Dampfkartoffeln Salat</name>
           <note>grün (Ampel)</note>
@@ -421,6 +405,16 @@
         </meal>
       </category>
       <category name="Essen">
+        <meal>
+          <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Sauce Provencale Backkartoffeln Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
         <meal>
           <name>Mediterranes Dinkelmedaillon an Tomatenragout Gemüsereis Salat</name>
           <note>gelb (Ampel)</note>
@@ -477,6 +471,16 @@
         </meal>
       </category>
       <category name="Essen">
+        <meal>
+          <name>Auf der Haut gebratenes Lachsforellenfilet an Estragonsauce Zucchinireis Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
         <meal>
           <name>Mediterranes Hähnchenragout mit Zucchini, Auberginen und Rosmarin Penne rigate Salat</name>
           <note>grün (Ampel)</note>
@@ -629,6 +633,21 @@
     </day>
     <day date="2018-04-24">
       <closed></closed>
+    </day>
+    <day date="2018-04-25">
+      <category name="Essen">
+        <meal>
+          <name>Pfannenfrisches Hähnchengyros mit Weißkohl, Zwiebeln und Paprika Tzatziki Parboiledreis Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
