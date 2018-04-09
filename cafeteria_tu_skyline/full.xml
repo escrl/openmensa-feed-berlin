@@ -4,13 +4,34 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-07">
-      <closed></closed>
-    </day>
     <day date="2018-04-08">
       <closed></closed>
     </day>
     <day date="2018-04-09">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Suppen">
         <meal>
           <name>Gemüsecremesuppe</name>
@@ -21,6 +42,18 @@
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
           <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Käsekuchen Hausgebacken</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.80</price>
+          <price role="employee">1.80</price>
+          <price role="other">1.80</price>
         </meal>
       </category>
       <category name="Essen">
@@ -47,22 +80,16 @@
           <price role="other">4.45</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Desserts">
         <meal>
-          <name>Sauce Provencale</name>
+          <name>Früchte -  Quarkbecher  To Go</name>
           <note>grün (Ampel)</note>
-          <note>Senf</note>
-          <price role="student">0.50</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
-          <name>Kokos-Karotten-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.50</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">1.35</price>
+          <price role="other">1.35</price>
         </meal>
       </category>
     </day>
@@ -478,6 +505,17 @@
     </day>
     <day date="2018-04-29">
       <closed></closed>
+    </day>
+    <day date="2018-04-30">
+      <category name="Essen">
+        <meal>
+          <name>Ofenfrische Maishähnchenkeule an Kichererbsen-Kokos-Sauce Gewürzreis Glaciertes Gartengemüse</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

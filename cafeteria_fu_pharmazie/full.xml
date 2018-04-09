@@ -4,27 +4,10 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-07">
-      <closed></closed>
-    </day>
     <day date="2018-04-08">
       <closed></closed>
     </day>
     <day date="2018-04-09">
-      <category name="Suppen">
-        <meal>
-          <name>Deftige Krautsuppe mit Bauchspeck</name>
-          <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Nitritpökelsalz</note>
-          <price role="student">1.95</price>
-          <price role="employee">1.95</price>
-          <price role="other">2.45</price>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Sauce Provencale Backkartoffeln Salat</name>
@@ -47,20 +30,28 @@
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
         </meal>
+        <meal>
+          <name>Wirsingkohleintopf mit Karottenwürfel und Muskat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.95</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Kokos-Karotten-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <name>Sauce Provencale</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
           <price role="student">0.50</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Sauce Provencale</name>
-          <note>grün (Ampel)</note>
-          <note>Senf</note>
+          <name>Kokos-Karotten-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.50</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -854,6 +845,50 @@
     </day>
     <day date="2018-04-29">
       <closed></closed>
+    </day>
+    <day date="2018-04-30">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">2.25</price>
+          <price role="employee">2.25</price>
+          <price role="other">2.25</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomatencremesuppe mit frischem Basilikum</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Ofenfrische Maishähnchenkeule an Kichererbsen-Kokos-Sauce Gewürzreis Glaciertes Gartengemüse</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
