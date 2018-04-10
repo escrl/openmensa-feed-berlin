@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-08">
-      <closed></closed>
-    </day>
     <day date="2018-04-09">
       <category name="Essen">
         <meal>
@@ -59,6 +56,17 @@
     <day date="2018-04-10">
       <category name="Essen">
         <meal>
+          <name>Kartoffel-Gemüse-Auflauf</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
           <name>Berliner Currywurst mit hausgemachtem Tomatenketchup gebackene Kartoffelspiralen Salat</name>
           <note>grün (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -66,17 +74,6 @@
           <note>Phosphat</note>
           <note>Senf</note>
           <note>Weizen</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Gemüse-Auflauf</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
@@ -130,20 +127,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Haselnussjoghurt</name>
+          <name>Johannisbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Haselnuss</note>
           <price role="student">1.20</price>
           <price role="employee">1.20</price>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Johannisbeerquark</name>
+          <name>Haselnussjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Haselnuss</note>
           <price role="student">1.20</price>
           <price role="employee">1.20</price>
           <price role="other">1.20</price>
@@ -177,7 +174,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Waldbeerjoghurt</name>
+          <name>Mango-Orangen-Quark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -186,7 +183,7 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Mango-Orangen-Quark</name>
+          <name>Waldbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -228,20 +225,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Honigquark mit Haselnüssen</name>
+          <name>Mangojoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Haselnuss</note>
           <price role="student">1.20</price>
           <price role="employee">1.20</price>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Mangojoghurt</name>
+          <name>Honigquark mit Haselnüssen</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Haselnuss</note>
           <price role="student">1.20</price>
           <price role="employee">1.20</price>
           <price role="other">1.20</price>
@@ -255,19 +252,110 @@
       <closed></closed>
     </day>
     <day date="2018-04-16">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Gemüsesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-17">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Zwiebel-Kümmel-Jus</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Kerbelrahmsauce</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-18">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Kürbis-Sesam-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Tomaten-Paprika-Sugo</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-19">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Tatarensauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-20">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Bärlauchjus</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Oliven-Tomaten-Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>geschwärzt</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-21">
       <closed></closed>
@@ -276,19 +364,110 @@
       <closed></closed>
     </day>
     <day date="2018-04-23">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Zwiebel-Kümmel-Jus</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Paprikasauce</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-24">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Sauer-scharf Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Zitronen-Gemüse-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-25">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Sauce Provencal</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-26">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Zitronen-Kurkuma-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Fischrahmsauce mit Gemüse Julienne</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-27">
-      <closed></closed>
+      <category name="Beilagen">
+        <meal>
+          <name>Kokos-Karotten-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Curry-Mango-Sauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-04-28">
       <closed></closed>
@@ -297,6 +476,26 @@
       <closed></closed>
     </day>
     <day date="2018-04-30">
+      <category name="Beilagen">
+        <meal>
+          <name>Kichererbsen-Kokos-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Joghurtdip</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-01">
       <closed></closed>
     </day>
   </canteen>

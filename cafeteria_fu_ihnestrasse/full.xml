@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-08">
-      <closed></closed>
-    </day>
     <day date="2018-04-09">
       <category name="Suppen">
         <meal>
@@ -380,17 +377,19 @@
           <price role="other">4.45</price>
         </meal>
       </category>
-      <category name="Desserts">
+      <category name="Beilagen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <name>Gemüsesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
+      </category>
+      <category name="Desserts">
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -402,6 +401,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -457,16 +466,17 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Ein gebackenes Forellenfilet in Mandelpanade an Chili-Mandarinen-Sauce dazu Brokkoli und Salzkartoffeln</name>
+          <name>Gebackenes Seelachsfilet in Knusperkernpanade an Chili-Mandarinen-Sauce dazu Brokkoli und Salzkartoffeln</name>
           <note>grün (Ampel)</note>
+          <note>MSC</note>
           <note>Fisch</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
           <note>Weizen</note>
-          <note>Mandeln</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
         </meal>
       </category>
       <category name="Desserts">
@@ -550,6 +560,29 @@
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Tomaten-Paprika-Sugo</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Kürbis-Sesam-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
       </category>
       <category name="Desserts">
@@ -643,17 +676,23 @@
           <price role="other">4.45</price>
         </meal>
       </category>
-      <category name="Desserts">
+      <category name="Beilagen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
+          <name>Tatarensauce</name>
+          <note>rot (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <note>Weizen</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
+      </category>
+      <category name="Desserts">
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -665,6 +704,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -738,17 +787,29 @@
           <price role="other">5.45</price>
         </meal>
       </category>
-      <category name="Desserts">
+      <category name="Beilagen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <name>Oliven-Tomaten-Sauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
+          <note>geschwärzt</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
+        <meal>
+          <name>Bärlauchjus</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
+      <category name="Desserts">
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -760,6 +821,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -827,6 +898,24 @@
           <price role="student">2.95</price>
           <price role="employee">2.95</price>
           <price role="other">3.45</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Paprikasauce</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Zwiebel-Kümmel-Jus</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
       </category>
       <category name="Desserts">
@@ -915,17 +1004,30 @@
           <price role="other">4.45</price>
         </meal>
       </category>
-      <category name="Desserts">
+      <category name="Beilagen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <name>Sauer-scharf Sauce</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
+          <note>vegan</note>
           <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
+        <meal>
+          <name>Zitronen-Gemüse-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
+      <category name="Desserts">
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -937,6 +1039,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -1002,7 +1114,27 @@
           <price role="other">3.45</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Sauce Provencal</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
       <category name="Desserts">
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -1014,16 +1146,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -1093,17 +1215,32 @@
           <price role="other">3.45</price>
         </meal>
       </category>
-      <category name="Desserts">
+      <category name="Beilagen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
+          <name>Fischrahmsauce mit Gemüse Julienne</name>
+          <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
+        <meal>
+          <name>Zitronen-Kurkuma-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
+      <category name="Desserts">
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -1115,6 +1252,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -1180,17 +1327,27 @@
           <price role="other">5.45</price>
         </meal>
       </category>
-      <category name="Desserts">
+      <category name="Beilagen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <name>Kokos-Karotten-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
+        <meal>
+          <name>Curry-Mango-Sauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
+      <category name="Desserts">
         <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
@@ -1206,6 +1363,16 @@
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
         </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
     </day>
     <day date="2018-04-28">
@@ -1215,6 +1382,26 @@
       <closed></closed>
     </day>
     <day date="2018-04-30">
+      <category name="Beilagen">
+        <meal>
+          <name>Joghurtdip</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen-Kokos-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-01">
       <closed></closed>
     </day>
   </canteen>
