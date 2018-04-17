@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-15">
-      <closed></closed>
-    </day>
     <day date="2018-04-16">
       <category name="Salate">
         <meal>
@@ -520,22 +517,22 @@
       </category>
       <category name="Beilagen">
         <meal>
+          <name>Zitronen-Gemüse-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
           <name>Sauer-scharf Sauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
           <note>Soja</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
-          <name>Zitronen-Gemüse-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -676,19 +673,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Curry-Mango-Sauce</name>
-          <note>rot (Ampel)</note>
+          <name>Kokos-Karotten-Sauce</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Kokos-Karotten-Sauce</name>
-          <note>gelb (Ampel)</note>
+          <name>Curry-Mango-Sauce</name>
+          <note>rot (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -716,17 +713,17 @@
     <day date="2018-04-30">
       <category name="Beilagen">
         <meal>
-          <name>Kichererbsen-Kokos-Sauce</name>
+          <name>Joghurtdip</name>
           <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Joghurtdip</name>
+          <name>Kichererbsen-Kokos-Sauce</name>
           <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -739,17 +736,17 @@
     <day date="2018-05-02">
       <category name="Beilagen">
         <meal>
-          <name>Geflügeljus</name>
-          <note>gelb (Ampel)</note>
+          <name>Bärlauchsauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Bärlauchsauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Geflügeljus</name>
+          <note>gelb (Ampel)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -759,15 +756,6 @@
     <day date="2018-05-03">
       <category name="Beilagen">
         <meal>
-          <name>Barbecuesauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Süßungsmittel</note>
-          <note>Senf</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>Estragonrahmsauce</name>
           <note>rot (Ampel)</note>
           <note>Antioxidationsmittel</note>
@@ -776,6 +764,15 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Barbecuesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Süßungsmittel</note>
+          <note>Senf</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -834,6 +831,32 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-08">
+      <category name="Essen">
+        <meal>
+          <name>Ein Seelachsfilet mit Tomaten und Mozzarella überbacken an Zitronen-Gemüse-Sauce Brokkoli Dillkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>MSC</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Zwei gebackene Kartoffeltaschen mit Frischkäsefüllung Gemüsereis an Quarkdip Kleiner Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>

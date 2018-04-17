@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-15">
-      <closed></closed>
-    </day>
     <day date="2018-04-16">
       <category name="Salate">
         <meal>
@@ -130,10 +127,11 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Ungarisches Kartoffelgulasch mit Ajvar, Paprika und Majoran</name>
+          <name>Kartoffelgulasch mit saurer Sahne</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Schwefeldioxid und Sulfide</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -360,20 +358,20 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Apfelrotkohl</name>
+          <name>Ratatouille</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Schwefeldioxid und Sulfide</note>
+          <note>Sellerie</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Ratatouille</name>
+          <name>Apfelrotkohl</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Sellerie</note>
+          <note>Antioxidationsmittel</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
@@ -952,19 +950,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Waldpilz-Kräuter-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>Koriander-Chili-Dip</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
           <note>Sesam</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Waldpilz-Kräuter-Sauce</name>
+          <note>gelb (Ampel)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -1036,17 +1034,17 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Bärlauchsauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Geflügeljus</name>
+          <note>gelb (Ampel)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Geflügeljus</name>
-          <note>gelb (Ampel)</note>
+          <name>Bärlauchsauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -1112,6 +1110,9 @@
           <price role="other">4.30</price>
         </meal>
       </category>
+    </day>
+    <day date="2018-05-08">
+      <closed></closed>
     </day>
   </canteen>
 </openmensa>
