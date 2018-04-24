@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-22">
-      <closed></closed>
-    </day>
     <day date="2018-04-23">
       <category name="Suppen">
         <meal>
@@ -102,6 +99,18 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
+        <meal>
+          <name>Berliner Currywurst mit Darm Pommes frites Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Senf</note>
+          <note>Nitritpökelsalz</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
@@ -109,6 +118,14 @@
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Paprikasauce</name>
+          <note>grün (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
@@ -353,15 +370,15 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Pfannenfrische Eierknöpfle mit Pilzen im Rahm</name>
+          <name>Fettuccine mit Rucola, Tomaten und Weichkäse</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
         </meal>
         <meal>
           <name>Mediterraner Dinkel-Tomaten-Bratling an Chilidip, Backkartoffeln und Gemüse</name>
@@ -388,15 +405,6 @@
           <note>Soja</note>
           <note>Sesam</note>
           <price role="student">0.50</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
-          <name>Bärlauchsauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
@@ -430,10 +438,11 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Fünf Cevapcici vom Rind an Barbecuesauce Backkartoffeln Balkangemüse</name>
+          <name>Pfefferhacksteak vom Rind an Barbecuesauce Gebackene Kartoffeln Balkangemüse</name>
           <note>gelb (Ampel)</note>
           <note>Süßungsmittel</note>
           <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Hefe</note>
@@ -793,6 +802,44 @@
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-15">
+      <category name="Suppen">
+        <meal>
+          <name>Scharfe indische Kichererbsensuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Sechs Bratwürstchen Nürnberger Art auf Sauerkraut und Kartoffelpüree</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Pfannenfrische Gnocchi mit Blattspinat und Walnüssen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <note>Walnuss</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
         </meal>
       </category>
     </day>

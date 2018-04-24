@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-22">
-      <closed></closed>
-    </day>
     <day date="2018-04-23">
       <category name="Essen">
         <meal>
@@ -69,15 +66,6 @@
     <day date="2018-04-24">
       <category name="Essen">
         <meal>
-          <name>Ein Putenbrustspieß Picanto an Paprikasauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Senf</note>
-          <price role="student">1.95</price>
-          <price role="employee">3.90</price>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
           <name>Grünkern mit Spinat und Champignon-Tomaten-Ragout</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -88,6 +76,17 @@
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Ein paniertes Schweineschnitzel an Paprikasauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Senf</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -128,17 +127,6 @@
     <day date="2018-04-25">
       <category name="Essen">
         <meal>
-          <name>Sojageschnetzeltes mit grünem Spargel, Champignons und Kartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Klimaessen</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-          <price role="student">2.55</price>
-          <price role="employee">5.10</price>
-          <price role="other">5.60</price>
-        </meal>
-        <meal>
           <name>Gebratenes Wildlachsfilet an Zitronen-Gemüse-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>MSC</note>
@@ -148,10 +136,21 @@
           <price role="employee">4.90</price>
           <price role="other">5.40</price>
         </meal>
+        <meal>
+          <name>Herzhaftes Sojagulasch mit frischen Karotten und Bohnen,</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>N. N.</name>
+          <name>Kartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -190,16 +189,6 @@
           <price role="student">1.95</price>
           <price role="employee">3.90</price>
           <price role="other">4.30</price>
-        </meal>
-        <meal>
-          <name>Chili con Soja</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -340,17 +329,17 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Geflügeljus</name>
-          <note>gelb (Ampel)</note>
+          <name>Bärlauchsauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Bärlauchsauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Geflügeljus</name>
+          <note>gelb (Ampel)</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -489,6 +478,32 @@
       <category name="Desserts">
         <meal>
           <name>Aprikosenkompott</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-15">
+      <category name="Essen">
+        <meal>
+          <name>Gebratene Mi Nudeln mit grünem Spargel, Karotten, Champignons und asiatischen Gewürzen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <note>Weizen</note>
+          <price role="student">2.55</price>
+          <price role="employee">5.10</price>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Kirschen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>

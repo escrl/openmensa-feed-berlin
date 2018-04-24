@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-22">
-      <closed></closed>
-    </day>
     <day date="2018-04-23">
       <category name="Salate">
         <meal>
@@ -149,6 +146,9 @@
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
           <note>Soja</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
         </meal>
       </category>
       <category name="Aktionen">
@@ -163,6 +163,18 @@
           <price role="student">2.95</price>
           <price role="employee">2.95</price>
           <price role="other">3.45</price>
+        </meal>
+        <meal>
+          <name>Apfel-Walnusskuchen</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <note>Walnuss</note>
+          <price role="student">1.80</price>
+          <price role="employee">1.80</price>
+          <price role="other">1.80</price>
         </meal>
       </category>
       <category name="Essen">
@@ -452,17 +464,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Eine gebackene Hähnchenbrust im Knuspermantel an Curry-Mango-Sauce mit grüne Bandnudeln und Brokkoli</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
           <name>Ein gebackenes Seelachsfilet an Tatarensauce Pommes wedges Salat</name>
           <note>gelb (Ampel)</note>
           <note>MSC</note>
@@ -471,6 +472,17 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene Hähnchenbrust im Knuspermantel an Curry-Mango-Sauce mit grüne Bandnudeln und Brokkoli</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <note>Hefe</note>
           <note>Weizen</note>
           <price role="student">4.95</price>
@@ -497,39 +509,6 @@
       <closed></closed>
     </day>
     <day date="2018-04-30">
-      <category name="Salate">
-        <meal>
-          <name>Doppelte Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">3.30</price>
-          <price role="employee">3.30</price>
-          <price role="other">3.30</price>
-        </meal>
-        <meal>
-          <name>Große Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">2.25</price>
-          <price role="employee">2.25</price>
-          <price role="other">2.25</price>
-        </meal>
-      </category>
-      <category name="Suppen">
-        <meal>
-          <name>Tomatencremesuppe mit frischem Basilikum</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.95</price>
-          <price role="employee">1.95</price>
-          <price role="other">2.45</price>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Gefüllte Paprikaschote mit Schweinehackfleisch und Mozzarella an Oliven-Tomaten-Sauce Parboiedreis mit Dinkel Salat</name>
@@ -550,19 +529,23 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
-        <meal>
-          <name>Ofenfrische Maishähnchenkeule an Kichererbsen-Kokos-Sauce Gewürzreis Glaciertes Gartengemüse</name>
-          <note>gelb (Ampel)</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
       </category>
     </day>
     <day date="2018-05-01">
       <closed></closed>
     </day>
     <day date="2018-05-02">
+      <category name="Suppen">
+        <meal>
+          <name>Tomatencremesuppe mit frischem Basilikum</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Aktionen">
         <meal>
           <name>Chinesische Gemüsepfanne mit Mu Err Pilzen und frischem Ingwer auf Basmatireis</name>
@@ -578,17 +561,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus Kräuterspätzle Salat</name>
-          <note>gelb (Ampel)</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
           <name>Zwei Spinat-Dinkel-Medaillons an Bärlauchsauce Jasminreis Salat</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -597,6 +569,17 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
           <note>Dinkel</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus Kräuterspätzle Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -665,13 +648,8 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Gebackenes Seelachsfilet in Knusperkernpanade an Estragonsauce Dampfkartoffeln Gurkensalat mit Dill</name>
+          <name>Ofenfrische Maishähnchenkeule an Kichererbsen-Kokos-Sauce Gewürzreis Glaciertes Gartengemüse</name>
           <note>gelb (Ampel)</note>
-          <note>MSC</note>
-          <note>Fisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -682,6 +660,18 @@
           <note>Süßungsmittel</note>
           <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Senf</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Seelachsfilet in Knusperkernpanade an Estragonsauce Dampfkartoffeln Gurkensalat mit Dill</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Fisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Weizen</note>
           <price role="student">4.95</price>
@@ -723,27 +713,6 @@
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
           <price role="other">2.45</price>
-        </meal>
-      </category>
-      <category name="Aktionen">
-        <meal>
-          <name>Seelachsfilet in Erdnusspanade an scharfer Honig-Malzbier-Sauce Basmatireis</name>
-          <note>gelb (Ampel)</note>
-          <note>MSC</note>
-          <note>konserviert</note>
-          <note>Farbstoff</note>
-          <note>Süßungsmittel</note>
-          <note>Eier</note>
-          <note>Erdnüsse</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Sesam</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
         </meal>
       </category>
       <category name="Essen">
@@ -1008,6 +977,25 @@
           <price role="employee">2.95</price>
           <price role="other">3.45</price>
         </meal>
+        <meal>
+          <name>Seelachsfilet in Erdnusspanade an scharfer Honig-Malzbier-Sauce Basmatireis</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>konserviert</note>
+          <note>Farbstoff</note>
+          <note>Süßungsmittel</note>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
       </category>
       <category name="Essen">
         <meal>
@@ -1159,6 +1147,62 @@
           <price role="student">5.95</price>
           <price role="employee">5.95</price>
           <price role="other">6.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-15">
+      <category name="Salate">
+        <meal>
+          <name>Doppelte Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">3.30</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.30</price>
+        </meal>
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">2.25</price>
+          <price role="employee">2.25</price>
+          <price role="other">2.25</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Scharfe indische Kichererbsensuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Pfannenfrische Gnocchi mit Blattspinat und Walnüssen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <note>Walnuss</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+        <meal>
+          <name>Käsekuchen Hausgebacken</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.80</price>
+          <price role="employee">1.80</price>
+          <price role="other">1.80</price>
         </meal>
       </category>
     </day>
