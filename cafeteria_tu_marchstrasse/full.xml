@@ -4,68 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-24">
-      <category name="Salate">
-        <meal>
-          <name>Kleine Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">1.20</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.20</price>
-        </meal>
-      </category>
-      <category name="Suppen">
-        <meal>
-          <name>Zucchinicremesuppe mit Rosmarin und Tomaten</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-          <price role="student">1.95</price>
-          <price role="employee">1.95</price>
-          <price role="other">1.95</price>
-        </meal>
-      </category>
-      <category name="Aktionen">
-        <meal>
-          <name>Zwei Backcamembert mit Birne,Preiselbeeren, gebackenen Baguettbrot und Salat</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Farbstoff</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
-        </meal>
-        <meal>
-          <name>Curry vom Huhn mit asiatischem Gemüse und Duftreis</name>
-          <note>gelb (Ampel)</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-      </category>
-      <category name="Essen">
-        <meal>
-          <name>Gebratenes Wildlachsfilet an Zitronen-Gemüse-Sauce Gartengemüse Dillkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>MSC</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-04-25">
       <category name="Salate">
         <meal>
@@ -157,6 +95,9 @@
           <note>Soja</note>
           <note>Sesam</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
         </meal>
       </category>
       <category name="Aktionen">
@@ -195,6 +136,16 @@
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Chili con Soja Parboiledreis Kleiner Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">3.95</price>
         </meal>
       </category>
     </day>
@@ -323,6 +274,17 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus Kräuterspätzle Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Zwei Spinat-Dinkel-Medaillons an Bärlauchsauce Jasminreis Salat</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -331,17 +293,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Weizen</note>
           <note>Dinkel</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
-          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus Kräuterspätzle Salat</name>
-          <note>gelb (Ampel)</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -387,11 +338,11 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Fünf Cevapcici vom Rind an Barbecuesauce Pommes frites</name>
+          <name>Gebackenes Seelachsfilet in Knusperkernpanade an Estragonsauce Dampfkartoffeln Gurkensalat mit Dill</name>
           <note>gelb (Ampel)</note>
-          <note>Süßungsmittel</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
-          <note>Senf</note>
+          <note>MSC</note>
+          <note>Fisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Weizen</note>
           <price role="student">4.95</price>
@@ -399,11 +350,11 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Gebackenes Seelachsfilet in Knusperkernpanade an Estragonsauce Dampfkartoffeln Gurkensalat mit Dill</name>
+          <name>Fünf Cevapcici vom Rind an Barbecuesauce Pommes frites</name>
           <note>gelb (Ampel)</note>
-          <note>MSC</note>
-          <note>Fisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Süßungsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Senf</note>
           <note>Hefe</note>
           <note>Weizen</note>
           <price role="student">4.95</price>
@@ -491,9 +442,108 @@
       <closed></closed>
     </day>
     <day date="2018-05-07">
-      <closed></closed>
+      <category name="Salate">
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Maiscremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Gegrilltes Schweinerückensteak mit Röstzwiebeln, Pommes wedges und Salat</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Rindergulasch nach ungarischer Art Zwei Semmelknödel Apfelrotkohl</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Bulgur-Gemüse-Medaillon an Kräutersauce Schnittlauchkartoffeln Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-05-08">
+      <category name="Salate">
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Zucchinicremesuppe mit Rosmarin und Tomaten</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Kalbsgeschnetzeltes Zürcher Art mit Kartoffelrösti</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein Seelachsfilet mit Tomaten und Mozzarella überbacken an Zitronen-Gemüse-Sauce Brokkoli Dillkartoffeln</name>
@@ -520,7 +570,56 @@
       </category>
     </day>
     <day date="2018-05-09">
+      <category name="Salate">
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Gurkencremesuppe mit Spargel und Dill</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
+        <meal>
+          <name>Eine Hähnchenbrust mit Pesto überbacken an Geflügelrahmsauce Bratkartoffeln Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Zwei Fleischklopse Königsberger Art in Kapernsauce hausgemachtes Kartoffelpüree Rote Bete Salat mit Apfel</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
         <meal>
           <name>Zwei Sesam-Karotten-Sticks an Currysauce Parboiledreis Salat</name>
           <note>grün (Ampel)</note>
@@ -574,6 +673,18 @@
       <closed></closed>
     </day>
     <day date="2018-05-14">
+      <category name="Salate">
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
       <category name="Suppen">
         <meal>
           <name>Allgäuer Käsecremesuppe</name>
@@ -789,6 +900,46 @@
           <note>Farbstoff</note>
           <note>Erdnüsse</note>
           <note>Soja</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-17">
+      <category name="Aktionen">
+        <meal>
+          <name>Hähnchen süß-sauer mit Ananas, Tomaten, Wokgemüse und Basmatireis</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Schweinegeschnetzeltes mit asiatischem Gemüse Chinanudeln</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <note>Weizen</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Drei gebackene Seelachsfilets in Reispanade an Joghurt-Limonen-Dip Kartoffeln</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Fisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
