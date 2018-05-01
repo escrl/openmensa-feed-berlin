@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-29">
-      <closed></closed>
-    </day>
     <day date="2018-04-30">
       <category name="Suppen">
         <meal>
@@ -62,20 +59,6 @@
           <price role="other">2.45</price>
         </meal>
       </category>
-      <category name="Aktionen">
-        <meal>
-          <name>Halbes Grillhähnchen mit Pommes frites und Coleslaw-Salat</name>
-          <note>rot (Ampel)</note>
-          <note>Süßungsmittel</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">6.45</price>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Zwei Spinat-Dinkel-Medaillons an Bärlauchsauce Jasminreis Salat</name>
@@ -121,20 +104,6 @@
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
           <price role="other">2.45</price>
-        </meal>
-      </category>
-      <category name="Essen">
-        <meal>
-          <name>Fünf Cevapcici vom Rind an Barbecuesauce Pommes frites</name>
-          <note>gelb (Ampel)</note>
-          <note>Süßungsmittel</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
-          <note>Senf</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -195,19 +164,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Waldpilz-Kräuter-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <price role="student">0.50</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>Koriander-Chili-Dip</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
           <note>Sesam</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Waldpilz-Kräuter-Sauce</name>
+          <note>gelb (Ampel)</note>
           <price role="student">0.50</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -441,6 +410,60 @@
     </day>
     <day date="2018-05-21">
       <closed></closed>
+    </day>
+    <day date="2018-05-22">
+      <category name="Suppen">
+        <meal>
+          <name>Currycremesuppe vom Huhn mit Pfirsich</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Mandeln</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Fettuccine mit Tomatensauce, Weichkäse und frischem Basilikum</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>geschwärzt</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Makrelenfilet mit Rosmarin an Joghurt-Limonen-Dip Backkartoffeln Salat</name>
+          <note>grün (Ampel)</note>
+          <note>MSC</note>
+          <note>Farbstoff</note>
+          <note>Fisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Pfannenfrisches Hähnchengyros mit Weißkohl, Zwiebeln und Paprika an Kräuter-Joghurt-Dip Kräuterreis Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
