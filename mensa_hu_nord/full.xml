@@ -4,31 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-04-30">
-      <category name="Beilagen">
-        <meal>
-          <name>Koriander-Chili-Dip</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
-          <note>Sesam</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
-          <name>Waldpilz-Kräuter-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-05-01">
-      <closed></closed>
-    </day>
     <day date="2018-05-02">
       <category name="Salate">
         <meal>
@@ -73,7 +48,7 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Pfannenfrische Eierknöpfle mit Pilzen im Rahm</name>
+          <name>Pfannenfrische Eierknöpfle mit frischen Champignons in Rahmsauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Eier</note>
@@ -111,12 +86,16 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Rucolasauce</name>
+          <name>Brokkoli-Nuss-Ecke an Rucolasauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>konserviert</note>
+          <note>Farbstoff</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
           <price role="student">1.65</price>
           <price role="employee">3.30</price>
           <price role="other">3.65</price>
@@ -157,7 +136,7 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Brokkoli</name>
+          <name>Erbsen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -191,7 +170,7 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Bratensauce</name>
+          <name>an Bratensauce</name>
           <note>gelb (Ampel)</note>
           <note>Senf</note>
           <price role="student">0.25</price>
@@ -199,7 +178,7 @@
           <price role="other">0.55</price>
         </meal>
         <meal>
-          <name>Rucolasauce</name>
+          <name>an Rucolasauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Sellerie</note>
@@ -2471,6 +2450,102 @@
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-23">
+      <category name="Essen">
+        <meal>
+          <name>Gnocchipfanne mit Zucchini und Tomaten</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Frisches Marktgemüse mit Spargel, Kerbel in Rahm und Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.55</price>
+          <price role="employee">5.10</price>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Makrelenfilet mit Rosmarin an Joghurt-Limonen-Dip</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Farbstoff</note>
+          <note>Fisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
+          <name>Hühnerfrikassee nach Berliner Art mit Spargel und Champignons</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-05-24">
+      <category name="Essen">
+        <meal>
+          <name>Rindergeschnetzeltes mit Champignons und Zwiebeln in Sahnesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>bio</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">3.25</price>
+          <price role="employee">6.50</price>
+          <price role="other">7.15</price>
+        </meal>
+        <meal>
+          <name>Ein paniertes Putenschnitzel mit Zitronenecke an Sauce a la Béarnaise</name>
+          <note>gelb (Ampel)</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Glasnudeln mit geräucherten Tofu, Karotten und Chicoreè</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>konserviert</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Zwei Gemüse-Knusper-Ringel an Currysauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
         </meal>
       </category>
     </day>

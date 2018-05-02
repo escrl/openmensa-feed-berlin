@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-05-01">
-      <closed></closed>
-    </day>
     <day date="2018-05-02">
       <category name="Vorspeisen">
         <meal>
@@ -51,6 +48,17 @@
           <price role="other">1.30</price>
         </meal>
       </category>
+      <category name="Suppen">
+        <meal>
+          <name>Weiße Rübchen- Cremesuppe</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Glasnudeln mit geräucherten Tofu, Karotten und Chicoreè</name>
@@ -63,17 +71,6 @@
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
-        </meal>
-        <meal>
-          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Rucolasauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>konserviert</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.65</price>
-          <price role="employee">3.30</price>
-          <price role="other">3.65</price>
         </meal>
         <meal>
           <name>Ein Schweineschnitzel Cordon bleu an Bratensauce</name>
@@ -110,6 +107,22 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
+          <name>Gebackene Kartoffeln</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Petersilienkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
           <name>Zucchinireis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -134,16 +147,6 @@
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
-        </meal>
-      </category>
-      <category name="Desserts">
-        <meal>
-          <name>Obstschälchen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">1.50</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.50</price>
         </meal>
       </category>
     </day>
@@ -418,15 +421,6 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Barbecuesauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Süßungsmittel</note>
-          <note>Senf</note>
-          <price role="student">0.25</price>
-          <price role="employee">0.50</price>
-          <price role="other">0.55</price>
-        </meal>
-        <meal>
           <name>Estragonrahmsauce</name>
           <note>rot (Ampel)</note>
           <note>Antioxidationsmittel</note>
@@ -435,6 +429,15 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Barbecuesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Süßungsmittel</note>
+          <note>Senf</note>
           <price role="student">0.25</price>
           <price role="employee">0.50</price>
           <price role="other">0.55</price>
@@ -564,6 +567,9 @@
       <closed></closed>
     </day>
     <day date="2018-05-23">
+      <closed></closed>
+    </day>
+    <day date="2018-05-24">
       <closed></closed>
     </day>
   </canteen>
