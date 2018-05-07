@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-05-05">
-      <closed></closed>
-    </day>
     <day date="2018-05-06">
       <closed></closed>
     </day>
@@ -33,12 +30,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -49,6 +40,12 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
         <meal>
           <name>American Dressing</name>
@@ -75,13 +72,14 @@
           <price role="other">5.95</price>
         </meal>
         <meal>
-          <name>Frischer deutscher Stangenspargel mit zerlassener Butter und Petersilienkartoffeln</name>
+          <name>Frischer Stagenspargel mit Sauce Hollandaise und Petersilienkartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">5.95</price>
-          <price role="employee">5.95</price>
-          <price role="other">5.95</price>
+          <price role="student">6.95</price>
+          <price role="employee">6.95</price>
+          <price role="other">6.95</price>
         </meal>
       </category>
       <category name="Essen">
@@ -127,6 +125,61 @@
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
         </meal>
+        <meal>
+          <name>Ein paniertes Schweineschnitzel</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Senf</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+        <meal>
+          <name>Zwei Spiegeleier</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+        <meal>
+          <name>Zwei Rühreier</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">1.95</price>
+        </meal>
+        <meal>
+          <name>Soljanka mit Saurer Sahne</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Nitritpökelsalz</note>
+          <price role="student">1.75</price>
+          <price role="employee">1.75</price>
+          <price role="other">1.75</price>
+        </meal>
+        <meal>
+          <name>Berliner Currywurst ohne Darm</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Senf</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
@@ -155,16 +208,6 @@
         </meal>
       </category>
       <category name="Desserts">
-        <meal>
-          <name>Apfel-Rosinenquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
         <meal>
           <name>Pflaumenjoghurt</name>
           <note>grün (Ampel)</note>
@@ -1732,6 +1775,66 @@
     </day>
     <day date="2018-05-27">
       <closed></closed>
+    </day>
+    <day date="2018-05-28">
+      <category name="Aktionen">
+        <meal>
+          <name>Seelachsburger mit Mango-Ingwer-Chutney im Mehrkornbrötchen, Pommes wedges</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Farbstoff</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <note>Roggen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">5.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Brokkoli-Nudel-Pfanne mit Tofu, Tomaten und Haselnüssen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+          <note>Haselnuss</note>
+          <price role="student">2.55</price>
+          <price role="employee">5.10</price>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Geschmorte Zucchini mit Schweinehackfleisch und Mozzarella an Tomatenragout</name>
+          <note>grün (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus</name>
+          <note>rot (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
