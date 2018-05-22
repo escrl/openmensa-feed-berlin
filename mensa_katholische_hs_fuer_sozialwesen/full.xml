@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-05-20">
-      <closed></closed>
-    </day>
     <day date="2018-05-21">
       <closed></closed>
     </day>
@@ -110,6 +107,24 @@
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
         </meal>
+        <meal>
+          <name>Geflügelrahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Erdnuss-Chili-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Erdnüsse</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.25</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
       </category>
       <category name="Desserts">
         <meal>
@@ -157,12 +172,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -173,6 +182,12 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Essen">
@@ -526,12 +541,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -542,6 +551,12 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Essen">
@@ -1525,12 +1540,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1541,6 +1550,12 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Essen">
@@ -1652,6 +1667,12 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1662,12 +1683,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Weizen</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
         </meal>
       </category>
       <category name="Essen">
@@ -1711,6 +1726,81 @@
       <category name="Beilagen">
         <meal>
           <name>Karotten-Erbsen-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-06-12">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Joghurtdressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Saisongemüse aus dem Garten mit Kartoffeln, Tofu und gerösteten Erdnüssen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Erdnüsse</note>
+          <note>Soja</note>
+          <price role="student">2.55</price>
+          <price role="employee">5.10</price>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Marinierte Hähnchenkeule an Salbeirahmsauce</name>
+          <note>rot (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.25</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.75</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Leipziger Allerlei</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
