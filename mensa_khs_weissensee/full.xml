@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-05-21">
-      <closed></closed>
-    </day>
     <day date="2018-05-22">
       <category name="Vorspeisen">
         <meal>
@@ -213,6 +210,17 @@
           <price role="other">1.30</price>
         </meal>
       </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomatensuppe mit Kräutern der Provence</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Frisches Marktgemüse mit Spargel, Kerbel in Rahm und Dampfkartoffeln</name>
@@ -226,30 +234,16 @@
           <price role="other">5.60</price>
         </meal>
         <meal>
-          <name>Makrelenfilet mit Rosmarin an Joghurt-Limonen-Dip</name>
+          <name>Ein Seelachsfilet in Sesampanade an Joghurt-Limonen-Dip</name>
           <note>gelb (Ampel)</note>
           <note>MSC</note>
-          <note>Farbstoff</note>
-          <note>Fisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">2.45</price>
-          <price role="employee">4.90</price>
-          <price role="other">5.40</price>
-        </meal>
-        <meal>
-          <name>Mediterranes Dinkelmedaillon an Gemüserahmsauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Farbstoff</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
           <note>Hefe</note>
           <note>Weizen</note>
-          <note>Dinkel</note>
-          <price role="student">1.65</price>
-          <price role="employee">3.30</price>
-          <price role="other">3.65</price>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
         </meal>
         <meal>
           <name>Hühnerfrikassee nach Berliner Art mit Spargel und Champignons</name>
@@ -264,7 +258,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Zucchini-Spargel-Gemüse</name>
+          <name>Zucchini-Tomaten-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -655,6 +649,9 @@
       <closed></closed>
     </day>
     <day date="2018-06-12">
+      <closed></closed>
+    </day>
+    <day date="2018-06-13">
       <closed></closed>
     </day>
   </canteen>
