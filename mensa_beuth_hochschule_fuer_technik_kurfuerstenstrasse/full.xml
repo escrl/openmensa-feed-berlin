@@ -4,68 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-05-26">
-      <closed></closed>
-    </day>
-    <day date="2018-05-27">
-      <closed></closed>
-    </day>
-    <day date="2018-05-28">
-      <category name="Essen">
-        <meal>
-          <name>Brokkoli-Nudel-Pfanne mit Tofu, Tomaten und Haselnüssen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Klimaessen</note>
-          <note>Antioxidationsmittel</note>
-          <note>Farbstoff</note>
-          <note>Soja</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <note>Weizen</note>
-          <note>Haselnuss</note>
-          <price role="student">2.55</price>
-          <price role="employee">5.10</price>
-          <price role="other">5.60</price>
-        </meal>
-        <meal>
-          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus</name>
-          <note>rot (Ampel)</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <note>Weizen</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>N. N.</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>N. N.</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
-        </meal>
-        <meal>
-          <name>N. N.</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Sesam</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-05-29">
       <category name="Essen">
         <meal>
@@ -77,6 +15,15 @@
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Blumenkohlcremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
         <meal>
           <name>Vier Eierpfannkuchen mit Apfelmus</name>
@@ -238,6 +185,19 @@
     <day date="2018-06-04">
       <category name="Essen">
         <meal>
+          <name>Zwei Spinat-Dinkel-Medaillons an Kräutersauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
           <name>Eine gebackene Hähnchenbrust im Knuspermantel an Geflügeljus</name>
           <note>rot (Ampel)</note>
           <note>Hefe</note>
@@ -246,17 +206,25 @@
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
         </meal>
+      </category>
+      <category name="Beilagen">
         <meal>
-          <name>Vier Eierpfannkuchen mit Apfelmus</name>
+          <name>Sahnestampfkartoffeln</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Eier</note>
+          <note>bio</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Reis mit Karotten</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
         </meal>
       </category>
     </day>
@@ -276,7 +244,6 @@
         <meal>
           <name>Ein Hähnchenfilet-Spieß an Tomatensauce mit Ananas</name>
           <note>gelb (Ampel)</note>
-          <note>vegan</note>
           <note>konserviert</note>
           <note>Sellerie</note>
           <note>Soja</note>
@@ -285,8 +252,42 @@
           <price role="other">3.85</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Reis mit Kürbiskernen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-06-06">
+      <category name="Aktionen">
+        <meal>
+          <name>Spaghetti Bolognese</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein Blumenkohl-Knusper-Medaillon an Paprikasauce</name>
@@ -298,6 +299,24 @@
           <price role="student">1.25</price>
           <price role="employee">2.50</price>
           <price role="other">2.75</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Backkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
         </meal>
       </category>
     </day>
@@ -324,6 +343,24 @@
           <price role="student">1.95</price>
           <price role="employee">3.90</price>
           <price role="other">4.30</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Curryreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
         </meal>
       </category>
     </day>
@@ -407,6 +444,87 @@
     </day>
     <day date="2018-06-17">
       <closed></closed>
+    </day>
+    <day date="2018-06-18">
+      <category name="Essen">
+        <meal>
+          <name>Eine Hähnchenbrust mit Spinat-Käse überbacken an Paprikasauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Farbstoff</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Quinoa mit gebratenem Tofu, Sonnenblumenkernen und Gemüsestreifen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-06-19">
+      <category name="Essen">
+        <meal>
+          <name>Zartes Kalbsgulasch mit Waldpilzen in Rahm und frischem Rosmarin</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffelpfanne mit frischem Kohlrabi, Karotten und Blattpetersilie</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-06-20">
+      <category name="Essen">
+        <meal>
+          <name>Zwei Kartoffeltaschen mit Mozzarella-Tomaten-Füllung an Basilikum-Quark-Dip</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.25</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.75</price>
+        </meal>
+        <meal>
+          <name>Chili con carne - Mexikanischer Bohneneintopf mit Rindfleisch, Mais und Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Ein Germknödel mit Pflaumenmusfüllung, Mohnzucker und Vanillesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
