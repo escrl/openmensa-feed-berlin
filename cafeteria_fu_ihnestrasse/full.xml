@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-06-09">
-      <closed></closed>
-    </day>
     <day date="2018-06-10">
       <closed></closed>
     </day>
@@ -131,6 +128,15 @@
           <price role="other">2.50</price>
         </meal>
         <meal>
+          <name>Joghurt mit frischen Erdbeeren ToGo 0,2 L</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Früchte - Quarkbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -141,31 +147,20 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurt mit frischen Erdbeeren ToGo 0,2 L</name>
-          <note>grün (Ampel)</note>
+          <name>Schokoladenpudding To Go 0,2l mit Vanillesauce</name>
+          <note>rot (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Cookiequark</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Eier</note>
           <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
           <price role="student">1.35</price>
           <price role="employee">1.35</price>
           <price role="other">1.35</price>
         </meal>
         <meal>
-          <name>Schokoladenpudding To Go 0,2l mit Vanillesauce</name>
-          <note>rot (Ampel)</note>
+          <name>Hausgemachte Waldbeergrütze mit Vanillesauce</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
+          <note>Farbstoff</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.35</price>
           <price role="employee">1.35</price>
@@ -1234,6 +1229,43 @@
     </day>
     <day date="2018-07-01">
       <closed></closed>
+    </day>
+    <day date="2018-07-02">
+      <category name="Suppen">
+        <meal>
+          <name>Champignoncremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Geflügeljus dazu Butterreis und Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Zwei Spinat-Dinkel-Medaillons an Schnittlauchsauce dazu Kartoffeln und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
