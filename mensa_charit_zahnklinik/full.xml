@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-06-10">
-      <closed></closed>
-    </day>
     <day date="2018-06-11">
       <category name="Salate">
         <meal>
@@ -162,6 +159,16 @@
       </category>
       <category name="Aktionen">
         <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -176,18 +183,22 @@
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
         </meal>
-        <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
       </category>
       <category name="Essen">
+        <meal>
+          <name>Gebackene Tintenfischringe an Joghurt-Limonen-Dip</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
         <meal>
           <name>Schweineschnitzel Wiener Art mit Zitronenecke an Bratensauce</name>
           <note>rot (Ampel)</note>
@@ -198,17 +209,6 @@
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
-        </meal>
-        <meal>
-          <name>Eine Paprikaschote mit Gemüse-Reis-Füllung an Tomaten-Rosmarin-Sauce</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
         </meal>
         <meal>
           <name>Grüne Bohnen-Paprikasch mit saurer Sahne</name>
@@ -222,7 +222,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Brokkoli</name>
+          <name>Brokkoli - Blumenkohl - Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -230,10 +230,9 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Süßkartoffelpüree</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Pommes frites</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
@@ -301,18 +300,15 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Gebackene Tintenfischringe an Joghurt-Limonen-Dip</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Farbstoff</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weichtiere</note>
-          <note>Hefe</note>
+          <name>Eine Paprikaschote mit Gemüse-Reis-Füllung an Tomaten-Rosmarin-Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Weizen</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
         </meal>
         <meal>
           <name>Marinierte Hähnchenkeule an Salbeirahmsauce</name>
@@ -321,6 +317,14 @@
           <price role="student">1.25</price>
           <price role="employee">2.50</price>
           <price role="other">2.75</price>
+        </meal>
+        <meal>
+          <name>Tessiner Pilzrisotto mit Petersilie</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
         <meal>
           <name>Vier Kartoffelpuffer mit Apfelkompott</name>
@@ -333,18 +337,10 @@
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
         </meal>
-        <meal>
-          <name>Tessiner Pilzrisotto mit Petersilie</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Leipziger Allerlei</name>
+          <name>Gartengemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
@@ -352,12 +348,12 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
-          <note>gelb (Ampel)</note>
+          <name>Petersilienkartoffeln</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
         </meal>
         <meal>
           <name>Reis mit Grünkern</name>
@@ -395,16 +391,6 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -419,10 +405,20 @@
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
         </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
       <category name="Essen">
         <meal>
-          <name>Zwei gebackene Falafelbagel Pistazien-Minzquarkdip</name>
+          <name>Zwei gebackene Falafelbagel an Pistazien-Minzquarkdip</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Farbstoff</note>
@@ -435,7 +431,7 @@
           <price role="other">4.05</price>
         </meal>
         <meal>
-          <name>Eine panierte Hähnchenbrust Madras an Curry-Mango-Sauce</name>
+          <name>Hähnchenbrust Madras an Curry-Mango-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
           <note>Soja</note>
@@ -447,9 +443,15 @@
           <price role="other">3.40</price>
         </meal>
         <meal>
-          <name>Mediterrane Hirsepfanne mit Zucchini und frischen Kräutern</name>
+          <name>Schwarzwurzel-Kartoffel-Auflauf mit Käse überbacken</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Weizen</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -465,9 +467,10 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Pommes wedges</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <name>Süßkartoffelpüree</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
@@ -507,16 +510,6 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -527,6 +520,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -640,16 +643,6 @@
           <price role="other">3.95</price>
         </meal>
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -660,6 +653,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -811,17 +814,6 @@
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Sesam</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
-          <name>Vanillegrießschnitte mit Zucker, Zimt und Heidelbeersauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Farbstoff</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Weizen</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -992,16 +984,6 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1012,6 +994,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -1089,14 +1081,6 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Zwei Kartoffelklöße</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
-        </meal>
-        <meal>
           <name>Kartoffel-Möhren-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1105,6 +1089,14 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Zwei Kartoffelklöße</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
@@ -1283,16 +1275,6 @@
           <price role="other">2.95</price>
         </meal>
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1303,6 +1285,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -1802,6 +1794,16 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
+          <name>Kartoffelsalat Schwäbische Art</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Senf</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Kräuter-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1810,16 +1812,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
-        </meal>
-        <meal>
-          <name>Kartoffelsalat Schwäbische Art</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Eier</note>
-          <note>Senf</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
@@ -1865,16 +1857,6 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Früchte - Quarkbecher To Go 0,2l</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Früchte-Joghurtbecher To Go 0,2l</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1885,6 +1867,16 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -1940,6 +1932,133 @@
           <name>Basmatireis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-07-03">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Früchte-Joghurtbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Früchte - Quarkbecher To Go 0,2l</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Geflügeljus</name>
+          <note>gelb (Ampel)</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Polenta mit frischer Zucchini und Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Farbstoff</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Zwei Spinat-Dinkel-Medaillons an Schnittlauchsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Koreanisches Linsencurry mit Gemüse und Sojasahne</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Paprika-Ingwer-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffelpüree</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Eierspätzle</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Weizen</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
           <price role="other">1.20</price>
