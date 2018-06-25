@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-06-23">
-      <closed></closed>
-    </day>
     <day date="2018-06-24">
       <closed></closed>
     </day>
@@ -20,6 +17,17 @@
           <price role="student">3.45</price>
           <price role="employee">3.45</price>
           <price role="other">3.45</price>
+        </meal>
+        <meal>
+          <name>Hausgemachter Nudelsalat, vegan mit 3 Falafel</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
         </meal>
         <meal>
           <name>Hausgemachter Nudelsalat, vegan</name>
@@ -111,22 +119,13 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurt mit frischen Erdbeeren ToGo 0,2 L</name>
+          <name>Waldbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Mousse au chocolat To Go 0,2l</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.45</price>
-          <price role="other">1.45</price>
+          <price role="student">1.35</price>
+          <price role="employee">1.35</price>
+          <price role="other">1.35</price>
         </meal>
         <meal>
           <name>Schokoladenpudding To Go 0,2l mit Vanillesauce</name>
@@ -1067,6 +1066,43 @@
     </day>
     <day date="2018-07-15">
       <closed></closed>
+    </day>
+    <day date="2018-07-16">
+      <category name="Suppen">
+        <meal>
+          <name>Rote Linsensuppe Koreanischer Art</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>konserviert</note>
+          <note>Sesam</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Gyrospfanne vom Schwein mit hausgemachtem Tzatziki, Pommes frites und Salat</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Zwei gekochte Eier in Senfsauce dazu hausgemachtes Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

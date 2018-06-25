@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-06-23">
-      <closed></closed>
-    </day>
     <day date="2018-06-24">
       <closed></closed>
     </day>
@@ -45,11 +42,12 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Blumenkohlcremesuppe mit Curry</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <name>Currycremesuppe vom Huhn</name>
+          <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
-          <note>Soja</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Mandeln</note>
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
           <price role="other">2.45</price>
@@ -69,7 +67,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Schweineroulade Jäger Art an Malzbiersauce Kräuterspätzle Erbsen</name>
+          <name>Schweineroulade Jäger Art an Malzbiersauce mit Kräuterspätzle und Erbsen</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>Farbstoff</note>
@@ -82,6 +80,22 @@
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Eine vegetarische Frühlingsrolle an bunter Sojasauce mit Basmatireis und Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Weizen</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -1237,6 +1251,94 @@
     </day>
     <day date="2018-07-15">
       <closed></closed>
+    </day>
+    <day date="2018-07-16">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">3.30</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.30</price>
+        </meal>
+        <meal>
+          <name>Mittlere Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">2.25</price>
+          <price role="employee">2.25</price>
+          <price role="other">2.25</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.20</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Paprika-Chili-Suppe mit Ingwer</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Kartoffel-Spitzkohl-Pfanne mit Wurzelgemüse und Rinderhackfleisch</name>
+          <note>grün (Ampel)</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Sellerie</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
+        </meal>
+        <meal>
+          <name>Eine Bratwurst Thüringer Art an Zwiebel-Senf-Sauce Sauerkraut Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Senf</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Lupine</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
