@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-07-07">
-      <closed></closed>
-    </day>
     <day date="2018-07-08">
       <closed></closed>
     </day>
@@ -37,6 +34,14 @@
           <note>rot (Ampel)</note>
           <note>konserviert</note>
           <note>Soja</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Roter Linsensalat To Go 0,2l</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
@@ -116,6 +121,15 @@
           <price role="student">1.45</price>
           <price role="employee">1.45</price>
           <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Waldbeerjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">1.35</price>
+          <price role="other">1.35</price>
         </meal>
         <meal>
           <name>Schokoladenpudding To Go 0,2l mit Vanillesauce</name>
@@ -1003,6 +1017,48 @@
     </day>
     <day date="2018-07-29">
       <closed></closed>
+    </day>
+    <day date="2018-07-30">
+      <category name="Suppen">
+        <meal>
+          <name>Eintopf aus frischen Gartengemüse mit Kokosmilch und roten Linsen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Sellerie</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Chinesische Gemüsepfanne mit frischem Ingwer auf Basmatireis</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">3.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Ein Seelachsfilet mit Tomaten und Mozzarella überbacken an Zitronen-Gemüse-Sauce dazu Romanesco und Salzkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>MSC</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
