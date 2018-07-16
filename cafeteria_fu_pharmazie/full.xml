@@ -4,14 +4,48 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-07-14">
-      <closed></closed>
-    </day>
     <day date="2018-07-15">
       <closed></closed>
     </day>
     <day date="2018-07-16">
-      <closed></closed>
+      <category name="Suppen">
+        <meal>
+          <name>Tomatencremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Eine Paprikaschote mit Gemüse-Reis-Füllung an Tomaten-Kräuter-Sauce Brokkoli Stampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
+          <name>Ein Rinderhacksteak Griechische Art an Bratensauce mit Paprikastreifen Gartengemüse Butterreis</name>
+          <note>gelb (Ampel)</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-07-17">
       <closed></closed>
@@ -71,6 +105,9 @@
       <closed></closed>
     </day>
     <day date="2018-08-05">
+      <closed></closed>
+    </day>
+    <day date="2018-08-06">
       <closed></closed>
     </day>
   </canteen>

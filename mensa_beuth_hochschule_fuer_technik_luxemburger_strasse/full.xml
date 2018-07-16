@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-07-14">
-      <closed></closed>
-    </day>
     <day date="2018-07-15">
       <closed></closed>
     </day>
@@ -43,23 +40,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Süßungsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -70,6 +50,36 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Süßungsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Kartoffelcremesuppe</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
         </meal>
       </category>
       <category name="Aktionen">
@@ -83,14 +93,19 @@
           <price role="employee">4.95</price>
           <price role="other">4.95</price>
         </meal>
-        <meal>
-          <name>Pasta mit verschiedenen Saucen</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Weizen</note>
-        </meal>
       </category>
       <category name="Essen">
+        <meal>
+          <name>Drei gebackene Kartoffeltaschen mit Frischkäsefüllung an Quarkdip</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.75</price>
+          <price role="employee">5.50</price>
+          <price role="other">6.05</price>
+        </meal>
         <meal>
           <name>Kartoffel-Linsen-Ratatouille mit Zucchini</name>
           <note>grün (Ampel)</note>
@@ -127,7 +142,27 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
+          <name>Ein gebackenes Seelachsfilet in Knusperpanade mit Quarkdip und einer Beilage</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
           <name>Ein paniertes Hähnchenschnitzel an Thymianjus</name>
+          <note>rot (Ampel)</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
+          <price role="student">1.25</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.75</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel an Thymianjus</name>
           <note>rot (Ampel)</note>
           <note>Weizen</note>
           <note>Hefe</note>
@@ -139,8 +174,21 @@
           <name>Mediterraner Fischtopf mit Kartoffeln, Tomaten und Gemüse</name>
           <note>grün (Ampel)</note>
           <note>MSC</note>
+          <note>Weizen</note>
+          <note>Fisch</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Große Suppe</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -165,11 +213,13 @@
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Sellerie</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <name>Sellerie in Rahm</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
           <note>bio</note>
+          <note>Weizen</note>
           <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -192,6 +242,15 @@
           <price role="student">1.50</price>
           <price role="employee">1.50</price>
           <price role="other">1.50</price>
+        </meal>
+        <meal>
+          <name>Vanillepudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
       </category>
     </day>
@@ -1782,6 +1841,9 @@
       <closed></closed>
     </day>
     <day date="2018-08-05">
+      <closed></closed>
+    </day>
+    <day date="2018-08-06">
       <closed></closed>
     </day>
   </canteen>
