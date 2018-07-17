@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-07-15">
-      <closed></closed>
-    </day>
     <day date="2018-07-16">
       <category name="Vorspeisen">
         <meal>
@@ -231,6 +228,14 @@
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Schwarzwurzel</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
         <meal>
           <name>Dampfkartoffeln</name>
           <note>grün (Ampel)</note>
@@ -490,18 +495,15 @@
           <price role="other">3.40</price>
         </meal>
         <meal>
-          <name>Eine vegetarische Frühlingsrolle an Currysauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
+          <name>Tofuragout mit Champignons, Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
           <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
           <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.25</price>
-          <price role="employee">2.50</price>
-          <price role="other">2.75</price>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -600,6 +602,17 @@
           <price role="other">1.30</price>
         </meal>
       </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Backkartoffeln mit Kräuterquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Drei gebackene Seelachsfilets in Reispanade an Zitronensauce mit Gemüsestreifen</name>
@@ -624,21 +637,6 @@
           <note>Haselnuss</note>
           <note>Sellerie</note>
           <note>Soja</note>
-          <note>Hefe</note>
-          <price role="student">1.25</price>
-          <price role="employee">2.50</price>
-          <price role="other">2.75</price>
-        </meal>
-        <meal>
-          <name>Quinoa-Chili-Medaillon an Karottensauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Farbstoff</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <price role="student">1.25</price>
           <price role="employee">2.50</price>
@@ -752,6 +750,9 @@
       <closed></closed>
     </day>
     <day date="2018-08-06">
+      <closed></closed>
+    </day>
+    <day date="2018-08-07">
       <closed></closed>
     </day>
   </canteen>
