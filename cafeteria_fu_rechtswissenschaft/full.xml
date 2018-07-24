@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-07-22">
-      <closed></closed>
-    </day>
     <day date="2018-07-23">
       <category name="Essen">
         <meal>
@@ -63,7 +60,7 @@
     <day date="2018-07-24">
       <category name="Essen">
         <meal>
-          <name>Ein Schweineschnitzel Cordon bleu an Bratensauce Paprika-Zucchini-Gemüse Stampfkartoffeln</name>
+          <name>Ein Schweineschnitzel Cordon bleu an Bratensauce und Gebackene Kartoffeln und Salatbeilage</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>konserviert</note>
@@ -78,7 +75,7 @@
           <price role="other">6.45</price>
         </meal>
         <meal>
-          <name>Gyrospfanne von der Hähnchenbrust mit Minzjoghurt</name>
+          <name>Gyrospfanne von der Hähnchenbrust,Zwiebel,Porre und Paprika mit Minzjoghurt auf Butterreis</name>
           <note>gelb (Ampel)</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -87,13 +84,40 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Paprikasauce Salat Backkartoffeln</name>
+          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Paprikasauce mit Backkartoffeln und Salatbeilage</name>
           <note>grün (Ampel)</note>
           <note>konserviert</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Backkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Butterreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.10</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Bratensauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Senf</note>
+          <price role="student">0.50</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.55</price>
         </meal>
       </category>
     </day>
@@ -127,14 +151,12 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Schweineroulade an Rahmsauce dazu Gartengemüse und Kartoffelpüree</name>
-          <note>gelb (Ampel)</note>
+          <name>Schweineroulade an Rahmsauce dazu Gartengemüse und Zwei Kartoffelklöße</name>
+          <note>grün (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>konserviert</note>
           <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Lupine</note>
           <note>Nitritpökelsalz</note>
           <note>Senf</note>
           <price role="student">3.95</price>
@@ -223,7 +245,6 @@
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Sesam</note>
           <note>Schwefeldioxid und Sulfide</note>
           <price role="student">3.95</price>
@@ -385,6 +406,14 @@
           <price role="other">6.45</price>
         </meal>
         <meal>
+          <name>Rindergulasch nach ungarischer Art Grüne Bohnen Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Ein gebackenes Seelachsfilet an Tiroler Sauce mit Bunter Kartoffelsalat mit Joghurt</name>
           <note>gelb (Ampel)</note>
           <note>MSC</note>
@@ -400,14 +429,6 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
-        <meal>
-          <name>Rindergulasch nach ungarischer Art Grüne Bohnen Dampfkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
       </category>
     </day>
     <day date="2018-08-04">
@@ -419,6 +440,18 @@
     <day date="2018-08-06">
       <category name="Essen">
         <meal>
+          <name>Schweineroulade Hausfrauenart an Bratensauce Grüne Bohnen Bratkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Nitritpökelsalz</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+        <meal>
           <name>Ein Blumenkohl-Knusper-Medaillon an Kräutersauce Süßkartoffelpüree und Salat</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -428,18 +461,6 @@
           <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
-          <name>Schweineroulade Hausfrauenart an Bratensauce Grüne Bohnen Bratkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Nitritpökelsalz</note>
-          <note>Senf</note>
           <price role="student">4.95</price>
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
@@ -557,6 +578,32 @@
           <price role="student">3.95</price>
           <price role="employee">3.95</price>
           <price role="other">4.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-08-14">
+      <category name="Essen">
+        <meal>
+          <name>Auf der Haut gebratenes Lachsforellenfilet an Orangenrahmsauce mit buntem Pfeffer Backkartoffeln creolische Art und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Weizen</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+        <meal>
+          <name>Schweinegulasch mit weißen und roten Bohnen mit Sauerrahmdip Petersilienkartoffeln</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
         </meal>
       </category>
     </day>
