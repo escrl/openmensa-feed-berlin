@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-07-28">
-      <closed></closed>
-    </day>
     <day date="2018-07-29">
       <closed></closed>
     </day>
@@ -35,10 +32,12 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Pfannenfrische Gnocchi mit frischem Rucola an Gorgonzola-Chili-Sauce</name>
+          <name>Pfannenfrische Gnocchi mit frischem Rucola und Gemüse an Kräuter-Soja-Dip</name>
           <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Weizen</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Soja</note>
+          <note>Senf</note>
           <price role="student">2.95</price>
           <price role="employee">2.95</price>
           <price role="other">2.95</price>
@@ -52,10 +51,18 @@
           <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Weizen</note>
           <note>Hefe</note>
-          <note>Senf</note>
           <price role="student">1.85</price>
           <price role="employee">3.70</price>
           <price role="other">4.05</price>
+        </meal>
+        <meal>
+          <name>Kräuterquark mit Leinöl und Dampfkartoffeln</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -76,17 +83,16 @@
           <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Rahmkartoffeln</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
         </meal>
         <meal>
-          <name>Gemüsereis</name>
-          <note>grün (Ampel)</note>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.55</price>
           <price role="employee">1.10</price>
@@ -1608,6 +1614,116 @@
     </day>
     <day date="2018-08-19">
       <closed></closed>
+    </day>
+    <day date="2018-08-20">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.95</price>
+          <price role="employee">1.90</price>
+          <price role="other">2.10</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Tortellini mit Käsefüllung auf Tomaten-Basilikum-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Eine Hähnchenbrust Formaggio an Pfeffersauce</name>
+          <note>rot (Ampel)</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Rucolasauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Zweierlei Karotten</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Schwarzwurzeln in Senfrahm</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+        <meal>
+          <name>Rosmarinkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Vollkornreis</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Quark mit Fruchtsauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">1.35</price>
+          <price role="other">1.35</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
