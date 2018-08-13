@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-08-11">
-      <closed></closed>
-    </day>
     <day date="2018-08-12">
       <closed></closed>
     </day>
@@ -100,12 +97,13 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Zwei Tofutaler gefüllt mit Seitan an Chili-Curry-Sauce</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <name>Drei gebackene Kartoffeltaschen mit Frischkäsefüllung an Chili-Curry-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
           <note>bio</note>
+          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
-          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
           <price role="student">1.95</price>
           <price role="employee">3.90</price>
@@ -209,6 +207,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Sauerkirschquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -217,15 +224,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Sauerkirschquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -1697,6 +1695,56 @@
     </day>
     <day date="2018-09-02">
       <closed></closed>
+    </day>
+    <day date="2018-09-03">
+      <category name="Essen">
+        <meal>
+          <name>Zwei Kürbis-Dinkel-Taler an Karotten-Ingwer-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.65</price>
+          <price role="employee">3.30</price>
+          <price role="other">3.65</price>
+        </meal>
+        <meal>
+          <name>Eintopf aus frischen Gartengemüse mit Kokosmilch und roten Linsen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Sellerie</note>
+          <price role="student">2.55</price>
+          <price role="employee">5.10</price>
+          <price role="other">5.60</price>
+        </meal>
+        <meal>
+          <name>Eine Hähnchenroulade Mediterran an Sauce Provencale</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
+          <name>Eine vegetarische Frühlingsrolle an Koriander-Chili-Dip</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">1.25</price>
+          <price role="employee">2.50</price>
+          <price role="other">2.75</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
