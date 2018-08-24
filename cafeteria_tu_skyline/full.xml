@@ -4,71 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-08-22">
-      <category name="Salate">
-        <meal>
-          <name>Couscous Salat</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Weizen</note>
-          <price role="student">2.95</price>
-          <price role="employee">2.95</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
-          <name>Blattsalat - Variation</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-          <price role="student">2.45</price>
-          <price role="employee">2.45</price>
-          <price role="other">2.45</price>
-        </meal>
-      </category>
-      <category name="Suppen">
-        <meal>
-          <name>Karottencremesuppe</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.95</price>
-          <price role="employee">1.95</price>
-          <price role="other">2.45</price>
-        </meal>
-      </category>
-      <category name="Essen">
-        <meal>
-          <name>Gebratenes Putenbruststeak an Tomaten-Oliven-Sauce , Parboiledreis mit Dinkel und Salat</name>
-          <note>grün (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>geschwärzt</note>
-          <note>Dinkel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-        <meal>
-          <name>Zwei gebackene Gemüsemedaillons an Rahmsauce , würzigem Couscous und Salat</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Dinkel</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">3.95</price>
-          <price role="employee">3.95</price>
-          <price role="other">4.45</price>
-        </meal>
-      </category>
-    </day>
     <day date="2018-08-23">
       <category name="Salate">
         <meal>
@@ -152,9 +87,10 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Joghurtsuppe mit frischen Kräutern</name>
-          <note>grün (Ampel)</note>
+          <name>Gemüsecremesuppe</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.95</price>
           <price role="employee">1.95</price>
@@ -163,7 +99,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Eine Hähnchenbrust Formaggio an Pfeffersauce Zweierlei Karotten Gebackene Kartoffeln</name>
+          <name>Eine Hähnchenbrust Formaggio an Pfeffersauce , gebackenen Kartoffeln und Salat</name>
           <note>gelb (Ampel)</note>
           <note>Weizen</note>
           <note>Gerste</note>
@@ -192,6 +128,43 @@
       <closed></closed>
     </day>
     <day date="2018-08-27">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomatencremesuppe mit frischem Basilkum</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein Putenbrustspieß Picanto an Paprikasauce Gemüsereis und Salat</name>
@@ -202,12 +175,58 @@
           <price role="employee">5.95</price>
           <price role="other">6.45</price>
         </meal>
+        <meal>
+          <name>Asiatische Gemüsepfanne mit Bambusprossen, Chinakohl dazu Gewürzreis und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
       </category>
     </day>
     <day date="2018-08-28">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Rüben-Kartoffel-Suppe</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
-          <name>Ein Seelachsfilet mit Tomaten und Mozzarella überbacken an Zitronen-Gemüse-Sauce hausgemachtes Kartoffelpüree mit Karottenstreifen und Salat</name>
+          <name>Ein Seelachsfilet mit Tomaten und Mozzarella überbacken an Zitronen-Gemüse-Sauce mit Erbsen- Kartoffelpüree und Salat</name>
           <note>grün (Ampel)</note>
           <note>MSC</note>
           <note>Weizen</note>
@@ -236,9 +255,44 @@
       </category>
     </day>
     <day date="2018-08-29">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Blumenkohlcremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
-          <name>Eine gebratene Lammfrikadelle an Rosmarinsauce Grüne Bohnen und Salat</name>
+          <name>Eine gebratene Lammfrikadelle an Rosmarinsauce dazu Gemüsereis und Salat</name>
           <note>grün (Ampel)</note>
           <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Weizen</note>
@@ -250,10 +304,131 @@
           <price role="employee">4.95</price>
           <price role="other">5.45</price>
         </meal>
+        <meal>
+          <name>Geschmorter Fenchel mit Paprika mit Backkartoffeln und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
       </category>
     </day>
     <day date="2018-08-30">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Rote Linsensuppe Koreanischer Art</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>konserviert</note>
+          <note>Sesam</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
+        <meal>
+          <name>Marinierte Rindfleischstreifen mit Champignons,Pak Choi und gerösteten Erdnüssen dazu Reis und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Erdnüsse</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">5.95</price>
+          <price role="employee">5.95</price>
+          <price role="other">6.45</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Vegetarische Gemüselasagne mit Kräuterdip und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2018-08-31">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Curry-Bananen-Suppe mit gerösteten Mandeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Mandeln</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Quinoa-Chili-Medaillon an Tomaten-Ingwer-Sauce Reis mit Grünkern und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
         <meal>
           <name>Ein gebackenes Seelachsfilet in Kartoffelpanade an Tomaten-Joghurt-Dip Backkartoffeln und Salat</name>
           <note>grün (Ampel)</note>
@@ -270,8 +445,53 @@
           <price role="other">5.45</price>
         </meal>
       </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Eine vegetarische Frühlingsrolle an Chili-Ingwer-Sauce und asiatischem Glasnudelsalat mit frischem Koriander</name>
+          <note>rot (Ampel)</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">3.95</price>
+          <price role="employee">3.95</price>
+          <price role="other">4.45</price>
+        </meal>
+      </category>
     </day>
-    <day date="2018-08-31">
+    <day date="2018-09-01">
+      <closed></closed>
+    </day>
+    <day date="2018-09-02">
+      <closed></closed>
+    </day>
+    <day date="2018-09-03">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Eine gebackene Hähnchenbrust im Knuspermantel an Geflügeljus Balkangemüse Pommes wedges</name>
@@ -284,30 +504,6 @@
           <price role="other">5.45</price>
         </meal>
         <meal>
-          <name>Quinoa-Chili-Medaillon an Tomaten-Ingwer-Sauce Reis mit Grünkern und Salat</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Farbstoff</note>
-          <note>Weizen</note>
-          <note>Dinkel</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <price role="student">4.95</price>
-          <price role="employee">4.95</price>
-          <price role="other">5.45</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2018-09-01">
-      <closed></closed>
-    </day>
-    <day date="2018-09-02">
-      <closed></closed>
-    </day>
-    <day date="2018-09-03">
-      <category name="Essen">
-        <meal>
           <name>Marinierte Hähnchenkeule an Kichererbsen-Kokos-Sauce Reis mit grünem Pfeffer und Salat</name>
           <note>grün (Ampel)</note>
           <price role="student">3.95</price>
@@ -317,6 +513,30 @@
       </category>
     </day>
     <day date="2018-09-04">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Vegetarische Paprikaschote Orientalische Art mit Datteln und Feigen an Kurkumasauce Curryreis und Salat</name>
@@ -334,6 +554,30 @@
       </category>
     </day>
     <day date="2018-09-05">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein gebackenes Hähnchen Cordon bleu an Geflügeljus Karotten-Mais-Gemüse Kräuterspätzle</name>
@@ -363,6 +607,30 @@
       </category>
     </day>
     <day date="2018-09-06">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein gebratenes Schollenfilet Müllerin Art an Sauce Choron Backkartoffeln und Salat</name>
@@ -391,6 +659,30 @@
       </category>
     </day>
     <day date="2018-09-07">
+      <category name="Salate">
+        <meal>
+          <name>Couscous Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">2.95</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Blattsalat - Variation</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.45</price>
+          <price role="other">2.45</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Eine Hähnchenroulade Mediterran an Sauce Provencale Paprika-Zucchini-Gemüse Butterbandnudeln</name>
@@ -495,6 +787,20 @@
     </day>
     <day date="2018-09-13">
       <closed></closed>
+    </day>
+    <day date="2018-09-14">
+      <category name="Essen">
+        <meal>
+          <name>Eine überbackene Hähnchenbrust Madras an Kokos-Mango-Sauce Sesamreis und Salat</name>
+          <note>grün (Ampel)</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
+          <price role="student">4.95</price>
+          <price role="employee">4.95</price>
+          <price role="other">5.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
