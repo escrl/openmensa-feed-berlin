@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1"
+           xmlns="http://openmensa.org/open-mensa-v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Mensa HWR Badensche Straße</name>
+    <address>Badensche Str. 51, 10825 Berlin</address>
+    <city>Berlin</city>
+    <phone>030 93939 - 7472</phone>
+    <email>mensen@stw.berlin</email>
+    <feed name="full">
+      <schedule hour="8" retry="45 3 1440"></schedule>
+      <url>https://raw.githubusercontent.com/escrl/openmensa-feed-berlin/master/mensa_hwr_badensche_strasse/full.xml</url>
+      <source>https://www.stw.berlin/mensen/mensa-hwr-badensche-straße.html</source>
+    </feed>
+  </canteen>
+</openmensa>
