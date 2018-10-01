@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-09-29">
-      <closed></closed>
-    </day>
     <day date="2018-09-30">
       <closed></closed>
     </day>
@@ -69,11 +66,22 @@
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Senf</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Kartoffel-Auflauf mit Käse überbacken , dazu Kräuterquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">1.95</price>
+          <price role="other">2.10</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -1137,6 +1145,29 @@
     </day>
     <day date="2018-10-21">
       <closed></closed>
+    </day>
+    <day date="2018-10-22">
+      <category name="Essen">
+        <meal>
+          <name>Borschtsch von Weißkohl, Karotten, Rote Bete und Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Eine Hähnchenbrust mit Ayvar-Ingwer-Topping überbacken an Bratensauce mit Paprikastreifen</name>
+          <note>gelb (Ampel)</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
