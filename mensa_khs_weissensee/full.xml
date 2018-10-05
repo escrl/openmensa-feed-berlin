@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-10-03">
-      <closed></closed>
-    </day>
     <day date="2018-10-04">
       <category name="Vorspeisen">
         <meal>
@@ -209,7 +206,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Jungschafgeschnetzelts in Curry-Gemüse-Sauce</name>
+          <name>Jungschafgeschnetzeltes in Curry-Gemüse-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">2.65</price>
@@ -248,10 +245,9 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Balkangemüse</name>
+          <name>Gemischtes Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Sellerie</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -261,6 +257,14 @@
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Soja</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Rosmarinkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -429,6 +433,17 @@
       </category>
     </day>
     <day date="2018-10-09">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Antipasti</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>geschwärzt</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -518,6 +533,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Bratkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Prinzessbohnen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -525,6 +548,14 @@
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Petersilienkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
         <meal>
           <name>Butterreis</name>
@@ -663,6 +694,27 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
+          <name>Kartoffel-Möhren-Püree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Lupine</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Sauce/Dip Extra</name>
           <note>gelb (Ampel)</note>
           <price role="student">0.30</price>
@@ -781,6 +833,32 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
+          <name>Buntes Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Langkorn-Wildreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Sauce/Dip Extra</name>
           <note>gelb (Ampel)</note>
           <price role="student">0.30</price>
@@ -894,6 +972,15 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
+          <name>Süßkartoffelpüree</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Mais</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -957,6 +1044,9 @@
       <closed></closed>
     </day>
     <day date="2018-10-25">
+      <closed></closed>
+    </day>
+    <day date="2018-10-26">
       <closed></closed>
     </day>
   </canteen>
