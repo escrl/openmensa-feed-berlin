@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-10-28">
-      <closed></closed>
-    </day>
     <day date="2018-10-29">
       <category name="Salate">
         <meal>
@@ -55,6 +52,7 @@
           <name>Rigatoni mit Pilzen, Tomaten und frischen Kräutern</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
           <price role="student">2.95</price>
           <price role="employee">3.25</price>
@@ -166,17 +164,6 @@
       </category>
     </day>
     <day date="2018-10-30">
-      <category name="Vorspeisen">
-        <meal>
-          <name>Antipasti</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>geschwärzt</note>
-          <price role="student">3.45</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.15</price>
-        </meal>
-      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -209,17 +196,6 @@
           <price role="other">1.45</price>
         </meal>
       </category>
-      <category name="Suppen">
-        <meal>
-          <name>Champignoncremesuppe</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Grünkerneintopf mit Rote Bete</name>
@@ -235,6 +211,7 @@
           <name>Schweineroulade Jäger Art an Bratensauce</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
           <note>enthält eine Phenylalaninquelle</note>
           <note>Weizen</note>
           <note>Hefe</note>
@@ -259,12 +236,9 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Blumenkohl mit Semmelbutter</name>
+          <name>Blumenkohl</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -360,6 +334,7 @@
           <name>Brühe von Waldpilzen mit Rosmarin</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
           <note>Sellerie</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -691,6 +666,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Pommes frites</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Möhren-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -699,14 +682,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Pommes frites</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -812,6 +787,18 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
+          <name>Geflügelragout süß-sauer mit Bambussprossen, roter Paprika und Ananas</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
           <name>Ein Schweineschnitzel Cordon bleu an Bratensauce</name>
           <note>rot (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -821,18 +808,6 @@
           <note>Weizen</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
-        </meal>
-        <meal>
-          <name>Geflügelragout süß-sauer mit Bambussprossen, roter Paprika und Ananas</name>
-          <note>gelb (Ampel)</note>
-          <note>konserviert</note>
-          <note>Eier</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
@@ -848,6 +823,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Bratkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Kräuter-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -856,14 +839,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1107,8 +1082,8 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Schwenkkartoffeln</name>
-          <note>gelb (Ampel)</note>
+          <name>Süßkartoffelpüree</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.75</price>
@@ -1116,8 +1091,8 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
-          <name>Süßkartoffelpüree</name>
-          <note>grün (Ampel)</note>
+          <name>Schwenkkartoffeln</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.75</price>
@@ -1355,19 +1330,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Kohlrabi in Rahm</name>
+          <name>Balkangemüse</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Balkangemüse</name>
+          <name>Kohlrabi in Rahm</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -1430,6 +1405,9 @@
       <closed></closed>
     </day>
     <day date="2018-11-19">
+      <closed></closed>
+    </day>
+    <day date="2018-11-20">
       <closed></closed>
     </day>
   </canteen>
