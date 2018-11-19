@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-11-17">
-      <closed></closed>
-    </day>
     <day date="2018-11-18">
       <closed></closed>
     </day>
@@ -24,6 +21,16 @@
       </category>
       <category name="Salate">
         <meal>
+          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
           <name>Große Salatschüssel mit Weichkäse Orangen-Joghurtsahnedressing</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -32,16 +39,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
-          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -66,6 +63,15 @@
           <price role="student">1.90</price>
           <price role="employee">3.80</price>
           <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Putencurry mit asiatischem Gemüse und Kokosmilch</name>
+          <note>gelb (Ampel)</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
         <meal>
           <name>Eine gebackene Hähnchenbrust im Knuspermantel an Estragon-Senf-Sauce</name>
@@ -147,8 +153,8 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Himbeerquark</name>
-          <note>grün (Ampel)</note>
+          <name>Zitronenquark mit Minze</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
@@ -156,8 +162,8 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Zitronenquark mit Minze</name>
-          <note>gelb (Ampel)</note>
+          <name>Himbeerquark</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
@@ -322,19 +328,19 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Waldbeerquark</name>
+          <name>Apfel-Zimtquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
           <price role="employee">2.60</price>
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Apfel-Zimtquark</name>
+          <name>Waldbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
           <price role="employee">2.60</price>
@@ -446,19 +452,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Karotten-Erbsen-Gemüse</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
           <name>Kohlrabi mit Semmelbrösel</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Weizen</note>
           <note>Hefe</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Karotten-Erbsen-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -794,19 +800,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Mandelbrokkoli</name>
+          <name>Blattspinat in Rahm</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Mandeln</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Blattspinat in Rahm</name>
+          <name>Mandelbrokkoli</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
+          <note>Mandeln</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -847,15 +853,6 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Himbeerquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.30</price>
-          <price role="employee">2.60</price>
-          <price role="other">2.85</price>
-        </meal>
-        <meal>
           <name>Apfelmus mit vanillesauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -866,19 +863,28 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Apfelmus mit Vanillesauce</name>
+          <name>Himbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Himbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Himbeerquark</name>
+          <name>Apfelmus mit Vanillesauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -906,16 +912,6 @@
       </category>
       <category name="Salate">
         <meal>
-          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Große Salatschüssel mit Weichkäse Orangen-Joghurtsahnedressing</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -924,6 +920,16 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -1036,8 +1042,8 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Waldbeerquark</name>
-          <note>grün (Ampel)</note>
+          <name>Aprikosenquark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
@@ -1045,8 +1051,8 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Aprikosenquark</name>
-          <note>gelb (Ampel)</note>
+          <name>Waldbeerquark</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
@@ -1087,16 +1093,6 @@
       </category>
       <category name="Salate">
         <meal>
-          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Große Salatschüssel mit Mozzarella Orangen-Joghurtsahnedressing</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1105,6 +1101,16 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -1384,7 +1390,7 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Mangoquark</name>
+          <name>Sauerkirschquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1393,7 +1399,7 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Sauerkirschquark</name>
+          <name>Mangoquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1434,16 +1440,6 @@
       </category>
       <category name="Salate">
         <meal>
-          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Große Salatschüssel mit Mozzarella Orangen-Joghurtsahnedressing</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1452,6 +1448,16 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -1894,8 +1900,8 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Himbeerquark</name>
-          <note>grün (Ampel)</note>
+          <name>Zitronenquark mit Minze</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
@@ -1903,8 +1909,8 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Zitronenquark mit Minze</name>
-          <note>gelb (Ampel)</note>
+          <name>Himbeerquark</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
@@ -1945,16 +1951,6 @@
       </category>
       <category name="Salate">
         <meal>
-          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Große Salatschüssel mit Mozzarella Orangen-Joghurtsahnedressing</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1963,6 +1959,16 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Großer Salat mit mit Kräuter-Dressing Tofu</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -2070,19 +2076,19 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Apfel-Zimtquark</name>
+          <name>Waldbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
           <price role="employee">2.60</price>
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Waldbeerquark</name>
+          <name>Apfel-Zimtquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
           <price role="employee">2.60</price>
@@ -2241,6 +2247,15 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
+          <name>Johannisbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
           <name>Bananenquark mit Honig</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -2250,16 +2265,7 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Johannisbeerquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.30</price>
-          <price role="employee">2.60</price>
-          <price role="other">2.85</price>
-        </meal>
-        <meal>
-          <name>Johannisbeerquark</name>
+          <name>Bananenquark mit Honig</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -2268,7 +2274,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Bananenquark mit Honig</name>
+          <name>Johannisbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -2341,21 +2347,21 @@
           <price role="other">4.60</price>
         </meal>
         <meal>
-          <name>Eine Scheibe Rinderschmorbraten nach Esterhazy Art</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Zwei Grünkohl-Hanf-Medaillons an Kräutersauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
           <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine Scheibe Rinderschmorbraten nach Esterhazy Art</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -2579,19 +2585,19 @@
           <price role="other">1.75</price>
         </meal>
         <meal>
-          <name>Himbeerquark</name>
+          <name>Apfelmus mit vanillesauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
           <price role="employee">2.60</price>
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Apfelmus mit vanillesauce</name>
+          <name>Himbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.30</price>
           <price role="employee">2.60</price>
@@ -2623,6 +2629,44 @@
     </day>
     <day date="2018-12-09">
       <closed></closed>
+    </day>
+    <day date="2018-12-10">
+      <category name="Essen">
+        <meal>
+          <name>Zwei Gemüse-Kartoffel-Puffer an Chili-Curry-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Kürbis-Gemüse-Pfanne mit chinesischen Nudeln und geröstenen Sonnenblumenkernen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene Hähnchenbrust Försterin an Geflügelrahmsauce</name>
+          <note>rot (Ampel)</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
