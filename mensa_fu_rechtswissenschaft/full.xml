@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-01">
-      <closed></closed>
-    </day>
     <day date="2018-12-02">
       <closed></closed>
     </day>
@@ -43,6 +40,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -54,18 +57,13 @@
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
       </category>
       <category name="Suppen">
         <meal>
-          <name>Karotten-Kokos-Suppe mit Ingwer</name>
+          <name>Kohlrabicremesuppe</name>
           <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -93,6 +91,14 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Gemüse-Eintopf mit Kokosmilch</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -148,13 +154,12 @@
     <day date="2018-12-04">
       <category name="Vorspeisen">
         <meal>
-          <name>Antipasti</name>
+          <name>Salat von Kichererbsen mit Frühlingszwiebeln und Cumin</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>geschwärzt</note>
-          <price role="student">3.45</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.15</price>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
         </meal>
       </category>
       <category name="Salate">
@@ -237,7 +242,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Blumenkohl</name>
+          <name>Brokkoli</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -255,7 +260,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Gewürzreis</name>
+          <name>Reis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -272,9 +277,10 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Sahnepudding</name>
+          <name>Haselnusspudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -285,11 +291,9 @@
     <day date="2018-12-05">
       <category name="Vorspeisen">
         <meal>
-          <name>Tomatensalat mit Weichkäse und Oliven</name>
+          <name>Salat von Kichererbsen mit Frühlingszwiebeln und Cumin</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>geschwärzt</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
           <price role="student">1.45</price>
           <price role="employee">1.60</price>
           <price role="other">1.75</price>
@@ -365,18 +369,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Paprika-Mais-Gemüse</name>
+          <name>Balkangemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Sellerie</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Grüne Bandnudeln</name>
-          <note>gelb (Ampel)</note>
+          <name>Salzkartoffeln</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Weizen</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -399,10 +403,10 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Schokoladenpudding</name>
+          <name>Haselnuss-Krokant-Quark</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -413,13 +417,12 @@
     <day date="2018-12-06">
       <category name="Vorspeisen">
         <meal>
-          <name>Antipasti</name>
+          <name>Salat von Kichererbsen mit Frühlingszwiebeln und Cumin</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>geschwärzt</note>
-          <price role="student">3.45</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.15</price>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
         </meal>
       </category>
       <category name="Salate">
@@ -444,12 +447,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -459,6 +456,12 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -507,7 +510,7 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
-          <name>Muschelnudeln</name>
+          <name>Spirelli</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Weizen</note>
@@ -539,13 +542,12 @@
     <day date="2018-12-07">
       <category name="Vorspeisen">
         <meal>
-          <name>Antipasti</name>
+          <name>Salat von Kichererbsen mit Frühlingszwiebeln und Cumin</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>geschwärzt</note>
-          <price role="student">3.45</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.15</price>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
         </meal>
       </category>
       <category name="Salate">
@@ -650,8 +652,9 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Karamelpudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Pflaumenquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -847,6 +850,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -856,12 +865,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -979,6 +982,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -988,12 +997,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1120,6 +1123,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1129,12 +1138,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1254,12 +1257,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1269,6 +1266,12 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1548,6 +1551,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1557,12 +1566,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1682,12 +1685,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1697,6 +1694,12 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1975,12 +1978,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1990,6 +1987,12 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2080,6 +2083,9 @@
       <closed></closed>
     </day>
     <day date="2018-12-23">
+      <closed></closed>
+    </day>
+    <day date="2018-12-24">
       <closed></closed>
     </day>
   </canteen>

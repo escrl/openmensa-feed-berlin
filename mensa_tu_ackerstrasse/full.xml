@@ -4,18 +4,17 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-01">
-      <closed></closed>
-    </day>
     <day date="2018-12-02">
       <closed></closed>
     </day>
     <day date="2018-12-03">
       <category name="Suppen">
         <meal>
-          <name>Karotten-Kokos-Suppe mit Ingwer</name>
+          <name>Zucchinicremesuppe mit Rosmarin und Tomaten</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -59,12 +58,20 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Romanesco</name>
+          <name>Karotten-Erbsen-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Gebackene Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
         </meal>
         <meal>
           <name>Kartoffel-Kräuter-Püree</name>
@@ -283,21 +290,21 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Eine Scheibe Rinderschmorbraten nach Esterhazy Art</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Zwei Grünkohl-Hanf-Medaillons an Kräutersauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
           <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine Scheibe Rinderschmorbraten nach Esterhazy Art</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -670,6 +677,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Pommes wedges</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffelpüree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -678,14 +693,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Pommes wedges</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1241,11 +1248,50 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Lauch in Rahm</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Balkangemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Pommes wedges</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
     </day>
     <day date="2018-12-22">
       <closed></closed>
     </day>
     <day date="2018-12-23">
+      <closed></closed>
+    </day>
+    <day date="2018-12-24">
       <closed></closed>
     </day>
   </canteen>

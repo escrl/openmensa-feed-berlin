@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-01">
-      <closed></closed>
-    </day>
     <day date="2018-12-02">
       <closed></closed>
     </day>
@@ -60,6 +57,7 @@
           <name>Borschtsch von Weißkohl, Karotten, Rote Bete und Kartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Klimaessen</note>
           <price role="student">1.90</price>
           <price role="employee">3.80</price>
           <price role="other">4.20</price>
@@ -109,6 +107,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Kohlrabi</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Kartoffelsalat mit Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -148,10 +154,28 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Rote Grütze</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Schokoladenpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Vanillepudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -594,6 +618,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Zwei Kartoffelklöße</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffelsalat mit Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -603,14 +635,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Senf</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Zwei Kartoffelklöße</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1253,18 +1277,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Kohlrabi in Rahm</name>
+          <name>Brokkoli</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Brokkoli</name>
+          <name>Kohlrabi in Rahm</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -1405,14 +1429,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Zwei Kartoffelklöße</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
           <name>Kartoffelsalat mit Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1422,6 +1438,14 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Senf</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Zwei Kartoffelklöße</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1687,18 +1711,6 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Hähnchenragout mit Bambus, Ananas und Karotten</name>
-          <note>gelb (Ampel)</note>
-          <note>konserviert</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Sesam</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
-        </meal>
-        <meal>
           <name>Ein Schweineschnitzel im Zwiebelbackteig an Bratensauce</name>
           <note>rot (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -1707,6 +1719,18 @@
           <note>Farbstoff</note>
           <note>Weizen</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Hähnchenragout mit Bambus, Ananas und Karotten</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
@@ -2312,6 +2336,9 @@
       <closed></closed>
     </day>
     <day date="2018-12-23">
+      <closed></closed>
+    </day>
+    <day date="2018-12-24">
       <closed></closed>
     </day>
   </canteen>

@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-01">
-      <closed></closed>
-    </day>
     <day date="2018-12-02">
       <closed></closed>
     </day>
@@ -35,8 +32,8 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Karotten-Kokos-Suppe mit Ingwer</name>
-          <note>gelb (Ampel)</note>
+          <name>Tomatensuppe</name>
+          <note>rot (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -48,6 +45,7 @@
           <name>Borschtsch von Weißkohl, Karotten, Rote Bete und Kartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Klimaessen</note>
           <price role="student">1.90</price>
           <price role="employee">3.80</price>
           <price role="other">4.20</price>
@@ -64,7 +62,7 @@
           <price role="other">2.95</price>
         </meal>
         <meal>
-          <name>Bulgur-Gemüse-Pilaw an Tahin-Yofudip mit frischen Kräutern</name>
+          <name>Bulgur-Gemüse-Pilaw an Yofudip mit frischen Kräutern</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -78,7 +76,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Romanesco</name>
+          <name>Erbsen-Mais-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -86,12 +84,12 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Rosmarinkartoffeln</name>
+          <name>Dampfkartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
         <meal>
           <name>Parboiledreis</name>
@@ -104,7 +102,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Veganer Vanille Shake</name>
+          <name>Veganer Beeren Shake</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Soja</note>
@@ -197,16 +195,6 @@
           <price role="student">2.75</price>
           <price role="employee">5.50</price>
           <price role="other">6.05</price>
-        </meal>
-        <meal>
-          <name>Eine Hähnchenbrust mit Ayvar-Ingwer-Topping überbacken an Pfeffersauce</name>
-          <note>rot (Ampel)</note>
-          <note>Weizen</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <price role="student">1.95</price>
-          <price role="employee">3.90</price>
-          <price role="other">4.30</price>
         </meal>
         <meal>
           <name>Zwei Spinat-Dinkel-Medaillons an Tomaten-Oliven-Sauce</name>
@@ -324,6 +312,21 @@
           <price role="other">4.60</price>
         </meal>
         <meal>
+          <name>Gebackene Tintenfischringe an Joghurt-Knoblauch-Dip</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
           <name>Zwei Kartoffeltaschen mit Mozzarella-Tomaten-Füllung an Basilikum-Quark-Dip</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -331,14 +334,6 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
-        </meal>
-        <meal>
-          <name>Chili con carne - Mexikanischer Bohneneintopf mit Rindfleisch, Mais und Tomaten</name>
-          <note>grün (Ampel)</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -1024,20 +1019,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Apfel-Zimt-Joghurt</name>
+          <name>Honigquark mit Haselnüssen</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Honigquark mit Haselnüssen</name>
+          <name>Apfel-Zimt-Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Haselnuss</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1137,20 +1132,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Schokoladenjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Kaffeequark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
+          <note>koffeinhaltig</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kaffeequark</name>
-          <note>gelb (Ampel)</note>
+          <name>Schokoladenjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>koffeinhaltig</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1829,6 +1824,9 @@
       <closed></closed>
     </day>
     <day date="2018-12-23">
+      <closed></closed>
+    </day>
+    <day date="2018-12-24">
       <closed></closed>
     </day>
   </canteen>
