@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-15">
-      <closed></closed>
-    </day>
     <day date="2018-12-16">
       <closed></closed>
     </day>
@@ -35,7 +32,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Glasnudelpfanne mit Sojastreifen, Chinakohl, Karotten und geröstetem Sesam</name>
+          <name>Chinanudelpfanne mit Sojastreifen, Chinakohl, Karotten und geröstetem Sesam</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Klimaessen</note>
@@ -63,9 +60,11 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Karotten-Erbsen-Gemüse</name>
+          <name>Rotkohl mit Wildpreiselbeeren</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Weizen</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -82,15 +81,6 @@
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Rigatoni</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Weizen</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
         </meal>
       </category>
       <category name="Desserts">
@@ -504,6 +494,63 @@
     </day>
     <day date="2019-01-06">
       <closed></closed>
+    </day>
+    <day date="2019-01-07">
+      <category name="Essen">
+        <meal>
+          <name>Vollkornspaghetti mit Soja-Kräuter-Bolognese</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene Hähnchenbrust Florentiner Art an Tomaten-Oliven-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Prinzessbohnen mit Zwiebelwürfeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Obstschälchen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.50</price>
+          <price role="employee">1.65</price>
+          <price role="other">1.80</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

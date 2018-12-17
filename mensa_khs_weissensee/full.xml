@@ -4,13 +4,23 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2018-12-15">
-      <closed></closed>
-    </day>
     <day date="2018-12-16">
       <closed></closed>
     </day>
     <day date="2018-12-17">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Gemischter Salat dazu Falafel mit Joghurtdip</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -54,11 +64,12 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Glasnudelpfanne mit Sojastreifen, Chinakohl, Karotten und geröstetem Sesam</name>
+          <name>Chinanudeln gebraten mit Sojastreifen, Chinakohl, Karotten und geröstetem Sesam</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Klimaessen</note>
           <note>konserviert</note>
+          <note>Weizen</note>
           <note>Sellerie</note>
           <note>Soja</note>
           <note>Sesam</note>
@@ -90,20 +101,12 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Karotten-Erbsen-Gemüse</name>
+          <name>Gemischtes Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
         </meal>
         <meal>
           <name>Kartoffel-Kräuter-Püree</name>
@@ -119,13 +122,12 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
-          <name>Rigatoni</name>
-          <note>gelb (Ampel)</note>
+          <name>Backkartoffeln</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Weizen</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
         </meal>
         <meal>
           <name>Sauce/Dip Extra</name>
@@ -616,6 +618,47 @@
     </day>
     <day date="2019-01-06">
       <closed></closed>
+    </day>
+    <day date="2019-01-07">
+      <category name="Essen">
+        <meal>
+          <name>Zwei Polenta-Käse-Schnitten an Spinatsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Vollkornspaghetti mit Soja-Kräuter-Bolognese</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Eine gebackene Hähnchenbrust Florentiner Art an Tomaten-Oliven-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>geschwärzt</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
