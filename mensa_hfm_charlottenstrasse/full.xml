@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-01-01">
-      <closed></closed>
-    </day>
     <day date="2019-01-02">
       <closed></closed>
     </day>
@@ -25,14 +22,14 @@
     <day date="2019-01-07">
       <category name="Vorspeisen">
         <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
+        </meal>
+        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -63,14 +60,9 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -86,9 +78,14 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -253,12 +250,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -279,6 +270,12 @@
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -380,20 +377,6 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Müslijoghurt</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Hafer</note>
-          <note>Mandeln</note>
-          <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Pfirsichjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -406,6 +389,20 @@
           <name>Himbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Müslijoghurt</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -591,6 +588,17 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Dreikornjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -599,17 +607,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Dreikornjoghurt</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Dinkel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -630,14 +627,14 @@
     <day date="2019-01-10">
       <category name="Vorspeisen">
         <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
+        </meal>
+        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -674,6 +671,17 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -683,17 +691,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -823,19 +820,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Haselnuss-Krokant-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Orangenjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Orangenjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Haselnuss-Krokant-Quark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -919,6 +916,12 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -928,12 +931,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1038,16 +1035,6 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Schokoladenjoghurt</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Cookiequark</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1074,6 +1061,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Schokoladenjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Ananaspudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1093,14 +1090,14 @@
     <day date="2019-01-14">
       <category name="Vorspeisen">
         <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
+        </meal>
+        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -1142,6 +1139,12 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1151,12 +1154,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1269,6 +1266,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Sauerkirschquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1277,15 +1283,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Sauerkirschquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1345,9 +1342,15 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -1362,15 +1365,9 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Joghurtdressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1474,15 +1471,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Heidelbeerjoghurt</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1491,6 +1479,15 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Heidelbeerjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1510,14 +1507,14 @@
     <day date="2019-01-16">
       <category name="Vorspeisen">
         <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
-        </meal>
-        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -1548,17 +1545,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
@@ -1574,6 +1560,17 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1676,6 +1673,20 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Müslijoghurt</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Haselnussjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1689,20 +1700,6 @@
           <name>Johannisbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Müslijoghurt</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Hafer</note>
-          <note>Mandeln</note>
-          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1761,9 +1758,15 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -1778,15 +1781,9 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Joghurtdressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1899,7 +1896,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Mango-Orangen-Quark</name>
+          <name>Waldbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1908,7 +1905,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Waldbeerjoghurt</name>
+          <name>Mango-Orangen-Quark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1930,14 +1927,14 @@
     <day date="2019-01-18">
       <category name="Vorspeisen">
         <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
-        </meal>
-        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -1968,17 +1965,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1988,6 +1974,17 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -2027,21 +2024,6 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Ein Seelachsfilet in Sesampanade an Paprikadip</name>
-          <note>rot (Ampel)</note>
-          <note>MSC</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Sesam</note>
-          <note>Hefe</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Zwei Schinkenknacker auf Grünkohl mit Speck und Senf</name>
           <note>rot (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -2052,6 +2034,21 @@
           <note>Nitritpökelsalz</note>
           <note>Hefe</note>
           <note>Senf</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Ein Seelachsfilet in Sesampanade an Paprikadip</name>
+          <note>rot (Ampel)</note>
+          <note>MSC</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Sesam</note>
+          <note>Hefe</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -2114,6 +2111,15 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Waldbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -2122,15 +2128,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Waldbeerquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -2157,14 +2154,14 @@
     <day date="2019-01-21">
       <category name="Vorspeisen">
         <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
+        </meal>
+        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -2327,14 +2324,9 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Müslijoghurt</name>
-          <note>gelb (Ampel)</note>
+          <name>Brombeerjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Hafer</note>
-          <note>Mandeln</note>
-          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -2350,9 +2342,14 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Brombeerjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Müslijoghurt</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -2411,9 +2408,14 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -2429,14 +2431,9 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2562,6 +2559,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Johannisbeerjoghurt, rot</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Müsliquark mit Cranberries</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -2590,15 +2596,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Johannisbeerjoghurt, rot</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Zitronenpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -2612,14 +2609,14 @@
     <day date="2019-01-23">
       <category name="Vorspeisen">
         <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
+        </meal>
+        <meal>
           <name>Große Salatschüssel mit Weichkäse</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
         </meal>
         <meal>
           <name>Große Salatschüssel mit Mozzarella</name>
@@ -2650,15 +2647,14 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurtdressing</name>
-          <note>rot (Ampel)</note>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
           <note>Weizen</note>
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -2668,14 +2664,15 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>American Dressing</name>
-          <note>gelb (Ampel)</note>
+          <name>Joghurtdressing</name>
+          <note>rot (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
           <note>Weizen</note>
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2788,6 +2785,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Pfirsichjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Mandelquark</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -2812,7 +2818,201 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Pfirsichjoghurt</name>
+          <name>Schokoladenpudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-24">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Große Salatschüssel mit Weichkäse</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
+          <note>grün (Ampel)</note>
+        </meal>
+        <meal>
+          <name>Große Salatschüssel mit Mozzarella</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+      </category>
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Joghurtdressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>American Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Schinkennudeln nach italienischer Art</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Nitritpökelsalz</note>
+          <price role="student">3.95</price>
+          <price role="employee">4.35</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Hausgemachtes Schnitzel vom Schweinerücken nach Wiener Art Pommes frites Salat</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">5.45</price>
+          <price role="other">5.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Quinoapfanne mit Karotten, Porree, Champignons und würzigen Sojastreifen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Eine Hähnchenbrust nach Elsässer Art an Salbeirahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Zwei Sesam-Karotten-Sticks an Brokkolisauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Tomatenrisotto mit gerösteten Erdnüssen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Erdnüsse</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Prinzessbohnen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Geschmorter Fenchel mit Paprika</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Curryreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Kirschjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -2821,10 +3021,32 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Schokoladenpudding</name>
+          <name>Mohnquark</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Müslijoghurt</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Mango-Maracujapudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
