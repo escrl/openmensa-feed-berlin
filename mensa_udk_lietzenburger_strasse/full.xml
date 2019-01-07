@@ -4,14 +4,37 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-01-05">
-      <closed></closed>
-    </day>
     <day date="2019-01-06">
       <closed></closed>
     </day>
     <day date="2019-01-07">
       <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
         <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
@@ -23,24 +46,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Kleiner Salat</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -232,6 +237,12 @@
     <day date="2019-01-09">
       <category name="Salate">
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -241,12 +252,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -443,6 +448,12 @@
     <day date="2019-01-11">
       <category name="Salate">
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -452,12 +463,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -570,7 +575,6 @@
         <meal>
           <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Tomatenragout</name>
           <note>gelb (Ampel)</note>
-          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.95</price>
           <price role="employee">3.90</price>
@@ -660,6 +664,7 @@
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
           <note>Weizen</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <price role="student">1.95</price>
@@ -717,6 +722,7 @@
           <note>Weizen</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Nitritpökelsalz</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -753,6 +759,31 @@
     </day>
     <day date="2019-01-27">
       <closed></closed>
+    </day>
+    <day date="2019-01-28">
+      <category name="Essen">
+        <meal>
+          <name>Pfannenfrisches Hähnchengyros mit Weißkohl, Zwiebeln und Paprika Tzatziki</name>
+          <note>grün (Ampel)</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Kokos-Karotten-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hefe</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
