@@ -4,12 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-01-06">
-      <closed></closed>
-    </day>
-    <day date="2019-01-07">
-      <closed></closed>
-    </day>
     <day date="2019-01-08">
       <closed></closed>
     </day>
@@ -29,15 +23,6 @@
       <closed></closed>
     </day>
     <day date="2019-01-14">
-      <category name="Salate">
-        <meal>
-          <name>Große Salatschüssel mit Ei oder Weichkäse</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Eine gedünstete Seelachsroulade mit Spinat-Käsefüllung an Zitronensauce</name>
@@ -167,12 +152,6 @@
       </category>
     </day>
     <day date="2019-01-16">
-      <category name="Salate">
-        <meal>
-          <name>Große Salatschüssel mit Hähnchenbruststreifen</name>
-          <note>grün (Ampel)</note>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Frischer Winter-Gemüse-Eintopf mit Petersilie</name>
@@ -240,14 +219,6 @@
       </category>
     </day>
     <day date="2019-01-17">
-      <category name="Salate">
-        <meal>
-          <name>Große Salatschüssel mit Weichkäse</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-      </category>
       <category name="Essen">
         <meal>
           <name>Kartoffel-Pilz-Pfanne mit Chicoree</name>
@@ -395,6 +366,9 @@
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
       </category>
       <category name="Essen">
@@ -471,6 +445,9 @@
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
       </category>
       <category name="Essen">
@@ -541,6 +518,9 @@
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
       </category>
       <category name="Essen">
@@ -602,6 +582,9 @@
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
       </category>
       <category name="Essen">
@@ -640,6 +623,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Bratkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Sellerie-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -649,14 +640,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -680,6 +663,9 @@
           <note>vegetarisch</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
       </category>
       <category name="Essen">
@@ -786,6 +772,59 @@
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-29">
+      <category name="Essen">
+        <meal>
+          <name>Ein Putenbrustspieß Picanto an Bratensauce mit Paprikastreifen</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Senf</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kichererbsenragout mit Kartoffeln, Kreuzkümmel und Koriander</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-01-30">
+      <category name="Essen">
+        <meal>
+          <name>Gebratenes Wildlachsfilet an Kerbelrahmsauce</name>
+          <note>rot (Ampel)</note>
+          <note>MSC</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
+          <name>Grünkohl mit orientalischen Gewürzen und roten Linsen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Mandeln</note>
+          <note>Sellerie</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
         </meal>
       </category>
     </day>
