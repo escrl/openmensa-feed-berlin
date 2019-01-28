@@ -4,13 +4,22 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-01-26">
-      <closed></closed>
-    </day>
     <day date="2019-01-27">
       <closed></closed>
     </day>
     <day date="2019-01-28">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Wraps mit Tomate und Gouda</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -43,6 +52,18 @@
           <price role="other">1.45</price>
         </meal>
       </category>
+      <category name="Suppen">
+        <meal>
+          <name>Blumenkohlcremesuppe mit Curry</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Schupfnudeln mit Rahmsauerkraut</name>
@@ -64,6 +85,18 @@
           <price role="student">2.15</price>
           <price role="employee">4.30</price>
           <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Champignon-Kartoffel-Curry mit Gemüse und frischer Blattpetersilie</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
         </meal>
         <meal>
           <name>Zwei Süßkartoffel-Rucola-Bratlinge an Kokos-Karotten-Sauce</name>
@@ -88,17 +121,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Französisches Kohlrabigemüse</name>
-          <note>grün (Ampel)</note>
-          <note>konserviert</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Kartoffelpüree</name>
+          <name>Kartoffel-Möhren-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>konserviert</note>
@@ -109,6 +132,22 @@
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Pommes wedges</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
         <meal>
           <name>Paprikareis</name>
@@ -650,6 +689,9 @@
       <closed></closed>
     </day>
     <day date="2019-02-17">
+      <closed></closed>
+    </day>
+    <day date="2019-02-18">
       <closed></closed>
     </day>
   </canteen>
