@@ -4,13 +4,21 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-02-02">
-      <closed></closed>
-    </day>
     <day date="2019-02-03">
       <closed></closed>
     </day>
     <day date="2019-02-04">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Bulgursalat mit frischer Minze</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Doppelte Salatschale</name>
@@ -56,7 +64,7 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Eine Hähnchenroulade Florenz mit Spinat-Käse-Füllung an Sauce Provencale</name>
+          <name>Eine Hähnchenroulade Florentin an Sauce Provencale</name>
           <note>rot (Ampel)</note>
           <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -86,6 +94,15 @@
           <name>Erbsen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Balkangemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -435,17 +452,6 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Ein gebackenes Hähnchen Cordon bleu an Geflügeljus</name>
-          <note>rot (Ampel)</note>
-          <note>konserviert</note>
-          <note>Weizen</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
-        </meal>
-        <meal>
           <name>Zwei Spinat-Dinkel-Medaillons an Rucolasauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -454,6 +460,17 @@
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Ein gebackenes Hähnchen Cordon bleu an Geflügeljus</name>
+          <note>rot (Ampel)</note>
+          <note>konserviert</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
@@ -692,6 +709,9 @@
       <closed></closed>
     </day>
     <day date="2019-02-24">
+      <closed></closed>
+    </day>
+    <day date="2019-02-25">
       <closed></closed>
     </day>
   </canteen>
