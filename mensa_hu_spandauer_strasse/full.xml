@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-02-23">
-      <closed></closed>
-    </day>
     <day date="2019-02-24">
       <closed></closed>
     </day>
@@ -97,6 +94,19 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Lupine</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffelsalat mit Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -106,19 +116,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Senf</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Kartoffelpüree</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Lupine</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -159,16 +156,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Schokoladenpudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Rote Grütze</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -176,6 +163,14 @@
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Aprikosenkompott</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
       </category>
     </day>
@@ -236,14 +231,17 @@
           <price role="other">4.75</price>
         </meal>
         <meal>
-          <name>Kartoffel-Kürbis-Ragout</name>
+          <name>Herzhaftes Sojagulasch mit Champignons, Lauch und Petersilienkartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -283,38 +281,6 @@
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
-        </meal>
-      </category>
-      <category name="Desserts">
-        <meal>
-          <name>Vanillegrießbrei</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Pistazienpudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Pistazie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Schokoladenpudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -732,20 +698,20 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Schokoladenpudding</name>
+          <name>Pistazienpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
+          <note>Pistazie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Pistazienpudding</name>
+          <name>Schokoladenpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Pistazie</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1036,13 +1002,11 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Eine gebratene Lammfrikadelle an Rosmarinsauce</name>
+          <name>Zwei gebratene Lammhacksteaks an Rosmarinsauce</name>
           <note>rot (Ampel)</note>
           <note>Antioxidationsmittel</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Weizen</note>
           <note>Eier</note>
-          <note>Sellerie</note>
           <note>Hefe</note>
           <note>Senf</note>
           <price role="student">1.95</price>
@@ -1108,6 +1072,47 @@
     </day>
     <day date="2019-03-17">
       <closed></closed>
+    </day>
+    <day date="2019-03-18">
+      <category name="Suppen">
+        <meal>
+          <name>Brühe von Waldpilzen mit Rosmarin</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Gemüseragout von weißen Bohnen, Sellerie, Tomaten und Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Sellerie</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Paprika-Wurst-Gulasch mit Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Lupine</note>
+          <note>Nitritpökelsalz</note>
+          <note>Senf</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
