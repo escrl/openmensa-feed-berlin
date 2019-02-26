@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-02-24">
-      <closed></closed>
-    </day>
     <day date="2019-02-25">
       <category name="Salate">
         <meal>
@@ -216,6 +213,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Thousand Island Dressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -224,12 +227,6 @@
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
         </meal>
         <meal>
           <name>Joghurtdressing</name>
@@ -246,15 +243,13 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Gemüsebrühe mit Grießklößchen</name>
+          <name>Brokkolicremesuppe</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
       </category>
       <category name="Essen">
@@ -291,9 +286,10 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Geschmorte Auberginen mit Tomaten</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <name>Lauch in Rahm</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -325,7 +321,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Birnenquark</name>
+          <name>Himbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -334,18 +330,22 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Heidelbeerjoghurt</name>
+          <name>Vanillegrießbrei Apfelmus</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillepudding</name>
+          <name>Haselnusspudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Phosphat</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -386,16 +386,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Thousand Island Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
@@ -412,6 +402,16 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Thousand Island Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -561,12 +561,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -576,6 +570,12 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -672,7 +672,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Mango-Orangen-Quark</name>
+          <name>Waldbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -681,7 +681,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Waldbeerjoghurt</name>
+          <name>Mango-Orangen-Quark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -724,12 +724,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Thousand Island Dressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -738,6 +732,12 @@
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
         <meal>
           <name>Joghurtdressing</name>
@@ -904,6 +904,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Thousand Island Dressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -923,12 +929,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1069,6 +1069,22 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Thousand Island Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1079,22 +1095,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Thousand Island Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -1238,6 +1238,18 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Joghurtdressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Thousand Island Dressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1251,18 +1263,6 @@
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Joghurtdressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1399,6 +1399,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Thousand Island Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -1409,16 +1419,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Thousand Island Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
         <meal>
           <name>Sauce Vinaigrette</name>
@@ -1565,15 +1565,9 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurtdressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -1587,9 +1581,15 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1722,12 +1722,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Thousand Island Dressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1736,6 +1730,12 @@
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
         <meal>
           <name>Joghurtdressing</name>
@@ -1809,16 +1809,16 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
-          <note>gelb (Ampel)</note>
+          <name>Stampfkartoffeln</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
         </meal>
         <meal>
-          <name>Stampfkartoffeln</name>
-          <note>grün (Ampel)</note>
+          <name>Pommes frites</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
@@ -2076,22 +2076,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Thousand Island Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -2102,6 +2086,22 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Thousand Island Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -2241,16 +2241,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Thousand Island Dressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -2267,6 +2257,16 @@
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Thousand Island Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -2409,6 +2409,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -2418,12 +2424,6 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -2525,6 +2525,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Schokoquark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Apfel-Bananen-Joghurt mit Honig</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -2534,8 +2543,161 @@
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
+      </category>
+    </day>
+    <day date="2019-03-19">
+      <category name="Salate">
         <meal>
-          <name>Schokoquark</name>
+          <name>Doppelte Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">3.15</price>
+          <price role="employee">6.30</price>
+          <price role="other">6.95</price>
+        </meal>
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Thousand Island Dressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Joghurtdressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomaten-Zucchini-Suppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Champignon-Kartoffel-Curry mit Gemüse und frischer Blattpetersilie</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Gebackene Tintenfischringe an Knoblauchmayonnaise</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Brokkoli</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Geschmorter Fenchel</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Johannisbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Bananenpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>

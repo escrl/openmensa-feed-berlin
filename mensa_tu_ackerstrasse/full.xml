@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-02-24">
-      <closed></closed>
-    </day>
     <day date="2019-02-25">
       <category name="Salate">
         <meal>
@@ -224,11 +221,10 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Blumenkohlcremesuppe mit Curry</name>
+          <name>Rübchencremesuppe</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -236,7 +232,7 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Streuselkuchen</name>
+          <name>Heidelbeerkuchen</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
           <note>Weizen</note>
@@ -249,12 +245,34 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Eine Hähnchenbrust mit Champignonfüllung an Geflügeljus</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
           <name>Gefüllte Hähnchenbrust mit Bärlauchfrischkäse an Geflügeljus</name>
           <note>gelb (Ampel)</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">2.15</price>
           <price role="employee">4.30</price>
           <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Bunte Spiralnudeln mit Linsen-Gemüse-Sauce und gehackten Walnüssen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Walnuss</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
         </meal>
         <meal>
           <name>Mediterranes Dinkelmedaillon an Kräutersauce</name>
@@ -269,16 +287,6 @@
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Kürbis-Ragout</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -418,6 +426,21 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
+          <name>Gebackene Tintenfischringe an Knoblauchmayonnaise</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
           <name>Schweinegulasch mit Bohnen und saurer Sahne</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -428,13 +451,12 @@
           <price role="other">2.95</price>
         </meal>
         <meal>
-          <name>Vier Eierpfannkuchen mit Apfelmus</name>
+          <name>Vanillegrieß mit Heidelbeeren, Zucker und Zimt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
-          <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -740,20 +762,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Vollkornnudeln mit Linsen-Gemüse-Sauce und gehackten Walnüssen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Klimaessen</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Walnuss</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">1.90</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.20</price>
-        </meal>
-        <meal>
           <name>Berliner Currywurst mit hausgemachtem Tomatenketchup</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -763,6 +771,16 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Kürbis-Ragout</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
         </meal>
         <meal>
           <name>Texanischer Bohneneintopf mit Rinderhackfleisch, Kartoffeln und Paprika</name>
@@ -822,19 +840,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Honigquark mit Haselnüssen</name>
+          <name>Mangojoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Mangojoghurt</name>
+          <name>Honigquark mit Haselnüssen</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -2048,15 +2066,6 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Brombeerquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -2065,6 +2074,15 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Brombeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -2597,6 +2615,175 @@
           <note>vegetarisch</note>
           <note>Haselnuss</note>
           <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-03-19">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Joghurtdressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomaten-Zucchini-Suppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Bienenstich</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Mandeln</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.80</price>
+          <price role="employee">2.00</price>
+          <price role="other">2.15</price>
+        </meal>
+        <meal>
+          <name>Brownie mit Schokotropfen</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.90</price>
+          <price role="employee">1.00</price>
+          <price role="other">1.10</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Champignon-Kartoffel-Curry mit Gemüse und frischer Blattpetersilie</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Gebackene Tintenfischringe an Knoblauchmayonnaise</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine gebratene Hähnchenkeule an Thymianjus</name>
+          <note>rot (Ampel)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Brokkoli</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Geschmorter Fenchel</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffelpüree</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Johannisbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Bananenpudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
