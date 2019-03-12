@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-03-10">
-      <closed></closed>
-    </day>
     <day date="2019-03-11">
       <category name="Salate">
         <meal>
@@ -231,6 +228,18 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
+          <name>Zwei Hirse-Käsetaler mit Orangen-Pfeffersauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
           <name>Eine Brokkoli-Nussecke an dänischer Senfsauce</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -249,21 +258,18 @@
           <price role="other">2.95</price>
         </meal>
         <meal>
-          <name>Zwei Hirse-Käsetaler mit Orangen-Pfeffersauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
           <name>Tomatenrisotto</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Pfeffertopf Indischer Art</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -332,19 +338,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Aprikosenjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Kaffeequark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>koffeinhaltig</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kaffeequark</name>
-          <note>gelb (Ampel)</note>
+          <name>Aprikosenjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>koffeinhaltig</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -521,15 +527,6 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Johannisbeerjoghurt, schwarz</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Müsliquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -539,6 +536,15 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Johannisbeerjoghurt, schwarz</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -689,8 +695,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Rhabarbersahnequark</name>
-          <note>gelb (Ampel)</note>
+          <name>Heidelbeerjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -698,8 +704,8 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Heidelbeerjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Rhabarbersahnequark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -779,19 +785,19 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Kräuterquark mit Leinöl und Dampfkartoffeln</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <name>Gemüseeintopf Indischer Art mit Kichererbsen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
         </meal>
         <meal>
-          <name>Gemüseeintopf Indischer Art mit Kichererbsen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
+          <name>Kräuterquark mit Leinöl und Dampfkartoffeln</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -1004,7 +1010,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Porree-Paprika-Gemüse</name>
+          <name>Karottenscheiben</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -1013,7 +1019,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Karottenscheiben</name>
+          <name>Porree-Paprika-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -1054,7 +1060,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Kirschjoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1063,7 +1069,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillequark</name>
+          <name>Kirschjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1190,7 +1196,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Blumenkohl</name>
+          <name>Mais mit Tomatenwürfel</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -1199,7 +1205,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Mais mit Tomatenwürfel</name>
+          <name>Blumenkohl</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -1240,19 +1246,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Blaubeerquark</name>
+          <name>Apfel-Zimt-Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Apfel-Zimt-Joghurt</name>
+          <name>Blaubeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1372,7 +1378,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Grüne Bohnen</name>
+          <name>Erbsen-Mais-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -1381,7 +1387,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Erbsen-Mais-Gemüse</name>
+          <name>Grüne Bohnen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -1400,7 +1406,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Aprikosenjoghurt</name>
+          <name>Brombeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1409,7 +1415,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Brombeerquark</name>
+          <name>Aprikosenjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1561,19 +1567,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Ananasquark</name>
+          <name>Schokoladenjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Schokoladenjoghurt</name>
+          <name>Ananasquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1708,7 +1714,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Aprikosenjoghurt</name>
+          <name>Johannisbeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1717,7 +1723,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Johannisbeerquark</name>
+          <name>Aprikosenjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1890,7 +1896,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Johannisbeerjoghurt, schwarz</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1899,7 +1905,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Johannisbeerjoghurt, schwarz</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -2042,7 +2048,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Mais mit Tomatenwürfel</name>
+          <name>Kohlrabi</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -2051,7 +2057,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kohlrabi</name>
+          <name>Mais mit Tomatenwürfel</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
@@ -2070,15 +2076,6 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Blaubeerquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Müslijoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -2088,6 +2085,15 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Blaubeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -2535,20 +2541,20 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Grüne Bohnen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>bio</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Buntes Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
           <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Grüne Bohnen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
@@ -2573,7 +2579,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Mangojoghurt</name>
+          <name>Sauerkirschquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -2582,7 +2588,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauerkirschquark</name>
+          <name>Mangojoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -2758,8 +2764,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Rhabarber-Sahne-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Bananen-Kokos-Joghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -2767,8 +2773,8 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Bananen-Kokos-Joghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Rhabarber-Sahne-Quark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -2779,6 +2785,167 @@
           <name>Mango-Maracuja-Pudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-04-02">
+      <category name="Salate">
+        <meal>
+          <name>Großer Salat</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Thailändische Gemüsesuppe mit Kartoffeln und Kokosmilch</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>konserviert</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Spaghetti Aglio e Olio</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">2.95</price>
+          <price role="employee">3.25</price>
+          <price role="other">3.55</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Zwei Tofutaler gefüllt mit Seitan an scharfer Gemüsesauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Alkohol</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Kichererbsenragout mit Kartoffeln, Kreuzkümmel und Koriander</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Ofenfrischer Süßkartoffelauflauf</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Vanillegrießbrei mit Zucker, Zimt und</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Gabelspaghetti</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Risi Bisi</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Ingwermöhren</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Brokkoli</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Dillkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Himbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Mandelpudding mit Sternanis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Mandeln</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
