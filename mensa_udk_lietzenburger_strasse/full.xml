@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-03-24">
-      <closed></closed>
-    </day>
     <day date="2019-03-25">
       <category name="Salate">
         <meal>
@@ -86,7 +83,7 @@
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Ein gebackenes Dinkel-Käse-Medaillon an Kräutersauce</name>
+          <name>Ein gebackenes Dinkel-Käse-Medaillon an Tomaten-Paprika-Sauce</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
           <note>Farbstoff</note>
@@ -94,6 +91,7 @@
           <note>Dinkel</note>
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <note>Hefe</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
@@ -102,9 +100,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Petersilienkartoffeln</name>
+          <name>hausgemachtes Kartoffelpüree mit Karottenstreifen</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Penne rigate</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Weizen</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -184,18 +192,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Kokos-Ingwer-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Farbstoff</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Hefe</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
           <name>Ein Krautwickel mit Hackfleischfüllung an Bratensauce</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -204,6 +200,18 @@
           <note>Weizen</note>
           <note>Hefe</note>
           <note>Senf</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Kokos-Ingwer-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Hefe</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -442,6 +450,18 @@
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-04-16">
+      <category name="Essen">
+        <meal>
+          <name>Putengeschnetzeltes mit Früchten, Kokosmilch und Zitronenmelisse</name>
+          <note>gelb (Ampel)</note>
+          <note>Soja</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
         </meal>
       </category>
     </day>
