@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-03-30">
-      <closed></closed>
-    </day>
     <day date="2019-03-31">
       <closed></closed>
     </day>
@@ -58,7 +55,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Ein Hähnchenknusperschnitzel Ricotta-Pesto in Melonenkernpanade an fruchtiger Tomatensauce</name>
+          <name>Ein Hähnchenschnitzel mit Ricotta-Pestofüllung in Melonenkernpanade an fruchtiger Tomatensauce</name>
           <note>grün (Ampel)</note>
           <note>Weizen</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -68,10 +65,12 @@
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Tomatenragout</name>
+          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Kräutersauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
@@ -79,6 +78,14 @@
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Karottengemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
         <meal>
           <name>Kartoffelsalat mit Joghurt</name>
           <note>grün (Ampel)</note>
@@ -115,6 +122,37 @@
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Rote Grütze</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Pistazienpudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Pistazie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -233,20 +271,10 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillegrießbrei</name>
+          <name>Schokoladenpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Pistazienpudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Pistazie</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -262,10 +290,10 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Schokoladenpudding</name>
+          <name>Pistazienpudding</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
+          <note>Pistazie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1021,15 +1049,6 @@
           <price role="other">5.40</price>
         </meal>
         <meal>
-          <name>Schweinegulasch nach Szegediener Art</name>
-          <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>Antioxidationsmittel</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
           <name>Zwei Sesam-Karotten-Sticks an Hot-Chili-Dip</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -1037,6 +1056,18 @@
           <note>Sellerie</note>
           <note>Sesam</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Schweinegulasch nach Szegediener Art</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -1903,6 +1934,9 @@
       <closed></closed>
     </day>
     <day date="2019-04-21">
+      <closed></closed>
+    </day>
+    <day date="2019-04-22">
       <closed></closed>
     </day>
   </canteen>

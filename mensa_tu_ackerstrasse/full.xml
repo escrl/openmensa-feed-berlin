@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-03-30">
-      <closed></closed>
-    </day>
     <day date="2019-03-31">
       <closed></closed>
     </day>
@@ -33,6 +30,14 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Karottensalat</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -46,10 +51,9 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Allgäuer Käsecremesuppe</name>
+          <name>Tomaten-Zucchini-Suppe</name>
           <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -57,7 +61,7 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Johannisbeer-Schoko-Kuchen</name>
+          <name>Johannisbeer-Himbeer-Kuchen mit Schokotropfen</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
           <note>Weizen</note>
@@ -130,10 +134,9 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
-          <name>Vollkornspiralnudeln</name>
-          <note>grün (Ampel)</note>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Weizen</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -148,18 +151,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Rhabarber-Sahne-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Milchreis mit Apfelmus</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillepudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Bananenquark mit Honig und Haselnuss</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Haselnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -477,20 +482,20 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Kokos-Sahne-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Dreikornjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Dreikornjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Kokos-Sahne-Quark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Dinkel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1669,8 +1674,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Orangen-Sahne-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Brombeerjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -1678,8 +1683,8 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Brombeerjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Orangen-Sahne-Quark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -2151,6 +2156,9 @@
       <closed></closed>
     </day>
     <day date="2019-04-21">
+      <closed></closed>
+    </day>
+    <day date="2019-04-22">
       <closed></closed>
     </day>
   </canteen>
