@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-03-31">
-      <closed></closed>
-    </day>
     <day date="2019-04-01">
       <category name="Essen">
         <meal>
@@ -51,12 +48,23 @@
           <price role="other">1.30</price>
         </meal>
       </category>
+      <category name="Desserts">
+        <meal>
+          <name>Sahniger Milchreis mit Sauerkirschsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2019-04-02">
       <category name="Essen">
         <meal>
-          <name>Ofenfrische Maishähnchenkeule an Salbeirahmsauce</name>
-          <note>gelb (Ampel)</note>
+          <name>Eine marinierte Hähnchenkeule gebraten an Salbeirahmsauce</name>
+          <note>rot (Ampel)</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
@@ -97,6 +105,17 @@
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Sahniger Milchreis mit Sauerkirschsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -462,6 +481,18 @@
     </day>
     <day date="2019-04-22">
       <closed></closed>
+    </day>
+    <day date="2019-04-23">
+      <category name="Essen">
+        <meal>
+          <name>Ein Putenspieß nach ungarischer Art an Paprikasauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

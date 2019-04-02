@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-03-31">
-      <closed></closed>
-    </day>
     <day date="2019-04-01">
       <category name="Vorspeisen">
         <meal>
@@ -117,7 +114,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Himbeerjoghurt</name>
+          <name>Mangoquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -126,7 +123,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Mangoquark</name>
+          <name>Himbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -157,9 +154,11 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Karotten-Kokos-Suppe mit Ingwer</name>
-          <note>gelb (Ampel)</note>
+          <name>Brokkolisuppe</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -180,7 +179,7 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Zwei Gemüse-Knusper-Ringel an Kräutersauce</name>
+          <name>Zwei Gemüse-Knusper-Ringel an Currysauce</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -195,7 +194,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Romanesco</name>
+          <name>Brokkoli</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -203,8 +202,8 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Petersilienkartoffeln</name>
-          <note>grün (Ampel)</note>
+          <name>Gebackene Kartoffeln</name>
+          <note>rot (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -216,6 +215,14 @@
           <note>vegetarisch</note>
           <note>Weizen</note>
           <note>Eier</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -553,19 +560,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Mandarinenquark</name>
+          <name>Schokoladenjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Schokoladenjoghurt</name>
+          <name>Mandarinenquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1253,6 +1260,36 @@
     </day>
     <day date="2019-04-22">
       <closed></closed>
+    </day>
+    <day date="2019-04-23">
+      <category name="Essen">
+        <meal>
+          <name>Spaghetti mit Getreidebolognese, frischen Karotten, Sellerie und Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Weizen</note>
+          <note>Roggen</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Dinkel</note>
+          <note>Sellerie</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Eine Bratwurst Thüringer Art an Zwiebel-Kümmel-Jus</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
