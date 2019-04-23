@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-04-21">
-      <closed></closed>
-    </day>
     <day date="2019-04-22">
       <closed></closed>
     </day>
@@ -85,7 +82,6 @@
           <note>rot (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
@@ -1206,6 +1202,15 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Schwenkkartoffeln</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffelpüree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1214,15 +1219,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Schwenkkartoffeln</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1384,17 +1380,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Kartoffelkroketten</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Farbstoff</note>
-          <note>Weizen</note>
-          <note>Hefe</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
           <name>Kartoffel-Kräuter-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1403,6 +1388,17 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffelkroketten</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1693,18 +1689,6 @@
           <price role="other">3.40</price>
         </meal>
         <meal>
-          <name>Berliner Erbseneintopf mit Wurzelgemüse und frischer Blattpetersilie und einem Brötchen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Weizen</note>
-          <note>Roggen</note>
-          <note>Sellerie</note>
-          <note>Hefe</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
-        </meal>
-        <meal>
           <name>Berliner Erbseneintopf mit Wurzelgemüse und frischer Blattpetersilie mit einer Geflügelwiener</name>
           <note>gelb (Ampel)</note>
           <note>konserviert</note>
@@ -1712,6 +1696,18 @@
           <note>Sellerie</note>
           <note>Nitritpökelsalz</note>
           <note>Senf</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Berliner Erbseneintopf mit Wurzelgemüse und frischer Blattpetersilie und einem Brötchen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <note>Roggen</note>
+          <note>Sellerie</note>
+          <note>Hefe</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -2006,6 +2002,36 @@
           <note>Phosphat</note>
           <note>Nitritpökelsalz</note>
           <note>Senf</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-14">
+      <category name="Essen">
+        <meal>
+          <name>Schweineroulade Hausfrauenart an Majoransauce</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Nitritpökelsalz</note>
+          <note>Senf</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Zitronen-Kurkuma-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Soja</note>
+          <note>Hefe</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
