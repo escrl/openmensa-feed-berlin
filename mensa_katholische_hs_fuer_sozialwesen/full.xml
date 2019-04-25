@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-04-23">
-      <closed></closed>
-    </day>
     <day date="2019-04-24">
       <closed></closed>
     </day>
@@ -344,17 +341,17 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Bärlauchsauce</name>
-          <note>rot (Ampel)</note>
-          <note>vegetarisch</note>
+          <name>Salbeirahmsauce</name>
+          <note>gelb (Ampel)</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
         </meal>
         <meal>
-          <name>Salbeirahmsauce</name>
-          <note>gelb (Ampel)</note>
+          <name>Bärlauchsauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
@@ -475,19 +472,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Paprikadip</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-          <price role="student">0.30</price>
-          <price role="employee">0.60</price>
-          <price role="other">0.65</price>
-        </meal>
-        <meal>
           <name>Estragonrahmsauce</name>
           <note>rot (Ampel)</note>
           <note>Antioxidationsmittel</note>
@@ -497,6 +481,19 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+        <meal>
+          <name>Paprikadip</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
@@ -854,19 +851,19 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Zitronen-Gemüse-Sauce</name>
+          <name>Quarkdip</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
         </meal>
         <meal>
-          <name>Quarkdip</name>
+          <name>Zitronen-Gemüse-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
@@ -1341,6 +1338,73 @@
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-05-16">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Arabische Hähnchenpfanne mit Gemüse und Joghurt-Kräuter-Dip</name>
+          <note>grün (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Vollkornspaghetti mit Soja-Kräuter-Bolognese</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Zwei Quinoa-Erbsen-Frikadellen an Chili-Ingwer-Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Soja</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Prinzessbohnen mit Zwiebelwürfeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
