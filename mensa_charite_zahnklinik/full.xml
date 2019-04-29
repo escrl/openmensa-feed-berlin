@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-04-27">
-      <closed></closed>
-    </day>
     <day date="2019-04-28">
       <closed></closed>
     </day>
@@ -35,9 +32,10 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Eine Hähnchenroulade Florentin mit Spinat-Käse-Füllung an Sauce Provencal</name>
+          <name>Eine Hähnchenroulade Florentin mit Spinat-Füllung an Sauce Provencal</name>
           <note>rot (Ampel)</note>
           <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Senf</note>
           <price role="student">2.45</price>
@@ -59,19 +57,25 @@
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
         </meal>
+        <meal>
+          <name>Ein Paar Wiener Würstchen an Kartoffelsalat mit Joghurt und Senf</name>
+          <note>grün (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Nitritpökelsalz</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
       </category>
       <category name="Beilagen">
-        <meal>
-          <name>Mariniertes Chinagemüse</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
         <meal>
           <name>Karotten-Erbsen-Gemüse</name>
           <note>grün (Ampel)</note>
@@ -81,23 +85,27 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Kartoffelpüree</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
+          <name>Currygemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Reis mit Grünkern</name>
+          <name>Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Risi Bisi</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Dinkel</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -105,7 +113,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -114,7 +122,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -163,11 +171,11 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Ofenfrische Maishähnchenkeule an Kichererbsen-Kokos-Sauce</name>
+          <name>Eine gebratene Hähnchenkeule an Kichererbsen-Kokos-Sauce</name>
           <note>gelb (Ampel)</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
         <meal>
           <name>Grüne Bohneneintopf</name>
@@ -206,7 +214,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -215,7 +223,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -263,9 +271,22 @@
           <price role="other">4.75</price>
         </meal>
         <meal>
-          <name>Kartoffel-Gemüse-Pfanne mit Schluppen</name>
+          <name>Kartoffel-Gemüse-Auflauf</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Sahniger Milchreis mit Zimt, Zucker und Himbeersauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -405,7 +426,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -414,7 +435,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -508,7 +529,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -517,7 +538,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -610,7 +631,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -619,7 +640,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -704,7 +725,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -713,7 +734,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -922,7 +943,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -931,7 +952,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1019,7 +1040,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1028,7 +1049,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1257,7 +1278,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1266,7 +1287,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1362,7 +1383,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanillejoghurt</name>
+          <name>Vanillequark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1371,7 +1392,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Vanillequark</name>
+          <name>Vanillejoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1492,6 +1513,114 @@
     </day>
     <day date="2019-05-19">
       <closed></closed>
+    </day>
+    <day date="2019-05-20">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Hühnerfrikassee nach Berliner Art mit Spargel und Champignons</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Ravioli mit Gemüsesauce und Frühlingslauch</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Hefe</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Champignons in Kräuterrahm</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.85</price>
+          <price role="employee">1.70</price>
+          <price role="other">1.85</price>
+        </meal>
+        <meal>
+          <name>Fingermöhren</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Lupine</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis mit Dinkel</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Dinkel</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Vanillequark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Vanillejoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
