@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-05-19">
-      <closed></closed>
-    </day>
     <day date="2019-05-20">
       <category name="Salate">
         <meal>
@@ -30,6 +27,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -38,11 +41,17 @@
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
         </meal>
+      </category>
+      <category name="Aktionen">
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
+          <name>Käse-Kirsch-Kuchen Hausgebacken</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.80</price>
+          <price role="employee">2.00</price>
+          <price role="other">2.15</price>
         </meal>
       </category>
       <category name="Essen">
@@ -135,6 +144,15 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Orangen-Joghurtsahnedressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American Dressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -146,19 +164,22 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Orangen-Joghurtsahnedressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Käse-Kirsch-Kuchen Hausgebacken</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.80</price>
+          <price role="employee">2.00</price>
+          <price role="other">2.15</price>
         </meal>
       </category>
       <category name="Essen">
@@ -169,6 +190,17 @@
           <price role="student">2.15</price>
           <price role="employee">4.30</price>
           <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Schweinegeschnetzeltes mit asiatischem Gemüse Parboiledreis</name>
+          <note>grün (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
         </meal>
         <meal>
           <name>Zwei Gemüsefrikadellen an Erdnuss-Chili-Sauce</name>
@@ -194,6 +226,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Backkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Süßkartoffelpüree</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -203,7 +243,16 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
-          <name>Olivenreis</name>
+          <name>Rigatoni</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -722,6 +771,30 @@
     </day>
     <day date="2019-06-10">
       <closed></closed>
+    </day>
+    <day date="2019-06-11">
+      <category name="Essen">
+        <meal>
+          <name>Saisongemüse aus dem Garten mit Kartoffeln, Tofu und gerösteten Erdnüssen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Erdnüsse</note>
+          <note>Soja</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Marinierte Hähnchenkeule an Salbeirahmsauce</name>
+          <note>rot (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
