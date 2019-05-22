@@ -4,92 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-05-20">
-      <category name="Suppen">
-        <meal>
-          <name>Soljanka</name>
-          <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Nitritpökelsalz</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-      </category>
-      <category name="Essen">
-        <meal>
-          <name>Kartoffel-Gemüse-Pfanne mit Schluppen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">1.90</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.20</price>
-        </meal>
-        <meal>
-          <name>Ein Schweinekammsteak St. Germain an Perlzwiebelsauce</name>
-          <note>rot (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Champignons in Kräuterrahm</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.85</price>
-          <price role="employee">1.70</price>
-          <price role="other">1.85</price>
-        </meal>
-        <meal>
-          <name>Dampfkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Parboiledreis mit Dinkel</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Dinkel</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Sauce/Dip Extra</name>
-          <note>gelb (Ampel)</note>
-          <price role="student">0.30</price>
-          <price role="employee">0.60</price>
-          <price role="other">0.65</price>
-        </meal>
-      </category>
-      <category name="Desserts">
-        <meal>
-          <name>Rote Grütze mit Beeren</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Farbstoff</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-      </category>
-    </day>
     <day date="2019-05-21">
       <category name="Suppen">
         <meal>
@@ -228,11 +142,33 @@
           <price role="other">1.65</price>
         </meal>
         <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Sauce/Dip Extra</name>
           <note>gelb (Ampel)</note>
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Cookiequark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -358,7 +294,23 @@
       </category>
       <category name="Beilagen">
         <meal>
+          <name>Romanesco</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Paprikareis</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -396,6 +348,14 @@
       </category>
       <category name="Beilagen">
         <meal>
+          <name>Gartengemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
           <name>Eierspätzle</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -406,10 +366,10 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Parboiledreis mit Dinkel</name>
+          <name>Sesamreis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Dinkel</note>
+          <note>Sesam</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -450,8 +410,29 @@
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
         </meal>
+        <meal>
+          <name>Bulgur-Gemüse-Medaillon an Kräutersauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Grüne Bohnen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
         <meal>
           <name>Brokkoli</name>
           <note>grün (Ampel)</note>
@@ -483,6 +464,28 @@
       <closed></closed>
     </day>
     <day date="2019-06-03">
+      <category name="Suppen">
+        <meal>
+          <name>Indische Tomatensuppe mit Kokosmilch</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sesam</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Frische Deutsche Erdbeeren mit Sahnehaube</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.95</price>
+          <price role="employee">3.25</price>
+          <price role="other">3.55</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein Quinoa-Chili-Medaillon an Kokos-Curry-Sauce</name>
@@ -507,8 +510,63 @@
           <price role="other">3.40</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pikantes Paprika-Tomaten-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Reis mit Grünkern</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Dinkel</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Pfirsichquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2019-06-04">
+      <category name="Suppen">
+        <meal>
+          <name>Gemüsebrühe mit Erbsen und Karotten</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Blumenkohl-Pilz-Topf mit Kartoffeln</name>
@@ -533,8 +591,44 @@
           <price role="other">4.30</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Bratkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
     </day>
     <day date="2019-06-05">
+      <category name="Suppen">
+        <meal>
+          <name>Karotten-Ingwer-Suppe mit Chili</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein Blumenkohl-Knusper-Medaillon an Paprikasauce</name>
@@ -548,8 +642,52 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kräutermais</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Zucchinireis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
     </day>
     <day date="2019-06-06">
+      <category name="Suppen">
+        <meal>
+          <name>Tomatisierte Gemüsebrühe mit Basilikum</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Rosmarinkartoffeln vom Blech mit Porree, Champignons und Tomaten</name>
@@ -569,6 +707,43 @@
           <price role="student">1.95</price>
           <price role="employee">3.90</price>
           <price role="other">4.30</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Stampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Kaffeequark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>koffeinhaltig</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -605,6 +780,31 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-06-12">
+      <category name="Essen">
+        <meal>
+          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Tomaten-Rosmarin-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Schweineschnitzel Wiener Art mit Zitronenecke an Bratensauce</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
         </meal>
       </category>
     </day>
