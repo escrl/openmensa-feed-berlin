@@ -4,21 +4,31 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-06-15">
-      <closed></closed>
-    </day>
     <day date="2019-06-16">
       <closed></closed>
     </day>
     <day date="2019-06-17">
       <category name="Suppen">
         <meal>
-          <name>Karotten-Kokos-Suppe mit Ingwer</name>
+          <name>Romanescocremesuppe</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Frische Deutsche Erdbeeren mit Sahnehaube</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.95</price>
+          <price role="employee">3.25</price>
+          <price role="other">3.55</price>
         </meal>
       </category>
       <category name="Essen">
@@ -76,6 +86,17 @@
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Zitronenquark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -738,6 +759,9 @@
       <closed></closed>
     </day>
     <day date="2019-07-07">
+      <closed></closed>
+    </day>
+    <day date="2019-07-08">
       <closed></closed>
     </day>
   </canteen>
