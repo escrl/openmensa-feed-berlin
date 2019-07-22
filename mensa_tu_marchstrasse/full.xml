@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-07-20">
-      <closed></closed>
-    </day>
     <day date="2019-07-21">
       <closed></closed>
     </day>
@@ -36,7 +33,7 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Kressecremesuppe</name>
+          <name>Ruccula-cremesuppe</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -660,14 +657,6 @@
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
-        <meal>
-          <name>Rinderbrühe mit Champignons und Petersilie</name>
-          <note>grün (Ampel)</note>
-          <note>Sellerie</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
-        </meal>
       </category>
       <category name="Essen">
         <meal>
@@ -693,19 +682,6 @@
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Toskanische Tomaten-Brot-Suppe</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Klimaessen</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Sellerie</note>
-          <note>Hefe</note>
-          <price role="student">1.90</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.20</price>
-        </meal>
-        <meal>
           <name>Gemüseragout von Leipziger Allerlei mit zwei Semmelknödeln</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -727,19 +703,6 @@
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Kräuter-Püree</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
         </meal>
         <meal>
           <name>Kartoffeln</name>
@@ -866,14 +829,6 @@
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
-        <meal>
-          <name>Parboiledreis</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
       </category>
       <category name="Desserts">
         <meal>
@@ -972,6 +927,14 @@
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
       </category>
       <category name="Desserts">
         <meal>
@@ -1018,19 +981,6 @@
         </meal>
       </category>
       <category name="Essen">
-        <meal>
-          <name>Zwei gekochte Eier in Senfsauce und Stampfkartoffeln</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>bio</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-          <price role="student">2.50</price>
-          <price role="employee">5.00</price>
-          <price role="other">5.50</price>
-        </meal>
         <meal>
           <name>Eine Scheibe Rheinischer Sauerbraten in Traubensauce</name>
           <note>gelb (Ampel)</note>
@@ -1081,14 +1031,6 @@
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
         </meal>
         <meal>
           <name>Butterreis</name>
@@ -1197,14 +1139,6 @@
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Kartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
         </meal>
         <meal>
           <name>Gelber Reis</name>
@@ -1451,6 +1385,55 @@
     </day>
     <day date="2019-08-11">
       <closed></closed>
+    </day>
+    <day date="2019-08-12">
+      <category name="Essen">
+        <meal>
+          <name>Zwei Tofutaler gefüllt mit Seitan an Chili-Curry-Sauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Sojagulasch nach toskanischer Art mit Tomaten, Champignongs, frischem Thymian und Salzkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Farbstoff</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">2.75</price>
+          <price role="employee">5.50</price>
+          <price role="other">6.05</price>
+        </meal>
+        <meal>
+          <name>Ein paniertes Schweineschnitzel an Bratensauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Hühnerfrikassee mit Champignons, Erbsen und Schwarzwurzeln</name>
+          <note>gelb (Ampel)</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
