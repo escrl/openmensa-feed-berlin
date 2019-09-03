@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-09-01">
-      <closed></closed>
-    </day>
     <day date="2019-09-02">
       <category name="Vorspeisen">
         <meal>
@@ -115,6 +112,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Dampfkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffelpüree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -123,14 +128,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Dampfkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -207,16 +204,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurtdressing mit Kräutern</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Joghurtdressing mit Kräutern</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -232,14 +229,15 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Süßkartoffel-Linsen-Ratatouille mit Zucchini und Tomaten</name>
+          <name>Quinoa-Gemüse-Pfanne mit marinierten Sojastreifen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>bio</note>
-          <note>Alkohol</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
         </meal>
         <meal>
           <name>Marinierte Hähnchenkeule an Kichererbsen-Kokos-Sauce</name>
@@ -247,6 +245,18 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Gebackene Tintenfischringe an Joghurt-Knoblauch-Dip</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Beilagen">
@@ -275,7 +285,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Parboiledreis</name>
+          <name>Curryreis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -346,16 +356,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing mit Kräutern</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -640,16 +650,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurtdressing mit Kräutern</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Joghurtdressing mit Kräutern</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -800,16 +810,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Joghurtdressing mit Kräutern</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-        </meal>
-        <meal>
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Joghurtdressing mit Kräutern</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -945,16 +955,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing mit Kräutern</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -1160,6 +1170,14 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
+          <name>Bratkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Kräuter-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1168,14 +1186,6 @@
           <note>Phosphat</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Lupine</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1405,16 +1415,16 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>Joghurtdressing mit Kräutern</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -1542,6 +1552,9 @@
       <closed></closed>
     </day>
     <day date="2019-09-23">
+      <closed></closed>
+    </day>
+    <day date="2019-09-24">
       <closed></closed>
     </day>
   </canteen>

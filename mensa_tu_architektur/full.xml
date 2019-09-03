@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-09-01">
-      <closed></closed>
-    </day>
     <day date="2019-09-02">
       <category name="Salate">
         <meal>
@@ -37,22 +34,6 @@
         </meal>
       </category>
       <category name="Essen">
-        <meal>
-          <name>Ein paniertes Rotbarschfilet an Remouladensauce</name>
-          <note>gelb (Ampel)</note>
-          <note>MSC</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Süßungsmittel</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-          <price role="student">2.65</price>
-          <price role="employee">5.30</price>
-          <price role="other">5.85</price>
-        </meal>
         <meal>
           <name>Gebackenes Hähnchenfilet Tessin an Waldpilzsauce</name>
           <note>gelb (Ampel)</note>
@@ -139,8 +120,30 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Marinierte Hähnchenkeule an Kichererbsen-Kokos-Sauce</name>
+          <name>Ein gedünstetes Rotbarschfilet an Dillrahmsauce</name>
+          <note>grün (Ampel)</note>
+          <note>MSC</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.65</price>
+          <price role="employee">5.30</price>
+          <price role="other">5.85</price>
+        </meal>
+        <meal>
+          <name>Marinierte Hähnchenkeule an Geflügeljus</name>
+          <note>rot (Ampel)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Zwei gebackene Kartoffeltaschen mit Frischkäsefüllung an Quarkdip</name>
           <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -154,6 +157,14 @@
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
         </meal>
         <meal>
           <name>Petersilienkartoffeln</name>
@@ -204,6 +215,18 @@
       </category>
       <category name="Essen">
         <meal>
+          <name>Auf der Haut gebratenes Lachsforellenfilet an Limonen-Ingwer-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Fisch</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
           <name>Ein Schweineschnitzel im Zwiebelbackteig an Bratensauce</name>
           <note>rot (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
@@ -215,14 +238,13 @@
           <price role="other">4.30</price>
         </meal>
         <meal>
-          <name>Vegetarische Paprikaschote Orientalische Art mit Datteln und Feigen an Kurkumasauce</name>
-          <note>gelb (Ampel)</note>
+          <name>Vegetarische Paprikaschote Orientalische Art mit Datteln und Feigen an Tomatensauce</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Weizen</note>
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -389,6 +411,17 @@
           <price role="student">2.65</price>
           <price role="employee">5.30</price>
           <price role="other">5.85</price>
+        </meal>
+        <meal>
+          <name>Vegetarisch gefüllte Zucchini mit Mozzarella überbacken an Tomatensauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -728,6 +761,31 @@
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-09-24">
+      <category name="Essen">
+        <meal>
+          <name>Eine Hähnchenbrust mit grünem Spargel und Käse gefüllt an Geflügeljus</name>
+          <note>gelb (Ampel)</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Ein Quinoa-Ananas-Bratling an Hot-Chili-Dip</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Hefe</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
       </category>
     </day>
