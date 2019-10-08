@@ -4,12 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-10-05">
-      <closed></closed>
-    </day>
-    <day date="2019-10-06">
-      <closed></closed>
-    </day>
     <day date="2019-10-07">
       <category name="Salate">
         <meal>
@@ -35,10 +29,10 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Waldpilzcremesuppe mit Sojasahne und Petersilie</name>
-          <note>gelb (Ampel)</note>
+          <name>Gemüsecremesuppe</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
           <note>Soja</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -47,7 +41,17 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Spaghetti mit Getreidebolognese, frischen Karotten, Sellerie und Tomaten</name>
+          <name>Eine Hähnchenbrust mit grünem Spargel und Käse gefüllt an Estragon-Senf-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Pasta mit Getreidebolognese, frischen Karotten, Sellerie und Tomaten</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Klimaessen</note>
@@ -62,14 +66,10 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Berliner Kartoffelsuppe mit Gemüse und einem Brötchen</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Roggen</note>
+          <name>Berliner Kartoffelsuppe mit Bouillongemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
           <note>Senf</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
@@ -78,17 +78,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Sellerie in Rahm</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Karottengemüse</name>
+          <name>Blumenkohl</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -115,18 +105,19 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Pfirsichquark</name>
+          <name>Rote Grütze mit Beeren</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Pflaumenjoghurt mit Zimt</name>
-          <note>grün (Ampel)</note>
+          <name>Schokoladenpudding</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Soja</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -159,13 +150,14 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Gemüsebrühe mit Reis</name>
+          <name>Blumenkohlcremesuppe mit Curry</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Sellerie</note>
-          <price role="student">0.55</price>
-          <price role="employee">1.10</price>
-          <price role="other">1.20</price>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
       </category>
       <category name="Aktionen">
@@ -184,17 +176,6 @@
         </meal>
       </category>
       <category name="Essen">
-        <meal>
-          <name>Rosmarinkartoffeln vom Blech mit Porree, Champignons und Tomaten</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Klimaessen</note>
-          <note>Farbstoff</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">2.10</price>
-          <price role="employee">4.20</price>
-          <price role="other">4.60</price>
-        </meal>
         <meal>
           <name>Ein Germknödel mit Kirschfüllung, Mohnzucker und Vanillesauce</name>
           <note>gelb (Ampel)</note>
@@ -237,8 +218,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Schoko-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Aprikosenjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -246,10 +227,10 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Aprikosenjoghurt</name>
+          <name>Rote Grütze mit Beeren</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
@@ -508,8 +489,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Vanille-Kokosjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Quark mit Pflaumenmus</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -517,8 +498,8 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Quark mit Pflaumenmus</name>
-          <note>gelb (Ampel)</note>
+          <name>Vanille-Kokosjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -920,6 +901,75 @@
     </day>
     <day date="2019-10-27">
       <closed></closed>
+    </day>
+    <day date="2019-10-28">
+      <category name="Essen">
+        <meal>
+          <name>Blumenkohl-Kartoffel-Topf mit frischen Karotten, Kokosmilch und Chili</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Eine Scheibe Fleischkäse mit süßem Senf an Zwiebel-Kümmel-Jus</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Nitritpökelsalz</note>
+          <note>Senf</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-10-29">
+      <category name="Aktionen">
+        <meal>
+          <name>Berliner Currywurst mit Pommes frites, gebratenen Zwiebeln, Tomatenketchup und Salat</name>
+          <note>rot (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>Nitritpökelsalz</note>
+          <note>Senf</note>
+          <price role="student">4.95</price>
+          <price role="employee">5.45</price>
+          <price role="other">5.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Grünkerneintopf mit Rote Bete</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Dinkel</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Zitronen-Kurkuma-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Soja</note>
+          <note>Hefe</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
