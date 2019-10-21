@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-10-19">
-      <closed></closed>
-    </day>
     <day date="2019-10-20">
       <closed></closed>
     </day>
@@ -33,6 +30,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+        </meal>
+        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -40,12 +43,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -88,18 +85,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Schwarzwurzeln in Zitronenrahm</name>
+          <name>Karotten-Mais-Gemüse</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Karotten-Mais-Gemüse</name>
+          <name>Schwarzwurzeln in Zitronenrahm</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -138,6 +135,42 @@
           <price role="student">1.45</price>
           <price role="employee">1.60</price>
           <price role="other">1.75</price>
+        </meal>
+        <meal>
+          <name>Mandarinenquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Sauerkirschquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Mandarinenquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Sauerkirschquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -416,12 +449,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Soja</note>
-        </meal>
-        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -429,6 +456,12 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -727,10 +760,15 @@
     <day date="2019-10-29">
       <category name="Essen">
         <meal>
-          <name>Schweinegulasch nach Szegediener Art</name>
+          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Zitronen-Kurkuma-Sauce</name>
           <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>vegan</note>
           <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Gerste</note>
+          <note>Soja</note>
+          <note>Hefe</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -747,15 +785,10 @@
           <price role="other">2.95</price>
         </meal>
         <meal>
-          <name>Zwei Süßkartoffel-Rucola-Bratlinge an Zitronen-Kurkuma-Sauce</name>
+          <name>Schweinegulasch nach Szegediener Art</name>
           <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>Antioxidationsmittel</note>
-          <note>Farbstoff</note>
-          <note>Weizen</note>
-          <note>Gerste</note>
-          <note>Soja</note>
-          <note>Hefe</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -1089,6 +1122,15 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
+          <name>Schweinegulasch nach Szegediener Art</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
           <name>Zwei gebackene Falafel-Bagel an Chili-Ingwer-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -1096,15 +1138,6 @@
           <note>Weizen</note>
           <note>Soja</note>
           <note>Hefe</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
-          <name>Schweinegulasch nach Szegediener Art</name>
-          <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>Antioxidationsmittel</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -1193,6 +1226,41 @@
     </day>
     <day date="2019-11-10">
       <closed></closed>
+    </day>
+    <day date="2019-11-11">
+      <category name="Essen">
+        <meal>
+          <name>Kichererbsenragout mit Kartoffeln, Kreuzkümmel und Koriander</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Ein gebackener Avocado-Quinoa-Bratling an Kokos-Karotten-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Hafer</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Ein geschmorte Kohlroulade mit Hackfleischfüllung an Bratensauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
