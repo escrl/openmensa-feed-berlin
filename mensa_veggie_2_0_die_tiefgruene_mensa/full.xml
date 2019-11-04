@@ -4,36 +4,11 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-11-02">
-      <closed></closed>
-    </day>
     <day date="2019-11-03">
       <closed></closed>
     </day>
     <day date="2019-11-04">
-      <category name="Vorspeisen">
-        <meal>
-          <name>Glasnudelsalat mit frischer Minze</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>konserviert</note>
-          <note>Soja</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.60</price>
-          <price role="other">1.75</price>
-        </meal>
-      </category>
       <category name="Salate">
-        <meal>
-          <name>Doppelte Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">3.15</price>
-          <price role="employee">6.30</price>
-          <price role="other">6.95</price>
-        </meal>
         <meal>
           <name>Große Salatschale</name>
           <note>grün (Ampel)</note>
@@ -63,16 +38,16 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>French-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -90,12 +65,14 @@
       </category>
       <category name="Aktionen">
         <meal>
-          <name>Hausgemachte Pasta an Tomatensauce mit Basilikum Veganer Schmelz gerieben</name>
+          <name>Pasta an Tomatensauce mit frischem Basilikum oder Kürbis-Ingwer-Sauce Veganer Schmelz gerieben</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
           <note>Farbstoff</note>
           <note>Weizen</note>
           <note>Sellerie</note>
+          <note>Soja</note>
           <price role="student">2.95</price>
           <price role="employee">3.25</price>
           <price role="other">3.55</price>
@@ -110,30 +87,8 @@
           <price role="employee">2.65</price>
           <price role="other">2.85</price>
         </meal>
-        <meal>
-          <name>Würzige Sojastreifen mit Schluppen, Champignons und Basmatireis</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="student">4.95</price>
-          <price role="employee">5.45</price>
-          <price role="other">5.95</price>
-        </meal>
       </category>
       <category name="Essen">
-        <meal>
-          <name>Asiatische Gemüsepfanne mit geräuchertem Tofu und Reis</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>bio</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Senf</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
         <meal>
           <name>Frischer Winter-Gemüse-Eintopf mit Petersilie</name>
           <note>grün (Ampel)</note>
@@ -144,30 +99,28 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Zwei Gemüse-Knusper-Ringel an Kürbis-Ingwer-Sauce</name>
+          <name>Ein gebackener Avocado-Quinoa-Bratling an Kürbis-Ingwer-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Dinkel</note>
-          <note>Sellerie</note>
+          <note>Hafer</note>
           <note>Soja</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
         </meal>
-        <meal>
-          <name>Kartoffel-Gemüse-Pfanne mit Schluppen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
-        </meal>
       </category>
       <category name="Beilagen">
         <meal>
           <name>Karotten-Erbsen-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Brokkoli</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -183,15 +136,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Brokkoli</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>bio</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
           <name>Petersilienkartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -200,7 +144,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Parboiledreis</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -208,7 +152,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>an Kürbis-Ingwer-Sauce</name>
+          <name>Kürbis-Ingwer-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -230,23 +174,6 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Obstschälchen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">1.50</price>
-          <price role="employee">1.65</price>
-          <price role="other">1.80</price>
-        </meal>
-        <meal>
-          <name>Veganer Ananaspudding</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Soja</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
-        </meal>
-        <meal>
           <name>Rote Grütze mit Beeren Vanillesauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -255,14 +182,6 @@
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
-        </meal>
-        <meal>
-          <name>Aprikosenkompott</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
         </meal>
       </category>
     </day>
@@ -309,9 +228,11 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Soja</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -322,11 +243,9 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>American-Dressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -562,6 +481,13 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>French-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
@@ -573,13 +499,6 @@
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>French-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Soja</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -730,20 +649,20 @@
           <price role="other">2.85</price>
         </meal>
         <meal>
-          <name>Veganer Mokkapudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Rote Grütze mit Himbeeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>koffeinhaltig</note>
+          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Rote Grütze mit Himbeeren Vanillesauce</name>
-          <note>grün (Ampel)</note>
+          <name>Veganer Mokkapudding</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Farbstoff</note>
+          <note>koffeinhaltig</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
@@ -813,17 +732,17 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -972,19 +891,19 @@
           <price role="other">1.80</price>
         </meal>
         <meal>
-          <name>Veganer Vanillepudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Rote Grütze mit Beeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Rote Grütze mit Beeren Vanillesauce</name>
-          <note>grün (Ampel)</note>
+          <name>Veganer Vanillepudding</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
@@ -1047,17 +966,17 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -1209,6 +1128,16 @@
           <price role="other">1.80</price>
         </meal>
         <meal>
+          <name>Rote Grütze mit Beeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <note>Soja</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
           <name>Haselnuss-Grieß mit Zucker und Zimt</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -1216,16 +1145,6 @@
           <note>Farbstoff</note>
           <note>Weizen</note>
           <note>Haselnuss</note>
-          <note>Soja</note>
-          <price role="student">0.70</price>
-          <price role="employee">1.40</price>
-          <price role="other">1.55</price>
-        </meal>
-        <meal>
-          <name>Rote Grütze mit Beeren Vanillesauce</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
@@ -1284,6 +1203,12 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
@@ -1296,12 +1221,6 @@
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1516,11 +1435,9 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>American-Dressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -1531,9 +1448,11 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Soja</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -1750,16 +1669,16 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>French-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2201,6 +2120,14 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>American-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Soja</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>French-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
@@ -2211,14 +2138,6 @@
           <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>American-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2385,19 +2304,19 @@
           <price role="other">1.80</price>
         </meal>
         <meal>
-          <name>Veganer Vanillepudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Rote Grütze mit Beeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Rote Grütze mit Beeren Vanillesauce</name>
-          <note>grün (Ampel)</note>
+          <name>Veganer Vanillepudding</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
@@ -2451,17 +2370,17 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2683,16 +2602,16 @@
           <note>Senf</note>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>French-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -2917,9 +2836,11 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Soja</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -2930,11 +2851,9 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>American-Dressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
           <note>Senf</note>
         </meal>
       </category>
@@ -3087,20 +3006,20 @@
           <price role="other">1.80</price>
         </meal>
         <meal>
-          <name>Veganer Mokkapudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Rote Grütze mit Himbeeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>koffeinhaltig</note>
+          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Rote Grütze mit Himbeeren Vanillesauce</name>
-          <note>grün (Ampel)</note>
+          <name>Veganer Mokkapudding</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Farbstoff</note>
+          <note>koffeinhaltig</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
@@ -3141,17 +3060,17 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -3359,17 +3278,17 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Süßungsmittel</note>
           <note>Soja</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Sauce Vinaigrette</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
           <note>Senf</note>
         </meal>
         <meal>
@@ -3521,19 +3440,19 @@
           <price role="other">1.80</price>
         </meal>
         <meal>
-          <name>Rote Grütze mit Beeren Vanillesauce</name>
-          <note>grün (Ampel)</note>
+          <name>Veganer Vanillepudding</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
-          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
         </meal>
         <meal>
-          <name>Veganer Vanillepudding</name>
-          <note>gelb (Ampel)</note>
+          <name>Rote Grütze mit Beeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Farbstoff</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
@@ -3546,6 +3465,227 @@
     </day>
     <day date="2019-11-24">
       <closed></closed>
+    </day>
+    <day date="2019-11-25">
+      <category name="Salate">
+        <meal>
+          <name>Doppelte Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">3.15</price>
+          <price role="employee">6.30</price>
+          <price role="other">6.95</price>
+        </meal>
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>French-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Sauce Vinaigrette</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
+          <name>American-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Soja</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Bouillon von Wurzelgemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
+      <category name="Aktionen">
+        <meal>
+          <name>Nudelauswahl an Tomatensauce mit frischem Basilikum Veganer Schmelz gerieben</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Sellerie</note>
+          <price role="student">2.95</price>
+          <price role="employee">3.25</price>
+          <price role="other">3.55</price>
+        </meal>
+        <meal>
+          <name>Yofubecher mit Früchten</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.40</price>
+          <price role="employee">2.65</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Wokgemüse mit Fenchel, Sellerie und Erdnüssen an Basmatireis</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Erdnüsse</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">4.95</price>
+          <price role="employee">5.45</price>
+          <price role="other">5.95</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Zwei Tofutaler gefüllt mit Champignons an Currysauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Quinoapfanne mit Karotten, Porree, und würzigen Sojastreifen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Gemüse-Pfanne mit Schluppen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Chinagemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Kräutermais</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Petersilienkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Currysauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Yofubecher mit Früchten</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.40</price>
+          <price role="employee">2.65</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Obstschälchen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.50</price>
+          <price role="employee">1.65</price>
+          <price role="other">1.80</price>
+        </meal>
+        <meal>
+          <name>Veganer Ananaspudding</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Rote Grütze mit Beeren Vanillesauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <note>Soja</note>
+          <price role="student">0.70</price>
+          <price role="employee">1.40</price>
+          <price role="other">1.55</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-11-02">
-      <closed></closed>
-    </day>
     <day date="2019-11-03">
       <closed></closed>
     </day>
@@ -56,14 +53,14 @@
           <price role="other">4.20</price>
         </meal>
         <meal>
-          <name>Geflügelragout süß-sauer mit Bambussprossen, roter Paprika und Ananas</name>
-          <note>gelb (Ampel)</note>
-          <note>konserviert</note>
-          <note>Süßungsmittel</note>
-          <note>Soja</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
+          <name>Eine gebackene Hähnchenbrust Florentiner Art an Geflügeljus</name>
+          <note>rot (Ampel)</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
         <meal>
           <name>Tomaten-Paprika-Risotto mit gerösteten Erdnüssen</name>
@@ -79,7 +76,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Geschmorte Auberginen mit Tomaten</name>
+          <name>Rosenkohl mit Zwiebeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -87,8 +84,8 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Naturreis</name>
-          <note>grün (Ampel)</note>
+          <name>Langkornreis</name>
+          <note>gelb (Ampel)</note>
           <note>vegan</note>
           <note>bio</note>
           <price role="student">0.65</price>
@@ -106,12 +103,11 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Walnusspudding</name>
+          <name>Veganer Pistazien-Zimt-Pudding</name>
           <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Haselnuss</note>
+          <note>vegan</note>
+          <note>Pistazie</note>
           <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
           <price role="other">1.45</price>
@@ -997,6 +993,15 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Mohnquark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1005,15 +1010,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Mohnquark</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -1250,7 +1246,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Pflaumenjoghurt mit Zimt</name>
+          <name>Pfirsichquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1259,7 +1255,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Pfirsichquark</name>
+          <name>Pflaumenjoghurt mit Zimt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1359,8 +1355,8 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Schoko-Quark</name>
-          <note>gelb (Ampel)</note>
+          <name>Aprikosenjoghurt</name>
+          <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -1368,8 +1364,8 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Aprikosenjoghurt</name>
-          <note>grün (Ampel)</note>
+          <name>Schoko-Quark</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
@@ -1495,7 +1491,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Brombeerquark</name>
+          <name>Birnenjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1504,7 +1500,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Birnenjoghurt</name>
+          <name>Brombeerquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
@@ -1774,6 +1770,47 @@
     </day>
     <day date="2019-11-24">
       <closed></closed>
+    </day>
+    <day date="2019-11-25">
+      <category name="Essen">
+        <meal>
+          <name>Quinoapfanne mit Karotten, Porree, und würzigen Sojastreifen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Ein gebackenes Hähnchen Cordon bleu an Salbeirahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>konserviert</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Eine vegetarische Frühlingsrolle an Koriander-Chili-Dip</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
