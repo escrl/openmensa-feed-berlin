@@ -4,13 +4,21 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-11-23">
-      <closed></closed>
-    </day>
     <day date="2019-11-24">
       <closed></closed>
     </day>
     <day date="2019-11-25">
+      <category name="Suppen">
+        <meal>
+          <name>Käsecremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ein gebackenes Hähnchen Cordon bleu an Salbeirahmsauce</name>
@@ -25,16 +33,16 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Eine vegetarische Frühlingsrolle an Koriander-Chili-Dip</name>
-          <note>rot (Ampel)</note>
+          <name>Eine vegetarische Frühlingsrolle mit scharfer Fruchtsauce</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>konserviert</note>
           <note>Antioxidationsmittel</note>
-          <note>Süßungsmittel</note>
+          <note>Farbstoff</note>
           <note>Weizen</note>
           <note>Eier</note>
           <note>Sellerie</note>
           <note>Soja</note>
-          <note>Sesam</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -76,15 +84,6 @@
           <note>Weizen</note>
           <note>Eier</note>
           <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Käsecremesuppe</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -852,6 +851,9 @@
       <closed></closed>
     </day>
     <day date="2019-12-15">
+      <closed></closed>
+    </day>
+    <day date="2019-12-16">
       <closed></closed>
     </day>
   </canteen>
