@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-11-24">
-      <closed></closed>
-    </day>
     <day date="2019-11-25">
       <category name="Salate">
         <meal>
@@ -164,6 +161,16 @@
       </category>
     </day>
     <day date="2019-11-26">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Peruanischer Linsensalat</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Große Salatschale</name>
@@ -216,6 +223,13 @@
           <price role="other">3.40</price>
         </meal>
         <meal>
+          <name>Marinierte Hähnchenkeule an Kichererbsen-Kokos-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
           <name>Kürbis-Chiasamen-Bratling an Karottensauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -226,17 +240,10 @@
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
         </meal>
-        <meal>
-          <name>Marinierte Hähnchenkeule an Kichererbsen-Kokos-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Brokkoli</name>
+          <name>Paprika-Mais-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -244,7 +251,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Paprika-Mais-Gemüse</name>
+          <name>Brokkoli</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -286,6 +293,44 @@
           <price role="employee">1.60</price>
           <price role="other">1.75</price>
         </meal>
+        <meal>
+          <name>Schokoladenpudding und Vanillesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Johannisbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Schokoladenpudding und Vanillesauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Johannisbeerquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
     </day>
     <day date="2019-11-27">
@@ -311,13 +356,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-        </meal>
-        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -325,6 +363,13 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -371,18 +416,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Erbsen</name>
+          <name>Kohlrabi mit Sesam</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Sesam</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Kohlrabi mit Sesam</name>
+          <name>Erbsen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Sesam</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -456,13 +501,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-        </meal>
-        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -470,6 +508,13 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -510,19 +555,19 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Gelbe und grüne Zucchini</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
           <name>Schwarzwurzeln in Zitronenrahm</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Gelbe und grüne Zucchini</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -587,6 +632,13 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+        </meal>
+        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -594,13 +646,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -717,21 +762,21 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Orangen-Joghurtsahnedressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+        <meal>
           <name>Joghurtdressing</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
           <note>Weizen</note>
           <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Orangen-Joghurtsahnedressing</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
@@ -1063,13 +1108,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-        </meal>
-        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1077,6 +1115,13 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -1097,21 +1142,21 @@
           <price role="other">4.75</price>
         </meal>
         <meal>
-          <name>Zwei Grünkohl-Hanf-Medaillons an Brokkolisauce</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Eine Scheibe Rinderschmorbraten nach Esterhazy Art</name>
           <note>gelb (Ampel)</note>
           <note>Antioxidationsmittel</note>
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Zwei Grünkohl-Hanf-Medaillons an Brokkolisauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -1322,18 +1367,6 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
-          <name>Eine Hähnchenbrust in Kürbiskernpanade an Geflügel-Haselnuss-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
-          <price role="student">1.95</price>
-          <price role="employee">3.90</price>
-          <price role="other">4.30</price>
-        </meal>
-        <meal>
           <name>Zwei Gemüse-Kartoffel-Puffer an Chili-Curry-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>vegan</note>
@@ -1341,6 +1374,18 @@
           <note>Weizen</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Eine Hähnchenbrust in Kürbiskernpanade an Geflügel-Haselnuss-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Haselnuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
           <price role="student">1.95</price>
           <price role="employee">3.90</price>
           <price role="other">4.30</price>
@@ -1426,23 +1471,23 @@
           <price role="other">3.40</price>
         </meal>
         <meal>
-          <name>Putengeschnetzeltes mit Champignons in Rahmsauce</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Farbstoff</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
-        <meal>
           <name>Zwei gebackene Falafel-Bagel an Tomaten-Ananas-Sauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
           <note>Weizen</note>
           <note>Hefe</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Putengeschnetzeltes mit Champignons in Rahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
@@ -1630,6 +1675,13 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+        </meal>
+        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1637,13 +1689,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -1739,6 +1784,13 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+        </meal>
+        <meal>
           <name>Orangen-Joghurtsahnedressing</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1746,13 +1798,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
           <note>Senf</note>
-        </meal>
-        <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen">
@@ -1909,6 +1954,80 @@
           <price role="student">0.30</price>
           <price role="employee">0.60</price>
           <price role="other">0.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2019-12-17">
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+        </meal>
+        <meal>
+          <name>Orangen-Joghurtsahnedressing</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Koreanisches Linsencurry mit Gemüse und Sojasahne</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Sauce/Dip Extra</name>
+          <note>gelb (Ampel)</note>
+          <price role="student">0.30</price>
+          <price role="employee">0.60</price>
+          <price role="other">0.65</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Früchte - Quarkbecher  To Go</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
         </meal>
       </category>
     </day>
