@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-11-30">
-      <closed></closed>
-    </day>
     <day date="2019-12-01">
       <closed></closed>
     </day>
@@ -15,11 +12,13 @@
         <meal>
           <name>Salat von Kichererbsen mit Frühlingszwiebeln und Cumin</name>
           <note>grün (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
-          <price role="student">1.45</price>
-          <price role="employee">1.60</price>
-          <price role="other">1.75</price>
+          <note>Kaschunuss</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
         </meal>
       </category>
       <category name="Salate">
@@ -47,14 +46,24 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Eine Hähnchenbrust nach Elsässer Art an Salbeirahmsauce</name>
+          <name>Zwei Tofutaler gefüllt mit Champignons an Tomatensauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Soja</note>
+          <note>Hefe</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hähnchenfilet Tessin an Salbeirahmsauce</name>
           <note>gelb (Ampel)</note>
           <note>konserviert</note>
           <note>Antioxidationsmittel</note>
-          <note>Weizen</note>
-          <note>Sellerie</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Nitritpökelsalz</note>
           <price role="student">2.15</price>
           <price role="employee">4.30</price>
           <price role="other">4.75</price>
@@ -83,18 +92,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Romanesco</name>
+          <name>Flageoletbohnen</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Antioxidationsmittel</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Farfalle</name>
-          <note>gelb (Ampel)</note>
+          <name>Salzkartoffeln</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
-          <note>Weizen</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -1249,6 +1258,19 @@
       </category>
       <category name="Beilagen">
         <meal>
+          <name>Kartoffel-Sellerie-Püree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Sellerie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
           <name>Kartoffelsalat mit Joghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
@@ -1258,19 +1280,6 @@
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <note>Senf</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Sellerie-Püree</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -1941,6 +1950,9 @@
       <closed></closed>
     </day>
     <day date="2019-12-22">
+      <closed></closed>
+    </day>
+    <day date="2019-12-23">
       <closed></closed>
     </day>
   </canteen>
