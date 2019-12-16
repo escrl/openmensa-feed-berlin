@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2019-12-14">
-      <closed></closed>
-    </day>
     <day date="2019-12-15">
       <closed></closed>
     </day>
@@ -31,13 +28,12 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Deftige Krautsuppe mit Bauchspeck</name>
-          <note>gelb (Ampel)</note>
-          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
+          <name>Kürbissuppe</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Farbstoff</note>
+          <note>geschwärzt</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Nitritpökelsalz</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -71,7 +67,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Geschmorte Auberginen mit Tomaten</name>
+          <name>Karotten-Erbsen-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -80,16 +76,24 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Bratkartoffeln</name>
+          <name>Petersilienkartoffeln</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Parboiledreis</name>
           <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Quinoa</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
@@ -105,6 +109,16 @@
       </category>
       <category name="Desserts">
         <meal>
+          <name>Sauerkirschquark</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
           <name>Müslijoghurt</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -114,16 +128,6 @@
           <note>Hafer</note>
           <note>Mandeln</note>
           <note>Haselnuss</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-        <meal>
-          <name>Sauerkirschquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -221,7 +225,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Heidelbeerjoghurt</name>
+          <name>Birnenquark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
@@ -231,7 +235,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Birnenquark</name>
+          <name>Heidelbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
@@ -451,7 +455,7 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Waldbeerjoghurt</name>
+          <name>Mango-Orangen-Quark</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
@@ -461,7 +465,7 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Mango-Orangen-Quark</name>
+          <name>Waldbeerjoghurt</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
@@ -642,6 +646,29 @@
     </day>
     <day date="2020-01-05">
       <closed></closed>
+    </day>
+    <day date="2020-01-06">
+      <category name="Essen">
+        <meal>
+          <name>Eine Hähnchenbrust mit Champignonfüllung an Salbeirahmsauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">2.45</price>
+          <price role="employee">4.90</price>
+          <price role="other">5.40</price>
+        </meal>
+        <meal>
+          <name>Soja-Kraut-Ragout mit Ajvar und Petersilienkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Soja</note>
+          <price role="student">2.10</price>
+          <price role="employee">4.20</price>
+          <price role="other">4.60</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
