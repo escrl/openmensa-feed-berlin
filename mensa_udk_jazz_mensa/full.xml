@@ -4,86 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-01-09">
-      <category name="Salate">
-        <meal>
-          <name>Große Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
-          <name>Kleine Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-      </category>
-      <category name="Essen">
-        <meal>
-          <name>Kalbsrahmgulasch mit Champignons, Zwiebeln und frischen Kräutern</name>
-          <note>grün (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">2.15</price>
-          <price role="employee">4.30</price>
-          <price role="other">4.75</price>
-        </meal>
-        <meal>
-          <name>Kürbis-Kartoffel-Gulasch mit Kokosmilch</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <price role="student">1.45</price>
-          <price role="employee">2.90</price>
-          <price role="other">3.20</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Rosenkohl</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Zwei Kartoffelklöße</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Eierspätzle</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-01-10">
       <category name="Salate">
         <meal>
@@ -240,9 +160,10 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Romanesco</name>
+          <name>Balkangemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>Sellerie</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -266,14 +187,24 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Sauerkirschquark</name>
+          <name>Fruchtquark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
+        </meal>
+        <meal>
+          <name>Apfelmus mit Vanillesauce</name>
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
+          <price role="student">1.30</price>
+          <price role="employee">2.60</price>
+          <price role="other">2.85</price>
         </meal>
       </category>
     </day>
@@ -476,16 +407,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Putencurry mit asiatischem Gemüse und Kokosmilch</name>
-          <note>gelb (Ampel)</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
           <name>Ein Quinoa-Chili-Medaillon an Kurkumasauce</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
@@ -494,6 +415,16 @@
           <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Putencurry mit asiatischem Gemüse und Kokosmilch</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -626,6 +557,17 @@
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Milchreis indische Art mit Rosinen, Pistazien und Kardamom</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Erdnüsse</note>
+          <note>Pistazie</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
         </meal>
       </category>
     </day>
@@ -857,6 +799,9 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+    </day>
+    <day date="2020-02-01">
+      <closed></closed>
     </day>
   </canteen>
 </openmensa>
