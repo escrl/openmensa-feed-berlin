@@ -4,96 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-02-12">
-      <category name="Salate">
-        <meal>
-          <name>Große Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">1.75</price>
-          <price role="employee">3.50</price>
-          <price role="other">3.85</price>
-        </meal>
-        <meal>
-          <name>Kleine Salatschale</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Süßungsmittel</note>
-          <note>Sellerie</note>
-          <price role="student">0.65</price>
-          <price role="employee">1.30</price>
-          <price role="other">1.45</price>
-        </meal>
-      </category>
-      <category name="Essen">
-        <meal>
-          <name>Gebackenes Hähnchenfilet Tessin an Petersiliensauce</name>
-          <note>gelb (Ampel)</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
-          <note>Sellerie</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">2.15</price>
-          <price role="employee">4.30</price>
-          <price role="other">4.75</price>
-        </meal>
-        <meal>
-          <name>Couscous mit Chinakohl, Karotten, Rosinen und gerösteten Sonnenblumenkernen</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>Klimaessen</note>
-          <note>Weizen</note>
-          <price role="student">1.90</price>
-          <price role="employee">3.80</price>
-          <price role="other">4.20</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Blumenkohl</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Möhren-Püree</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
-          <note>Phosphat</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Schwefeldioxid und Sulfide</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Parboiledreis mit Dinkel</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Dinkel</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
-        </meal>
-      </category>
-      <category name="Desserts">
-        <meal>
-          <name>Fruchtquark</name>
-          <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">1.30</price>
-          <price role="employee">2.60</price>
-          <price role="other">2.85</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-02-13">
       <category name="Salate">
         <meal>
@@ -117,11 +27,24 @@
           <price role="other">1.45</price>
         </meal>
       </category>
+      <category name="Suppen">
+        <meal>
+          <name>Kartoffel-Kürbiscreme</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
-          <name>Putenschnitzel</name>
+          <name>Putenschnitzel an Geflügelrahmsauce</name>
           <note>rot (Ampel)</note>
           <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Hefe</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
@@ -202,33 +125,33 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Zwei gekochte Eier in Senfsauce und Stampfkartoffeln</name>
-          <note>gelb (Ampel)</note>
-          <note>vegetarisch</note>
-          <note>bio</note>
-          <note>Weizen</note>
-          <note>Eier</note>
-          <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Senf</note>
-          <price role="student">2.50</price>
-          <price role="employee">5.00</price>
-          <price role="other">5.50</price>
-        </meal>
-        <meal>
-          <name>Ein gebratenes Schollenfilet Müllerin Art an Kräuter-Sahne-Sauce</name>
+          <name>Ein gebratenes Schollenfilet Müllerin Art</name>
           <note>gelb (Ampel)</note>
           <note>MSC</note>
-          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">2.45</price>
           <price role="employee">4.90</price>
           <price role="other">5.40</price>
         </meal>
+        <meal>
+          <name>Zwei gekochte Eier in Senfsauce mit Kartoffelpüree</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <note>Senf</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Pariser Karotten</name>
+          <name>Mischgemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -236,7 +159,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Kartoffel-Sellerie-Püree</name>
+          <name>Kartoffelpüree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
@@ -247,14 +170,6 @@
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
-        </meal>
-        <meal>
-          <name>Parboiledreis</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
         </meal>
       </category>
       <category name="Desserts">
@@ -328,6 +243,9 @@
       <closed></closed>
     </day>
     <day date="2020-03-05">
+      <closed></closed>
+    </day>
+    <day date="2020-03-06">
       <closed></closed>
     </day>
   </canteen>
