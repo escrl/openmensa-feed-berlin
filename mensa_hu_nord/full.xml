@@ -4,9 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-02-23">
-      <closed></closed>
-    </day>
     <day date="2020-02-24">
       <category name="Vorspeisen">
         <meal>
@@ -178,7 +175,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Erbsen</name>
+          <name>Erbsen-Mais-Gemüse</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <price role="student">0.60</price>
@@ -195,9 +192,9 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Pommes wedges</name>
+          <name>Kartoffelbällchen</name>
           <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -269,19 +266,19 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Blumenkohlcremesuppe mit Curry</name>
+          <name>Gemüsecremesuppe</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
           <note>Soja</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Gemüsebrühe mit Grießklößchen</name>
+          <name>Hühnerbrühe mit Grießklößchen</name>
           <note>grün (Ampel)</note>
-          <note>vegetarisch</note>
           <note>Weizen</note>
           <note>Eier</note>
           <note>Sellerie</note>
@@ -309,7 +306,7 @@
           <price role="other">7.15</price>
         </meal>
         <meal>
-          <name>Rigatoni mit Pilzen, Tomaten, Knoblauch und frischen Kräutern</name>
+          <name>Ital Pasta mit Pilzen, Tomaten, Knoblauch und frischen Kräutern</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -319,7 +316,7 @@
           <price role="other">3.55</price>
         </meal>
         <meal>
-          <name>Curry vom Huhn mit asiatischem Gemüse und Duftreis</name>
+          <name>Curry vom Huhn mit asiatischem Gemüse und Basmatireis</name>
           <note>gelb (Ampel)</note>
           <note>Sellerie</note>
           <note>Soja</note>
@@ -330,11 +327,13 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Gnocchipfanne mit Zucchini, Paprika und Tomaten</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <name>Vier Kartoffelpuffer mit Apfelmus</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
           <note>bio</note>
+          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
+          <note>Eier</note>
           <price role="student">1.75</price>
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
@@ -388,16 +387,25 @@
           <price role="other">3.20</price>
         </meal>
         <meal>
-          <name>Vier Eierpfannkuchen mit Apfelmus</name>
+          <name>Ein Germknödel mit Pflaumenmusfüllung, Mohnzucker und Vanillesauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
-          <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
+        </meal>
+        <meal>
+          <name>Geschnetzeltes vom Schwein mit Erbsen, Ingwer, Koriander und Parboiledreis</name>
+          <note>grün (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -446,9 +454,9 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Mousse au chocolat</name>
+          <name>Aprikosen- Mascarponecreme</name>
           <note>rot (Ampel)</note>
-          <note>Eier</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
@@ -589,12 +597,13 @@
           <price role="other">3.20</price>
         </meal>
         <meal>
-          <name>Ein Germknödel mit Pflaumenmusfüllung, Mohnzucker</name>
+          <name>Vier Eierpfannkuchen mit Apfelmus</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Weizen</note>
+          <note>Eier</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <note>Hefe</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -1225,6 +1234,16 @@
           <price role="other">3.85</price>
         </meal>
         <meal>
+          <name>Makrelenfilet mit Rosmarin an Tomatenragout</name>
+          <note>gelb (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Fisch</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
           <name>Vollkornspaghetti mit Kerbel-Gemüse-Sauce</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
@@ -1476,7 +1495,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Weiße Rübchen mit Erbsen und Karotten</name>
+          <name>Apfelrotkohl</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -1485,7 +1504,7 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Apfelrotkohl</name>
+          <name>Weiße Rübchen mit Erbsen und Karotten</name>
           <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
@@ -1887,14 +1906,6 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Backkartoffeln</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <price role="student">0.75</price>
-          <price role="employee">1.50</price>
-          <price role="other">1.65</price>
-        </meal>
-        <meal>
           <name>Kartoffel-Sellerie-Püree</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -1903,6 +1914,14 @@
           <note>Sellerie</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Backkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
           <price role="student">0.75</price>
           <price role="employee">1.50</price>
           <price role="other">1.65</price>
@@ -2438,6 +2457,53 @@
           <note>Sellerie</note>
           <note>Soja</note>
           <note>Sesam</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-03-17">
+      <category name="Essen">
+        <meal>
+          <name>Süßkartoffel-Linsen-Ratatouille mit Zucchini und Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>bio</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Champignon-Kartoffel-Curry mit Gemüse und frischer Blattpetersilie</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Gebackene Tintenfischringe an Knoblauchmayonnaise</name>
+          <note>rot (Ampel)</note>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Weichtiere</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>Eine gebratene Hähnchenkeule an Thymianjus</name>
+          <note>rot (Ampel)</note>
           <price role="student">1.35</price>
           <price role="employee">2.70</price>
           <price role="other">2.95</price>
