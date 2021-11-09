@@ -10,6 +10,16 @@
     <phone>030 93939 - 7620</phone>
     <email>mensen@stw.berlin</email>
     <location latitude="52.55804" longitude="13.4393999"></location>
+    <availability>public</availability>
+    <times type="opening">
+      <monday open="08:30-16:00"></monday>
+      <tuesday open="08:30-16:00"></tuesday>
+      <wednesday open="08:30-16:00"></wednesday>
+      <thursday open="08:30-16:00"></thursday>
+      <friday open="08:30-15:00"></friday>
+      <saturday closed="true"></saturday>
+      <sunday closed="true"></sunday>
+    </times>
     <feed name="full">
       <schedule hour="8" retry="45 3 1440"></schedule>
       <url>https://raw.githubusercontent.com/escrl/openmensa-feed-berlin/master/mensa_khs_weissensee/full.xml</url>
