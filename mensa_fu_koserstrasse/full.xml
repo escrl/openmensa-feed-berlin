@@ -4,12 +4,7 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-11-06">
-      <closed></closed>
-    </day>
-    <day date="2021-11-07">
-      <closed></closed>
-    </day>
+    <availability>restricted</availability>
     <day date="2021-11-08">
       <category name="Suppen">
         <meal>
@@ -23,17 +18,6 @@
         </meal>
       </category>
       <category name="Essen">
-        <meal>
-          <name>Sojagulasch nach Szegediner Art</name>
-          <note>grün (Ampel)</note>
-          <note>vegan</note>
-          <note>konserviert</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-          <price role="student">1.35</price>
-          <price role="employee">2.70</price>
-          <price role="other">2.95</price>
-        </meal>
         <meal>
           <name>Eine Brokkoli-Nuss-Ecke an Kokos-Curry-Sauce</name>
           <note>gelb (Ampel)</note>
@@ -49,10 +33,22 @@
           <price role="other">2.95</price>
         </meal>
         <meal>
-          <name>Tessiner Pilzrisotto mit Petersilie</name>
-          <note>gelb (Ampel)</note>
+          <name>Sojagulasch nach Szegediner Art</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
+          <note>konserviert</note>
           <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">1.35</price>
+          <price role="employee">2.70</price>
+          <price role="other">2.95</price>
+        </meal>
+        <meal>
+          <name>Chili con Soja</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
           <price role="student">1.45</price>
           <price role="employee">2.90</price>
           <price role="other">3.20</price>
@@ -72,9 +68,9 @@
           <note>grün (Ampel)</note>
           <note>vegetarisch</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
         </meal>
         <meal>
           <name>Gemüsereis</name>
@@ -204,13 +200,23 @@
           <price role="other">1.80</price>
         </meal>
         <meal>
-          <name>Schokoladenpudding</name>
+          <name>Schokoladenpudding mit Vanillesauce</name>
           <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <note>Soja</note>
           <price role="student">0.70</price>
           <price role="employee">1.40</price>
           <price role="other">1.55</price>
+        </meal>
+        <meal>
+          <name>Pfirsich-Grünkern-Quark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Dinkel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
         </meal>
       </category>
     </day>
@@ -323,7 +329,7 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>Bratwurst Thüringer Art an Zwiebel-Kümmel-Jus</name>
+          <name>Pfannenfrische Bratwurst an Zwiebel-Kümmel-Jus</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>Hefe</note>
@@ -1085,6 +1091,73 @@
     </day>
     <day date="2021-11-28">
       <closed></closed>
+    </day>
+    <day date="2021-11-29">
+      <category name="Suppen">
+        <meal>
+          <name>Lauchcremesuppe mit Äpfeln</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>3 Stück Gemüsebällchen an Kichererbsen-Kokos-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-11-30">
+      <category name="Suppen">
+        <meal>
+          <name>Scharfe indische Kichererbsensuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Senf</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Essen">
+        <meal>
+          <name>Berliner Boulette vom Schwein und Rind an Zwiebel-Kräuter-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Zwei gekochte Eier in Senfsauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

@@ -4,13 +4,20 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-11-06">
-      <closed></closed>
-    </day>
-    <day date="2021-11-07">
-      <closed></closed>
-    </day>
+    <availability>restricted</availability>
     <day date="2021-11-08">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit marinierten Sojastreifen und geröstetem Sesam</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Große Salatschale</name>
@@ -109,12 +116,10 @@
       </category>
       <category name="Desserts">
         <meal>
-          <name>Quark mit gerösteten Nüssen</name>
+          <name>Bananen-Sahne-Quark mit Honig</name>
           <note>rot (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Mandeln</note>
-          <note>Haselnuss</note>
-          <note>Walnuss</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -123,6 +128,17 @@
       </category>
     </day>
     <day date="2021-11-09">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit Artischockenherzen und gerösteten Kürbiskernen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Große Salatschale</name>
@@ -147,12 +163,13 @@
       </category>
       <category name="Suppen">
         <meal>
-          <name>Gemüsecremesuppe</name>
+          <name>Curry-Bananen-Suppe mit gerösteten Mandeln</name>
           <note>gelb (Ampel)</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
+          <note>Mandeln</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
           <price role="student">0.60</price>
           <price role="employee">1.20</price>
           <price role="other">1.30</price>
@@ -171,6 +188,19 @@
           <price role="student">2.10</price>
           <price role="employee">4.20</price>
           <price role="other">4.60</price>
+        </meal>
+        <meal>
+          <name>Kohlroulade mit Soja-Weizenfüllung an Bratensauce</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Dinkel</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
         </meal>
         <meal>
           <name>Eine Paprikaschote mit Gemüse-Reis-Füllung an Tomaten-Rosmarin-Sauce</name>
@@ -205,12 +235,12 @@
           <price role="other">1.30</price>
         </meal>
         <meal>
-          <name>Kartoffeln</name>
-          <note>grün (Ampel)</note>
+          <name>Pommes frites</name>
+          <note>rot (Ampel)</note>
           <note>vegan</note>
-          <price role="student">0.60</price>
-          <price role="employee">1.20</price>
-          <price role="other">1.30</price>
+          <price role="student">1.45</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.75</price>
         </meal>
         <meal>
           <name>Parboiledreis</name>
@@ -234,6 +264,20 @@
       </category>
     </day>
     <day date="2021-11-10">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit Mozzarella und getrockneten Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>konserviert</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Große Salatschale</name>
@@ -340,6 +384,17 @@
       </category>
     </day>
     <day date="2021-11-11">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit marinierten Champignons und gerösteten Kürbiskernen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Große Salatschale</name>
@@ -390,7 +445,7 @@
           <price role="other">6.05</price>
         </meal>
         <meal>
-          <name>Bratwurst Thüringer Art an Zwiebel-Kümmel-Jus</name>
+          <name>Pfannenfrische Bratwurst an Zwiebel-Kümmel-Jus</name>
           <note>gelb (Ampel)</note>
           <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
           <note>Hefe</note>
@@ -455,6 +510,20 @@
       </category>
     </day>
     <day date="2021-11-12">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit Mozzarella und getrockneten Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>konserviert</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
       <category name="Salate">
         <meal>
           <name>Große Salatschale</name>
@@ -1188,6 +1257,55 @@
       <closed></closed>
     </day>
     <day date="2021-11-22">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit gekochtem Ei und marinierten Bohnen</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>konserviert</note>
+          <note>Eier</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Kartoffelcremesuppe</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Senf</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Champignon-Kartoffel-Curry mit Gemüse und frischer Blattpetersilie</name>
@@ -1228,8 +1346,100 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pariser Karotten</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Rosmarinkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Bananen-Kokos-Joghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2021-11-23">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit marinierten Sojastreifen und geröstetem Sesam</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Karottensuppe mit Orange und Ingwer</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Glasnudeln mit gebratenem Tofu und süß-scharfem Spitzkohl</name>
@@ -1264,8 +1474,109 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Brokkoli</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Schmorkohl</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sesam</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Hausgemachtes Kartoffelpüree</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Petersilienkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Gelber Reis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Senf</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Ananasquark</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2021-11-24">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit Parmesan und Kirschtomaten</name>
+          <note>grün (Ampel)</note>
+          <note>konserviert</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Gemüsebrühe mit Reis</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.55</price>
+          <price role="employee">1.10</price>
+          <price role="other">1.20</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Eine gebackene Seelachsroulade mit Gemüsefüllung an Tomaten-Joghurt-Dip</name>
@@ -1305,8 +1616,102 @@
           <price role="other">2.95</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Balkangemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Eierspätzle</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Reis mit Leinsamen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Pfirsich-Grünkern-Quark</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Dinkel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2021-11-25">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit marinierten Champignons und gerösteten Kürbiskernen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Soja</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Waldpilzcremesuppe mit Sojasahne und Petersilie</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Ofenfrisches Rinderhacksteak an Sauce Provencal</name>
@@ -1331,9 +1736,122 @@
           <price role="employee">3.50</price>
           <price role="other">3.85</price>
         </meal>
+        <meal>
+          <name>Frankfurter Linseneintopf mit Wurzelgemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Sellerie</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Prinzessbohnen</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Ratatouille</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Backkartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Vollkornreis</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Apfel-Grünkern-Joghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Dinkel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
     </day>
     <day date="2021-11-26">
+      <category name="Vorspeisen">
+        <meal>
+          <name>Salatteller Spezial mit Mozzarella und getrockneten Tomaten</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>konserviert</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
+      </category>
+      <category name="Salate">
+        <meal>
+          <name>Große Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Kleine Salatschale</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Süßungsmittel</note>
+          <note>Sellerie</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
+      <category name="Suppen">
+        <meal>
+          <name>Tomatensuppe mit frischem Basilikum</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
       <category name="Essen">
         <meal>
           <name>Quinoapfanne mit Karotten, Porree, und würzigen Sojastreifen</name>
@@ -1372,6 +1890,67 @@
           <price role="employee">3.90</price>
           <price role="other">4.30</price>
         </meal>
+        <meal>
+          <name>Tiroler Kaiserschmarrn mit warmer Zwetschgensauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Phosphat</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.45</price>
+          <price role="employee">2.90</price>
+          <price role="other">3.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Karotten-Erbsen-Gemüse</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>hausgemachtes Kartoffelpüree mit Karottenstreifen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.75</price>
+          <price role="employee">1.50</price>
+          <price role="other">1.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+        <meal>
+          <name>Parboiledreis</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.30</price>
+        </meal>
+      </category>
+      <category name="Desserts">
+        <meal>
+          <name>Mangoquark</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
       </category>
     </day>
     <day date="2021-11-27">
@@ -1379,6 +1958,83 @@
     </day>
     <day date="2021-11-28">
       <closed></closed>
+    </day>
+    <day date="2021-11-29">
+      <category name="Essen">
+        <meal>
+          <name>Grünkerneintopf mit Rote Bete</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Dinkel</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>3 Stück Gemüsebällchen an Kichererbsen-Kokos-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
+          <price role="student">1.75</price>
+          <price role="employee">3.50</price>
+          <price role="other">3.85</price>
+        </meal>
+        <meal>
+          <name>Ein gebackener Kartoffelbratling mit Frischkäsefüllung an Kräuter-Sahne-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-11-30">
+      <category name="Essen">
+        <meal>
+          <name>Berliner Boulette vom Schwein und Rind an Zwiebel-Kräuter-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>Schweinefleisch bzw. mit Gelatine vom Schwein</note>
+          <note>mit zum Teil fein zerkleinertem Fleischanteil</note>
+          <note>Weizen</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <note>Senf</note>
+          <price role="student">2.15</price>
+          <price role="employee">4.30</price>
+          <price role="other">4.75</price>
+        </meal>
+        <meal>
+          <name>Farfalle in Kokos-Ingwer-Sauce mit Möhren und gerösteten Kürbiskernen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Klimaessen</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Soja</note>
+          <price role="student">1.90</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.20</price>
+        </meal>
+        <meal>
+          <name>Zwei gekochte Eier in Senfsauce</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Weizen</note>
+          <note>Eier</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Senf</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

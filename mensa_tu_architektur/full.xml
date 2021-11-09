@@ -4,14 +4,22 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-11-06">
-      <closed></closed>
-    </day>
-    <day date="2021-11-07">
-      <closed></closed>
-    </day>
+    <availability>restricted</availability>
     <day date="2021-11-08">
       <category name="Vorspeisen">
+        <meal>
+          <name>Kichererbsen-Hirse-Bowl mit Sesam-Zitronen Dressing und gerösteten Mandeln</name>
+          <note>grün (Ampel)</note>
+          <note>vegan</note>
+          <note>konserviert</note>
+          <note>Antioxidationsmittel</note>
+          <note>Mandeln</note>
+          <note>Soja</note>
+          <note>Sesam</note>
+          <price role="student">3.45</price>
+          <price role="employee">3.80</price>
+          <price role="other">4.15</price>
+        </meal>
         <meal>
           <name>Risoni-Weiße Bohnen-Bowl mit Tomaten-Zitronen Dressing und getrockneten Tomaten</name>
           <note>grün (Ampel)</note>
@@ -76,15 +84,36 @@
           <price role="employee">3.25</price>
           <price role="other">3.55</price>
         </meal>
+        <meal>
+          <name>Hausgemachte Tomaten-Pasta mit Gemüsesauce, frischen Tomaten und gerösteten Walnüssen</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Walnuss</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="student">2.95</price>
+          <price role="employee">3.25</price>
+          <price role="other">3.55</price>
+        </meal>
       </category>
       <category name="Desserts">
         <meal>
-          <name>Quark mit gerösteten Nüssen</name>
-          <note>rot (Ampel)</note>
+          <name>Brombeerjoghurt</name>
+          <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
-          <note>Mandeln</note>
-          <note>Haselnuss</note>
-          <note>Walnuss</note>
+          <note>Antioxidationsmittel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Himbeerjoghurt</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Antioxidationsmittel</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -95,12 +124,13 @@
     <day date="2021-11-09">
       <category name="Vorspeisen">
         <meal>
-          <name>Linsen-Reis-Bowl mit Curry-Mango Dressing und schwarzem Sesam</name>
-          <note>gelb (Ampel)</note>
+          <name>Risoni-Weiße Bohnen-Bowl mit Tomaten-Zitronen Dressing und getrockneten Tomaten</name>
+          <note>grün (Ampel)</note>
           <note>vegan</note>
           <note>konserviert</note>
           <note>Antioxidationsmittel</note>
-          <note>Senf</note>
+          <note>Weizen</note>
+          <note>Schwefeldioxid und Sulfide</note>
           <price role="student">3.45</price>
           <price role="employee">3.80</price>
           <price role="other">4.15</price>
@@ -158,6 +188,17 @@
           <price role="employee">3.25</price>
           <price role="other">3.55</price>
         </meal>
+        <meal>
+          <name>Hausgemachte Spinat-Pasta mit Pesto, frischen Tomaten, gerösteten Haselnüssen und veganem Käseschmel</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Farbstoff</note>
+          <note>Weizen</note>
+          <note>Haselnuss</note>
+          <price role="student">2.95</price>
+          <price role="employee">3.25</price>
+          <price role="other">3.55</price>
+        </meal>
       </category>
       <category name="Desserts">
         <meal>
@@ -166,6 +207,18 @@
           <note>vegetarisch</note>
           <note>Antioxidationsmittel</note>
           <note>Dinkel</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+        <meal>
+          <name>Quark mit gerösteten Nüssen</name>
+          <note>rot (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Mandeln</note>
+          <note>Haselnuss</note>
+          <note>Walnuss</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <price role="student">0.65</price>
           <price role="employee">1.30</price>
@@ -426,7 +479,17 @@
       <closed></closed>
     </day>
     <day date="2021-11-17">
-      <closed></closed>
+      <category name="Desserts">
+        <meal>
+          <name>Waldbeerjoghurt</name>
+          <note>grün (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">0.65</price>
+          <price role="employee">1.30</price>
+          <price role="other">1.45</price>
+        </meal>
+      </category>
     </day>
     <day date="2021-11-18">
       <closed></closed>
@@ -459,6 +522,12 @@
       <closed></closed>
     </day>
     <day date="2021-11-28">
+      <closed></closed>
+    </day>
+    <day date="2021-11-29">
+      <closed></closed>
+    </day>
+    <day date="2021-11-30">
       <closed></closed>
     </day>
   </canteen>
