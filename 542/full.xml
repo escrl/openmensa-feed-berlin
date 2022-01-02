@@ -4,15 +4,6 @@
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-12-29">
-      <closed></closed>
-    </day>
-    <day date="2021-12-30">
-      <closed></closed>
-    </day>
-    <day date="2021-12-31">
-      <closed></closed>
-    </day>
     <day date="2022-01-01">
       <closed></closed>
     </day>
@@ -63,10 +54,11 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Sauce Vinaigrette</name>
+          <name>Kräuter-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Senf</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
         </meal>
         <meal>
           <name>American-Dressing</name>
@@ -78,11 +70,10 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
+          <name>Sauce Vinaigrette</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -99,16 +90,6 @@
       </category>
       <category name="Essen">
         <meal>
-          <name>3 Stück Gemüsebällchen an Kichererbsen-Kokos-Sauce</name>
-          <note>gelb (Ampel)</note>
-          <note>vegan</note>
-          <note>Weizen</note>
-          <note>Hefe</note>
-          <price role="student">1.55</price>
-          <price role="employee">3.10</price>
-          <price role="other">3.40</price>
-        </meal>
-        <meal>
           <name>Gebackener Kartoffelbratling mit Frischkäsefüllung an Kräuter-Sahne-Sauce</name>
           <note>gelb (Ampel)</note>
           <note>vegetarisch</note>
@@ -116,6 +97,16 @@
           <note>Weizen</note>
           <note>Milch und Milchprodukte (inkl. Laktose)</note>
           <note>Schwefeldioxid und Sulfide</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+        <meal>
+          <name>3 Stück Gemüsebällchen an Kichererbsen-Kokos-Sauce</name>
+          <note>gelb (Ampel)</note>
+          <note>vegan</note>
+          <note>Weizen</note>
+          <note>Hefe</note>
           <price role="student">1.55</price>
           <price role="employee">3.10</price>
           <price role="other">3.40</price>
@@ -211,13 +202,6 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
-          <note>rot (Ampel)</note>
-          <note>vegan</note>
-          <note>Antioxidationsmittel</note>
-          <note>Soja</note>
-        </meal>
-        <meal>
           <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
@@ -231,6 +215,13 @@
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Senf</note>
+        </meal>
+        <meal>
+          <name>Kräuter-Dressing</name>
+          <note>rot (Ampel)</note>
+          <note>vegan</note>
+          <note>Antioxidationsmittel</note>
+          <note>Soja</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -519,13 +510,11 @@
           <price role="other">1.45</price>
         </meal>
         <meal>
-          <name>American-Dressing</name>
+          <name>Kräuter-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
-          <note>Süßungsmittel</note>
           <note>Soja</note>
-          <note>Senf</note>
         </meal>
         <meal>
           <name>Sauce Vinaigrette</name>
@@ -534,11 +523,13 @@
           <note>Senf</note>
         </meal>
         <meal>
-          <name>Kräuter-Dressing</name>
+          <name>American-Dressing</name>
           <note>rot (Ampel)</note>
           <note>vegan</note>
           <note>Antioxidationsmittel</note>
+          <note>Süßungsmittel</note>
           <note>Soja</note>
+          <note>Senf</note>
         </meal>
       </category>
       <category name="Suppen">
@@ -933,6 +924,41 @@
           <price role="other">4.30</price>
         </meal>
       </category>
+    </day>
+    <day date="2022-01-21">
+      <category name="Essen">
+        <meal>
+          <name>Gebackenes Seelachsfilet in Knusperpanade an Paprikadip</name>
+          <note>gelb (Ampel)</note>
+          <note>MSC</note>
+          <note>Antioxidationsmittel</note>
+          <note>Weizen</note>
+          <note>Fisch</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <note>Hefe</note>
+          <price role="student">1.95</price>
+          <price role="employee">3.90</price>
+          <price role="other">4.30</price>
+        </meal>
+        <meal>
+          <name>Kräuter-Rühreier</name>
+          <note>gelb (Ampel)</note>
+          <note>vegetarisch</note>
+          <note>bio</note>
+          <note>Eier</note>
+          <note>Soja</note>
+          <note>Milch und Milchprodukte (inkl. Laktose)</note>
+          <price role="student">1.55</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-01-22">
+      <closed></closed>
+    </day>
+    <day date="2022-01-23">
+      <closed></closed>
     </day>
   </canteen>
 </openmensa>
