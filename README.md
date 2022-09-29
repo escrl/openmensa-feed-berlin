@@ -1,4 +1,7 @@
+**No more updates here**: The parser stopped working after a layout change of upstream data.
+
 # openmensa-feed-berlin
+
 This repo provides daily updated openmensa xml feeds for Studierenden Werk Berlin's university canteens.
 
 ## Correctness
